@@ -109,7 +109,7 @@ show_run_info () {
 }
 
 show_dir_info() {
-   size=$(expr 15 + $(expr length $1))
+   size=$(expr 15 + ${#1})
    for ((i = 0; i <= ${size}; i++)); do echo -n "*"; done
    echo
    echo "***     $1     ***"
