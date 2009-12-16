@@ -110,6 +110,24 @@ member () {
    return 1
 }
 
+run_recursive ()
+{
+  show_dir_info ${1}
+  rm -f "${1}/run_results_temp/"*
+  ./run_debug_tests.sh "${PROLOG_BIN} ${ARGUMENTS}" \
+                    "${PWD}/${MODE_FILE}" "${PWD}/${1}"
+  rm -f "${1}/"*.xwam
+  mv "${1}/${RESULTS_TEMP_DIR}/"* "${RESULTS_DIR}" 2> /dev/null
+
+  for dir in $(ls ${1}/); do
+    if [ -d "${1}/${dir}" ]; then
+      [ "${dir}" == "run_results_ok" ] && continue
+      [ "${dir}" == "run_results_temp" ] && continue
+      run_recursive "${1}/${dir}"
+    fi
+  done
+}
+
 RESULTS_TEMP_DIR=run_results_temp
 RESULTS_DIR=run_results/run_debug_test_suite_$(date +%m-%d-%y-%T)
 mkdir "${RESULTS_DIR}"
@@ -120,13 +138,7 @@ for dir in ${DIR_LIST} ; do
    if member "${dir}" "${EXCLUDE_DIR_LIST}" ; then
       continue
    else
-      show_dir_info ${dir}
-      rm -f "${dir}/run_results_temp/"*
-      cd ${dir}
-      ../run_debug_tests.sh "${PROLOG_BIN} ${ARGUMENTS}" "../${MODE_FILE}"
-      cd ..
-      rm -f "${dir}/"*.xwam
-      mv "${dir}/${RESULTS_TEMP_DIR}/"* "${RESULTS_DIR}" 2> /dev/null
+      run_recursive ${dir}
    fi
 done
 

@@ -126,17 +126,28 @@ member () {
    return 1
 }
 
+run_recursive () {
+  show_dir_info ${1}
+  ./run_time_tests.sh "${PROLOG_BIN} ${ARGUMENTS}" \
+    "${PWD}/${MODE_FILE}" "${PWD}/${TIME_FILE}" "${1}"
+  rm -f "${1}/"*.xwam
+
+  for dir in $(ls ${1}/); do
+    if [ -d "${1}/${dir}" ]; then
+      [ "${dir}" == "run_results_ok" ] && continue
+      [ "${dir}" == "run_results_temp" ] && continue
+      run_recursive "${1}/${dir}"
+    fi
+  done
+}
+
 show_run_info
 
 for dir in ${DIR_LIST} ; do
    if member "${dir}" "${EXCLUDE_DIR_LIST}" ; then
       continue
    else
-      show_dir_info ${dir}
-      cd ${dir}
-      ./run_time_tests.sh "${PROLOG_BIN} ${ARGUMENTS}" "../${MODE_FILE}" "../${TIME_FILE}"
-      cd ..
-      rm -f "${dir}/"*.xwam
+     run_recursive ${dir}
    fi
 done
 

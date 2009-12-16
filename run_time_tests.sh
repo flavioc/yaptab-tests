@@ -11,10 +11,15 @@
 PROLOG_BIN=$1
 MODE_FILE=$2
 TIME_FILE=$3
+TARGET_DIRECTORY=$4
+
+CURRENT_DIRECTORY=$PWD
+OUTPUT_FILTER=${CURRENT_DIRECTORY}/run_output_filter.py
+
+cd ${TARGET_DIRECTORY}
 
 TEST_FILES=$(ls test_*.pl 2> /dev/null)
 DATA_FILES=$(ls data_*.pl 2> /dev/null)
-OUTPUT_FILTER=../run_output_filter.py
 
 for test_file in ${TEST_FILES}; do
    if test -z "${DATA_FILES}"; then
@@ -42,3 +47,5 @@ xxxQUERY_GOALSxxx
       done
    fi
 done
+
+cd ${CURRENT_DIRECTORY}

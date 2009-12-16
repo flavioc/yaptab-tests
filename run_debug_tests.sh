@@ -10,12 +10,12 @@
 
 PROLOG_BIN=$1
 MODE_FILE=$2
+TARGET_DIRECTORY=$3
 
-TEST_FILES=$(ls test_*.pl 2> /dev/null)
-DATA_FILES=$(ls data_*.pl 2> /dev/null)
+CURRENT_DIRECTORY=${PWD}
 RESULTS_TEMP_DIR=run_results_temp
 RESULTS_OK_DIR=run_results_ok
-OUTPUT_FILTER=../run_output_filter.py
+OUTPUT_FILTER=${CURRENT_DIRECTORY}/run_output_filter.py
 
 check_output () {
    status=0
@@ -53,6 +53,11 @@ check_output () {
    echo
 }
 
+cd ${TARGET_DIRECTORY}
+
+TEST_FILES=$(ls test_*.pl 2> /dev/null)
+DATA_FILES=$(ls data_*.pl 2> /dev/null)
+
 for test_file in ${TEST_FILES}; do
    if test -z "${DATA_FILES}"; then
       file=${test_file%.pl}
@@ -81,3 +86,5 @@ xxxQUERY_GOALSxxx
       done
    fi
 done
+
+cd $CURRENT_DIRECTORY
