@@ -123,7 +123,7 @@ for dir in ${DIR_LIST} ; do
       show_dir_info ${dir}
       rm -f "${dir}/run_results_temp/"*
       cd ${dir}
-      ./run_debug_tests.sh "${PROLOG_BIN} ${ARGUMENTS}" "../${MODE_FILE}"
+      ../run_debug_tests.sh "${PROLOG_BIN} ${ARGUMENTS}" "../${MODE_FILE}"
       cd ..
       rm -f "${dir}/"*.xwam
       mv "${dir}/${RESULTS_TEMP_DIR}/"* "${RESULTS_DIR}" 2> /dev/null

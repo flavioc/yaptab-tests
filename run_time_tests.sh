@@ -14,7 +14,7 @@ TIME_FILE=$3
 
 TEST_FILES=$(ls test_*.pl 2> /dev/null)
 DATA_FILES=$(ls data_*.pl 2> /dev/null)
-OUTPUT_FILTER=run_output_filter.py
+OUTPUT_FILTER=../run_output_filter.py
 
 for test_file in ${TEST_FILES}; do
    if test -z "${DATA_FILES}"; then
