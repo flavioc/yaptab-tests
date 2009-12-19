@@ -1,0 +1,6 @@
+Table structure for predicate 't/1'
+  ?- t(VAR0).
+    VAR0: 1
+    VAR0: 151
+    VAR0: 251
+    VAR0: 351

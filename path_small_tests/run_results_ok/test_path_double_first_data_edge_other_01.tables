@@ -1,0 +1,23 @@
+Table structure for predicate 'path/2'
+  ?- path(1,VAR0).
+    VAR0: 1
+    VAR0: 2
+    VAR0: 3
+  ?- path(2,VAR0).
+    VAR0: 1
+    VAR0: 2
+    VAR0: 3
+  ?- path(3,VAR0).
+    VAR0: 1
+    VAR0: 2
+    VAR0: 3
+  ?- path(VAR0,VAR1).
+    VAR0: 1    VAR1: 1
+    VAR0: 1    VAR1: 2
+    VAR0: 1    VAR1: 3
+    VAR0: 2    VAR1: 1
+    VAR0: 2    VAR1: 2
+    VAR0: 2    VAR1: 3
+    VAR0: 3    VAR1: 1
+    VAR0: 3    VAR1: 2
+    VAR0: 3    VAR1: 3

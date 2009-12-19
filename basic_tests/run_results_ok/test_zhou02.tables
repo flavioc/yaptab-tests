@@ -1,0 +1,5 @@
+Table structure for predicate 'p/3'
+  ?- p(VAR0,VAR1,VAR2).
+    VAR0: a    VAR1: b    VAR2: c
+    VAR0: b    VAR1: c    VAR2: a
+    VAR0: c    VAR1: a    VAR2: b

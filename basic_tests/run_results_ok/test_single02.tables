@@ -1,0 +1,37 @@
+Table structure for predicate 'a/1'
+  ?- a(1).
+    TRUE
+  ?- a(2).
+    TRUE
+  ?- a(3).
+    TRUE
+  ?- a(VAR0).
+    VAR0: 1
+    VAR0: 2
+    VAR0: 3
+Table structure for predicate 'b/1'
+  ?- b(1).
+    TRUE
+  ?- b(2).
+    TRUE
+  ?- b(3).
+    TRUE
+  ?- b(VAR0).
+    VAR0: 1
+    VAR0: 2
+    VAR0: 3
+Table structure for predicate 'c/1'
+  ?- c(1).
+    TRUE
+  ?- c(2).
+    TRUE
+  ?- c(3).
+    NO
+  ?- c(VAR0).
+    VAR0: 1
+    VAR0: 2
+Table structure for predicate 't/1'
+  ?- t(VAR0).
+    VAR0: 1
+    VAR0: 2
+    VAR0: 3

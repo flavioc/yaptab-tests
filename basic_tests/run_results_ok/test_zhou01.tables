@@ -1,0 +1,8 @@
+Table structure for predicate 'p/2'
+  ?- p(VAR0,VAR1).
+    VAR0: a    VAR1: b
+    VAR0: a    VAR1: c
+Table structure for predicate 'q/2'
+  ?- q(VAR0,VAR1).
+    VAR0: a    VAR1: b
+    VAR0: a    VAR1: c

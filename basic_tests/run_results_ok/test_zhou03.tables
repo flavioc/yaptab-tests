@@ -1,0 +1,6 @@
+Table structure for predicate 'reach/2'
+  ?- reach(a,VAR0).
+    VAR0: a
+    VAR0: b
+    VAR0: d
+    VAR0: e

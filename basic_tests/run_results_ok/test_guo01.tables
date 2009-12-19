@@ -1,0 +1,5 @@
+Table structure for predicate 'r/2'
+  ?- r(a,VAR0).
+    VAR0: b
+    VAR0: c
+    VAR0: d
