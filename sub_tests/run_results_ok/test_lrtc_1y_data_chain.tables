@@ -1,0 +1,9 @@
+Table structure for predicate 'anc_l/2'
+  ?- anc_l(1,VAR0).
+    VAR0: 2
+    VAR0: 3
+    VAR0: 4
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8

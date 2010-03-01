@@ -1,0 +1,53 @@
+Table structure for predicate 'anc_l/2'
+  ?- anc_l([VAR0],[VAR0]).
+    NO
+  ?- anc_l(f(VAR0),f(VAR0)).
+    NO
+  ?- anc_l(VAR0,VAR0).
+    NO
+  ?- anc_l(VAR0,VAR1).
+    VAR0: [f(3)]    VAR1: [f(3)]
+    VAR0: [f(3)]    VAR1: [f(2)]
+    VAR0: [f(3)]    VAR1: [f(1)]
+    VAR0: [f(2)]    VAR1: [f(2)]
+    VAR0: [f(2)]    VAR1: [f(1)]
+    VAR0: [f(2)]    VAR1: [f(3)]
+    VAR0: [f(1)]    VAR1: [f(1)]
+    VAR0: [f(1)]    VAR1: [f(3)]
+    VAR0: [f(1)]    VAR1: [f(2)]
+    VAR0: [3]    VAR1: [3]
+    VAR0: [3]    VAR1: [2]
+    VAR0: [3]    VAR1: [1]
+    VAR0: [2]    VAR1: [2]
+    VAR0: [2]    VAR1: [1]
+    VAR0: [2]    VAR1: [3]
+    VAR0: [1]    VAR1: [1]
+    VAR0: [1]    VAR1: [3]
+    VAR0: [1]    VAR1: [2]
+    VAR0: f([3])    VAR1: f([3])
+    VAR0: f([3])    VAR1: f([2])
+    VAR0: f([3])    VAR1: f([1])
+    VAR0: f([2])    VAR1: f([2])
+    VAR0: f([2])    VAR1: f([1])
+    VAR0: f([2])    VAR1: f([3])
+    VAR0: f([1])    VAR1: f([1])
+    VAR0: f([1])    VAR1: f([3])
+    VAR0: f([1])    VAR1: f([2])
+    VAR0: f(3)    VAR1: f(3)
+    VAR0: f(3)    VAR1: f(2)
+    VAR0: f(3)    VAR1: f(1)
+    VAR0: f(2)    VAR1: f(2)
+    VAR0: f(2)    VAR1: f(1)
+    VAR0: f(2)    VAR1: f(3)
+    VAR0: f(1)    VAR1: f(1)
+    VAR0: f(1)    VAR1: f(3)
+    VAR0: f(1)    VAR1: f(2)
+    VAR0: 3    VAR1: 3
+    VAR0: 3    VAR1: 2
+    VAR0: 3    VAR1: 1
+    VAR0: 2    VAR1: 2
+    VAR0: 2    VAR1: 1
+    VAR0: 2    VAR1: 3
+    VAR0: 1    VAR1: 1
+    VAR0: 1    VAR1: 3
+    VAR0: 1    VAR1: 2
