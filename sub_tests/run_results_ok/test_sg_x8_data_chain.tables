@@ -1,0 +1,17 @@
+Table structure for predicate 'same_gen/2'
+  ?- same_gen(1,VAR0).
+    VAR0: 1
+  ?- same_gen(2,VAR0).
+    VAR0: 2
+  ?- same_gen(3,VAR0).
+    VAR0: 3
+  ?- same_gen(4,VAR0).
+    VAR0: 4
+  ?- same_gen(5,VAR0).
+    VAR0: 5
+  ?- same_gen(6,VAR0).
+    VAR0: 6
+  ?- same_gen(7,VAR0).
+    VAR0: 7
+  ?- same_gen(VAR0,8).
+    VAR0: 8

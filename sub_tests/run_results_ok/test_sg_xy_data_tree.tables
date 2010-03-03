@@ -1,0 +1,101 @@
+Table structure for predicate 'same_gen/2'
+  ?- same_gen(1,VAR0).
+    VAR0: 1
+  ?- same_gen(2,VAR0).
+    VAR0: 2
+    VAR0: 3
+  ?- same_gen(3,VAR0).
+    VAR0: 2
+    VAR0: 3
+  ?- same_gen(4,VAR0).
+    VAR0: 4
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+  ?- same_gen(5,VAR0).
+    VAR0: 4
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+  ?- same_gen(6,VAR0).
+    VAR0: 4
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+  ?- same_gen(7,VAR0).
+    VAR0: 4
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+  ?- same_gen(VAR0,VAR1).
+    VAR0: 10    VAR1: 11
+    VAR0: 10    VAR1: 12
+    VAR0: 10    VAR1: 13
+    VAR0: 10    VAR1: 14
+    VAR0: 10    VAR1: 15
+    VAR0: 10    VAR1: 8
+    VAR0: 10    VAR1: 9
+    VAR0: 11    VAR1: 10
+    VAR0: 11    VAR1: 12
+    VAR0: 11    VAR1: 13
+    VAR0: 11    VAR1: 14
+    VAR0: 11    VAR1: 15
+    VAR0: 11    VAR1: 8
+    VAR0: 11    VAR1: 9
+    VAR0: 12    VAR1: 10
+    VAR0: 12    VAR1: 11
+    VAR0: 12    VAR1: 13
+    VAR0: 12    VAR1: 14
+    VAR0: 12    VAR1: 15
+    VAR0: 12    VAR1: 8
+    VAR0: 12    VAR1: 9
+    VAR0: 13    VAR1: 10
+    VAR0: 13    VAR1: 11
+    VAR0: 13    VAR1: 12
+    VAR0: 13    VAR1: 14
+    VAR0: 13    VAR1: 15
+    VAR0: 13    VAR1: 8
+    VAR0: 13    VAR1: 9
+    VAR0: 14    VAR1: 10
+    VAR0: 14    VAR1: 11
+    VAR0: 14    VAR1: 12
+    VAR0: 14    VAR1: 13
+    VAR0: 14    VAR1: 15
+    VAR0: 14    VAR1: 8
+    VAR0: 14    VAR1: 9
+    VAR0: 15    VAR1: 10
+    VAR0: 15    VAR1: 11
+    VAR0: 15    VAR1: 12
+    VAR0: 15    VAR1: 13
+    VAR0: 15    VAR1: 14
+    VAR0: 15    VAR1: 8
+    VAR0: 15    VAR1: 9
+    VAR0: 2    VAR1: 3
+    VAR0: 3    VAR1: 2
+    VAR0: 4    VAR1: 5
+    VAR0: 4    VAR1: 6
+    VAR0: 4    VAR1: 7
+    VAR0: 5    VAR1: 4
+    VAR0: 5    VAR1: 6
+    VAR0: 5    VAR1: 7
+    VAR0: 6    VAR1: 4
+    VAR0: 6    VAR1: 5
+    VAR0: 6    VAR1: 7
+    VAR0: 7    VAR1: 4
+    VAR0: 7    VAR1: 5
+    VAR0: 7    VAR1: 6
+    VAR0: 8    VAR1: 10
+    VAR0: 8    VAR1: 11
+    VAR0: 8    VAR1: 12
+    VAR0: 8    VAR1: 13
+    VAR0: 8    VAR1: 14
+    VAR0: 8    VAR1: 15
+    VAR0: 8    VAR1: 9
+    VAR0: 9    VAR1: 10
+    VAR0: 9    VAR1: 11
+    VAR0: 9    VAR1: 12
+    VAR0: 9    VAR1: 13
+    VAR0: 9    VAR1: 14
+    VAR0: 9    VAR1: 15
+    VAR0: 9    VAR1: 8
+    VAR0: ANSVAR0    VAR1: ANSVAR0
