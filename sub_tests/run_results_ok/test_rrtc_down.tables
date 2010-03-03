@@ -1,0 +1,113 @@
+Table structure for predicate 'anc_r/2'
+  ?- anc_r(1,VAR0).
+    VAR0: 1
+    VAR0: 2
+    VAR0: 3
+  ?- anc_r(2,VAR0).
+    VAR0: 1
+    VAR0: 2
+    VAR0: 3
+  ?- anc_r(3,VAR0).
+    VAR0: 1
+    VAR0: 2
+    VAR0: 3
+  ?- anc_r(VAR0,VAR0).
+    NO
+  ?- anc_r(VAR0,VAR1).
+    VAR0: 1    VAR1: 1
+    VAR0: 1    VAR1: 2
+    VAR0: 1    VAR1: 3
+    VAR0: 2    VAR1: 1
+    VAR0: 2    VAR1: 2
+    VAR0: 2    VAR1: 3
+    VAR0: 3    VAR1: 1
+    VAR0: 3    VAR1: 2
+    VAR0: 3    VAR1: 3
+    VAR0: [1]    VAR1: [1]
+    VAR0: [1]    VAR1: [2]
+    VAR0: [1]    VAR1: [3]
+    VAR0: [2]    VAR1: [1]
+    VAR0: [2]    VAR1: [2]
+    VAR0: [2]    VAR1: [3]
+    VAR0: [3]    VAR1: [1]
+    VAR0: [3]    VAR1: [2]
+    VAR0: [3]    VAR1: [3]
+    VAR0: [f(1)]    VAR1: [f(1)]
+    VAR0: [f(1)]    VAR1: [f(2)]
+    VAR0: [f(1)]    VAR1: [f(3)]
+    VAR0: [f(2)]    VAR1: [f(1)]
+    VAR0: [f(2)]    VAR1: [f(2)]
+    VAR0: [f(2)]    VAR1: [f(3)]
+    VAR0: [f(3)]    VAR1: [f(1)]
+    VAR0: [f(3)]    VAR1: [f(2)]
+    VAR0: [f(3)]    VAR1: [f(3)]
+    VAR0: f(1)    VAR1: f(1)
+    VAR0: f(1)    VAR1: f(2)
+    VAR0: f(1)    VAR1: f(3)
+    VAR0: f(2)    VAR1: f(1)
+    VAR0: f(2)    VAR1: f(2)
+    VAR0: f(2)    VAR1: f(3)
+    VAR0: f(3)    VAR1: f(1)
+    VAR0: f(3)    VAR1: f(2)
+    VAR0: f(3)    VAR1: f(3)
+    VAR0: f([1])    VAR1: f([1])
+    VAR0: f([1])    VAR1: f([2])
+    VAR0: f([1])    VAR1: f([3])
+    VAR0: f([2])    VAR1: f([1])
+    VAR0: f([2])    VAR1: f([2])
+    VAR0: f([2])    VAR1: f([3])
+    VAR0: f([3])    VAR1: f([1])
+    VAR0: f([3])    VAR1: f([2])
+    VAR0: f([3])    VAR1: f([3])
+  ?- anc_r([1],VAR0).
+    VAR0: [1]
+    VAR0: [2]
+    VAR0: [3]
+  ?- anc_r([2],VAR0).
+    VAR0: [1]
+    VAR0: [2]
+    VAR0: [3]
+  ?- anc_r([3],VAR0).
+    VAR0: [1]
+    VAR0: [2]
+    VAR0: [3]
+  ?- anc_r([VAR0],[VAR0]).
+    NO
+  ?- anc_r([f(1)],VAR0).
+    VAR0: [f(1)]
+    VAR0: [f(2)]
+    VAR0: [f(3)]
+  ?- anc_r([f(2)],VAR0).
+    VAR0: [f(1)]
+    VAR0: [f(2)]
+    VAR0: [f(3)]
+  ?- anc_r([f(3)],VAR0).
+    VAR0: [f(1)]
+    VAR0: [f(2)]
+    VAR0: [f(3)]
+  ?- anc_r(f(1),VAR0).
+    VAR0: f(1)
+    VAR0: f(2)
+    VAR0: f(3)
+  ?- anc_r(f(2),VAR0).
+    VAR0: f(1)
+    VAR0: f(2)
+    VAR0: f(3)
+  ?- anc_r(f(3),VAR0).
+    VAR0: f(1)
+    VAR0: f(2)
+    VAR0: f(3)
+  ?- anc_r(f(VAR0),f(VAR0)).
+    NO
+  ?- anc_r(f([1]),VAR0).
+    VAR0: f([1])
+    VAR0: f([2])
+    VAR0: f([3])
+  ?- anc_r(f([2]),VAR0).
+    VAR0: f([1])
+    VAR0: f([2])
+    VAR0: f([3])
+  ?- anc_r(f([3]),VAR0).
+    VAR0: f([1])
+    VAR0: f([2])
+    VAR0: f([3])
