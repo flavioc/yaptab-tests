@@ -1,0 +1,59 @@
+Table structure for predicate 'anc_l/2'
+  ?- anc_l(1,VAR0).
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 2
+    VAR0: 3
+    VAR0: 4
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- anc_l(2,10).
+    NO
+  ?- anc_l(2,11).
+    NO
+  ?- anc_l(2,12).
+    NO
+  ?- anc_l(2,13).
+    NO
+  ?- anc_l(2,14).
+    NO
+  ?- anc_l(2,15).
+    NO
+  ?- anc_l(2,2).
+    NO
+  ?- anc_l(2,3).
+    NO
+  ?- anc_l(2,4).
+    NO
+  ?- anc_l(2,5).
+    NO
+  ?- anc_l(2,6).
+    NO
+  ?- anc_l(2,7).
+    NO
+  ?- anc_l(2,8).
+    NO
+  ?- anc_l(2,9).
+    NO
+  ?- anc_l(2,VAR0).
+    VAR0: 10
+    VAR0: 11
+    VAR0: 4
+    VAR0: 5
+    VAR0: 8
+    VAR0: 9
+Table structure for predicate 'genome_l/1'
+  ?- genome_l(VAR0).
+    VAR0: 10
+    VAR0: 11
+    VAR0: 4
+    VAR0: 5
+    VAR0: 8
+    VAR0: 9

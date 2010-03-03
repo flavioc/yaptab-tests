@@ -1,0 +1,20 @@
+Table structure for predicate 'anc_l/2'
+  ?- anc_l(1,VAR0).
+    VAR0: 1
+    VAR0: 2
+    VAR0: 3
+  ?- anc_l(2,1).
+    NO
+  ?- anc_l(2,2).
+    TRUE
+  ?- anc_l(2,3).
+    NO
+  ?- anc_l(2,VAR0).
+    VAR0: 1
+    VAR0: 2
+    VAR0: 3
+Table structure for predicate 'genome_l/1'
+  ?- genome_l(VAR0).
+    VAR0: 1
+    VAR0: 2
+    VAR0: 3
