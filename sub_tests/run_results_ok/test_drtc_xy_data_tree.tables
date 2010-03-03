@@ -1,0 +1,78 @@
+Table structure for predicate 'anc_d/2'
+  ?- anc_d(10,VAR0).
+    NO
+  ?- anc_d(11,VAR0).
+    NO
+  ?- anc_d(12,VAR0).
+    NO
+  ?- anc_d(13,VAR0).
+    NO
+  ?- anc_d(14,VAR0).
+    NO
+  ?- anc_d(15,VAR0).
+    NO
+  ?- anc_d(2,VAR0).
+    VAR0: 10
+    VAR0: 11
+    VAR0: 4
+    VAR0: 5
+    VAR0: 8
+    VAR0: 9
+  ?- anc_d(3,VAR0).
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 6
+    VAR0: 7
+  ?- anc_d(4,VAR0).
+    VAR0: 8
+    VAR0: 9
+  ?- anc_d(5,VAR0).
+    VAR0: 10
+    VAR0: 11
+  ?- anc_d(6,VAR0).
+    VAR0: 12
+    VAR0: 13
+  ?- anc_d(7,VAR0).
+    VAR0: 14
+    VAR0: 15
+  ?- anc_d(8,VAR0).
+    NO
+  ?- anc_d(9,VAR0).
+    NO
+  ?- anc_d(VAR0,VAR1).
+    VAR0: 1    VAR1: 10
+    VAR0: 1    VAR1: 11
+    VAR0: 1    VAR1: 12
+    VAR0: 1    VAR1: 13
+    VAR0: 1    VAR1: 14
+    VAR0: 1    VAR1: 15
+    VAR0: 1    VAR1: 2
+    VAR0: 1    VAR1: 3
+    VAR0: 1    VAR1: 4
+    VAR0: 1    VAR1: 5
+    VAR0: 1    VAR1: 6
+    VAR0: 1    VAR1: 7
+    VAR0: 1    VAR1: 8
+    VAR0: 1    VAR1: 9
+    VAR0: 2    VAR1: 10
+    VAR0: 2    VAR1: 11
+    VAR0: 2    VAR1: 4
+    VAR0: 2    VAR1: 5
+    VAR0: 2    VAR1: 8
+    VAR0: 2    VAR1: 9
+    VAR0: 3    VAR1: 12
+    VAR0: 3    VAR1: 13
+    VAR0: 3    VAR1: 14
+    VAR0: 3    VAR1: 15
+    VAR0: 3    VAR1: 6
+    VAR0: 3    VAR1: 7
+    VAR0: 4    VAR1: 8
+    VAR0: 4    VAR1: 9
+    VAR0: 5    VAR1: 10
+    VAR0: 5    VAR1: 11
+    VAR0: 6    VAR1: 12
+    VAR0: 6    VAR1: 13
+    VAR0: 7    VAR1: 14
+    VAR0: 7    VAR1: 15

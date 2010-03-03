@@ -1,0 +1,23 @@
+Table structure for predicate 'anc_r/2'
+  ?- anc_r(2,8).
+    TRUE
+  ?- anc_r(3,8).
+    TRUE
+  ?- anc_r(4,8).
+    TRUE
+  ?- anc_r(5,8).
+    TRUE
+  ?- anc_r(6,8).
+    TRUE
+  ?- anc_r(7,8).
+    TRUE
+  ?- anc_r(8,8).
+    NO
+  ?- anc_r(VAR0,8).
+    VAR0: 1
+    VAR0: 2
+    VAR0: 3
+    VAR0: 4
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7

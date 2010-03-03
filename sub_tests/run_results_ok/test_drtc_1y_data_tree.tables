@@ -1,0 +1,58 @@
+Table structure for predicate 'anc_d/2'
+  ?- anc_d(1,VAR0).
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 2
+    VAR0: 3
+    VAR0: 4
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- anc_d(10,VAR0).
+    NO
+  ?- anc_d(11,VAR0).
+    NO
+  ?- anc_d(12,VAR0).
+    NO
+  ?- anc_d(13,VAR0).
+    NO
+  ?- anc_d(14,VAR0).
+    NO
+  ?- anc_d(15,VAR0).
+    NO
+  ?- anc_d(2,VAR0).
+    VAR0: 10
+    VAR0: 11
+    VAR0: 4
+    VAR0: 5
+    VAR0: 8
+    VAR0: 9
+  ?- anc_d(3,VAR0).
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 6
+    VAR0: 7
+  ?- anc_d(4,VAR0).
+    VAR0: 8
+    VAR0: 9
+  ?- anc_d(5,VAR0).
+    VAR0: 10
+    VAR0: 11
+  ?- anc_d(6,VAR0).
+    VAR0: 12
+    VAR0: 13
+  ?- anc_d(7,VAR0).
+    VAR0: 14
+    VAR0: 15
+  ?- anc_d(8,VAR0).
+    NO
+  ?- anc_d(9,VAR0).
+    NO
