@@ -1,4 +1,3 @@
-
 :- consult('anc_l.pl').
 :- table genome_l/1.
 

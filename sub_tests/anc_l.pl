@@ -1,4 +1,3 @@
-
 :- table anc_l/2.
 
 anc_l(X, Y) :- p(X, Y).

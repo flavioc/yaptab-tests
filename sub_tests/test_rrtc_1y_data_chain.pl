@@ -1,4 +1,3 @@
-
 :- consult('driver.pl'),
    consult('anc_r.pl'),
    consult('data/chain.pl').

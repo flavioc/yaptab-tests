@@ -1,4 +1,3 @@
-
 :- consult('driver.pl'),
    consult('genome.pl'),
    consult('data/tree.pl').
