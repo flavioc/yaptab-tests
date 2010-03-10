@@ -9,7 +9,7 @@
 time:- cputime(T0),
        (time_query ; true),
        cputime(TF),
-       Time is TF-T0,
+       Time is (TF-T0) * 1000,
        write('cputime one run is '), write(Time), nl.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
