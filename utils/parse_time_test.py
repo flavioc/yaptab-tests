@@ -3,7 +3,7 @@
 import re
 import sys
 
-pattern = re.compile('test \'(.*)\': cputime (.*) is (.*) \(.*\)')
+pattern = re.compile('test \'(.*)\': cputime (.*) is ([0-9]*\.?[0-9]*)')
 
 for line in sys.stdin:
   m = pattern.match(line)
