@@ -19,8 +19,8 @@ OUTPUT_FILTER=${CURRENT_DIRECTORY}/run_output_filter.py
 
 check_output () {
    status=0
-   diff ${RESULTS_TEMP_DIR}/${file}.tables ${RESULTS_OK_DIR}/${file}.tables > ${RESULTS_TEMP_DIR}/${file}.diff_tables 2>> ${RESULTS_TEMP_DIR}/${file}.stderr || status=1
-   diff ${RESULTS_TEMP_DIR}/${file}.solutions ${RESULTS_OK_DIR}/${file}.solutions > ${RESULTS_TEMP_DIR}/${file}.diff_solutions 2>> ${RESULTS_TEMP_DIR}/${file}.stderr || status=`expr ${status} + 2`
+   diff -u ${RESULTS_TEMP_DIR}/${file}.tables ${RESULTS_OK_DIR}/${file}.tables > ${RESULTS_TEMP_DIR}/${file}.diff_tables 2>> ${RESULTS_TEMP_DIR}/${file}.stderr || status=1
+   diff -u ${RESULTS_TEMP_DIR}/${file}.solutions ${RESULTS_OK_DIR}/${file}.solutions > ${RESULTS_TEMP_DIR}/${file}.diff_solutions 2>> ${RESULTS_TEMP_DIR}/${file}.stderr || status=`expr ${status} + 2`
    if test ${status} -eq 0; then
       echo -n "ok!"
       rm -f ${RESULTS_TEMP_DIR}/${file}.solutions      2> /dev/null
@@ -32,7 +32,7 @@ check_output () {
       echo -n "failed!"
       if test ${status} -gt 1; then
          xsb_status=0
-         diff ${RESULTS_TEMP_DIR}/${file}.solutions ${RESULTS_OK_DIR}/${file}.solutions_xsb > /dev/null 2>> /dev/null || xsb_status=1
+         diff -u ${RESULTS_TEMP_DIR}/${file}.solutions ${RESULTS_OK_DIR}/${file}.solutions_xsb > /dev/null 2>> /dev/null || xsb_status=1
          if test ${xsb_status} -eq 1; then
             echo -n "   [ solutions output ]"
          else
@@ -42,7 +42,7 @@ check_output () {
       fi
       if test ${status} -eq 1; then
          xsb_status=0
-         diff ${RESULTS_TEMP_DIR}/${file}.tables ${RESULTS_OK_DIR}/${file}.tables_xsb > /dev/null 2>> /dev/null || xsb_status=1
+         diff -u ${RESULTS_TEMP_DIR}/${file}.tables ${RESULTS_OK_DIR}/${file}.tables_xsb > /dev/null 2>> /dev/null || xsb_status=1
          if test ${xsb_status} -eq 1; then
             echo -n "   [ tables output ]"
          else
