@@ -7,47 +7,7 @@ Table structure for predicate 'calI/3'
     NO
   ?- calI(*,p,in(s_2_2)).
     NO
-  ?- calI(*,p,overlinein(in(s_1_1),p)).
-    NO
-  ?- calI(*,p,overlinein(in(s_1_2),p)).
-    NO
-  ?- calI(*,p,overlinein(in(s_2_1),p)).
-    NO
-  ?- calI(*,p,overlinein(in(s_2_2),p)).
-    NO
   ?- calI(*,r,in(p)).
-    NO
-  ?- calI(*,r,overlineopen(*,r)).
-    NO
-  ?- calI(*,s_1_1,overlineout(p,s_1_1)).
-    TRUE
-  ?- calI(*,s_1_1,overlineout(r,s_1_1)).
-    NO
-  ?- calI(*,s_1_1,overlineout(s_1_1,s_1_1)).
-    NO
-  ?- calI(*,s_1_1,overlineout(s_1_2,s_1_1)).
-    NO
-  ?- calI(*,s_1_1,overlineout(s_2_2,s_1_1)).
-    NO
-  ?- calI(*,s_1_2,overlineout(p,s_1_2)).
-    TRUE
-  ?- calI(*,s_1_2,overlineout(r,s_1_2)).
-    NO
-  ?- calI(*,s_1_2,overlineout(s_1_1,s_1_2)).
-    NO
-  ?- calI(*,s_1_2,overlineout(s_1_2,s_1_2)).
-    NO
-  ?- calI(*,s_1_2,overlineout(s_2_2,s_1_2)).
-    NO
-  ?- calI(*,s_2_1,overlineout(p,s_2_1)).
-    TRUE
-  ?- calI(*,s_2_1,overlineout(r,s_2_1)).
-    NO
-  ?- calI(*,s_2_1,overlineout(s_1_1,s_2_1)).
-    NO
-  ?- calI(*,s_2_1,overlineout(s_1_2,s_2_1)).
-    NO
-  ?- calI(*,s_2_1,overlineout(s_2_2,s_2_1)).
     NO
   ?- calI(VAR0,*,p).
     VAR0: t
@@ -83,125 +43,27 @@ Table structure for predicate 'calI/3'
     VAR0: t    VAR1: *    VAR2: s_1_2
     VAR0: t    VAR1: *    VAR2: s_2_1
     VAR0: t    VAR1: *    VAR2: s_2_2
-  ?- calI(VAR0,p,overlinein(*,p)).
-    NO
   ?- calI(VAR0,p,overlinein(VAR1,p)).
     VAR0: *    VAR1: r
   ?- calI(VAR0,r,overlineopen(VAR0,r)).
     NO
-  ?- calI(VAR0,s_1_1,overlinein(*,s_1_1)).
-    NO
   ?- calI(VAR0,s_1_1,overlinein(VAR1,s_1_1)).
     VAR0: *    VAR1: p
-  ?- calI(VAR0,s_1_1,overlinein(p,s_1_1)).
-    VAR0: *
-  ?- calI(VAR0,s_1_1,overlineout(*,s_1_1)).
-    NO
   ?- calI(VAR0,s_1_1,overlineout(VAR1,s_1_1)).
     VAR0: *    VAR1: p
-  ?- calI(VAR0,s_1_2,overlinein(*,s_1_2)).
-    NO
   ?- calI(VAR0,s_1_2,overlinein(VAR1,s_1_2)).
     VAR0: *    VAR1: p
-  ?- calI(VAR0,s_1_2,overlinein(p,s_1_2)).
-    VAR0: *
-  ?- calI(VAR0,s_1_2,overlineout(*,s_1_2)).
-    NO
   ?- calI(VAR0,s_1_2,overlineout(VAR1,s_1_2)).
     VAR0: *    VAR1: p
-  ?- calI(VAR0,s_2_1,overlinein(*,s_2_1)).
-    NO
   ?- calI(VAR0,s_2_1,overlinein(VAR1,s_2_1)).
     VAR0: *    VAR1: p
-  ?- calI(VAR0,s_2_1,overlinein(p,s_2_1)).
-    VAR0: *
-  ?- calI(VAR0,s_2_1,overlineout(*,s_2_1)).
-    NO
   ?- calI(VAR0,s_2_1,overlineout(VAR1,s_2_1)).
     VAR0: *    VAR1: p
-  ?- calI(VAR0,s_2_2,overlinein(*,s_2_2)).
-    NO
   ?- calI(VAR0,s_2_2,overlinein(VAR1,s_2_2)).
     VAR0: *    VAR1: p
-  ?- calI(p,r,overlineopen(p,r)).
-    NO
-  ?- calI(p,s_1_1,overlineout(in(s_1_1),s_1_1)).
-    NO
-  ?- calI(p,s_1_1,overlineout(in(s_1_2),s_1_1)).
-    NO
-  ?- calI(p,s_1_1,overlineout(in(s_2_1),s_1_1)).
-    NO
-  ?- calI(p,s_1_1,overlineout(in(s_2_2),s_1_1)).
-    NO
-  ?- calI(p,s_1_1,overlineout(out(s_1_1),s_1_1)).
-    NO
-  ?- calI(p,s_1_1,overlineout(out(s_1_2),s_1_1)).
-    NO
-  ?- calI(p,s_1_1,overlineout(out(s_2_1),s_1_1)).
-    NO
-  ?- calI(p,s_1_2,overlineout(in(s_1_1),s_1_2)).
-    NO
-  ?- calI(p,s_1_2,overlineout(in(s_1_2),s_1_2)).
-    NO
-  ?- calI(p,s_1_2,overlineout(in(s_2_1),s_1_2)).
-    NO
-  ?- calI(p,s_1_2,overlineout(in(s_2_2),s_1_2)).
-    NO
-  ?- calI(p,s_1_2,overlineout(out(s_1_1),s_1_2)).
-    NO
-  ?- calI(p,s_1_2,overlineout(out(s_1_2),s_1_2)).
-    NO
-  ?- calI(p,s_1_2,overlineout(out(s_2_1),s_1_2)).
-    NO
-  ?- calI(p,s_2_1,overlineout(in(s_1_1),s_2_1)).
-    NO
-  ?- calI(p,s_2_1,overlineout(in(s_1_2),s_2_1)).
-    NO
-  ?- calI(p,s_2_1,overlineout(in(s_2_1),s_2_1)).
-    NO
-  ?- calI(p,s_2_1,overlineout(in(s_2_2),s_2_1)).
-    NO
-  ?- calI(p,s_2_1,overlineout(out(s_1_1),s_2_1)).
-    NO
-  ?- calI(p,s_2_1,overlineout(out(s_1_2),s_2_1)).
-    NO
-  ?- calI(p,s_2_1,overlineout(out(s_2_1),s_2_1)).
-    NO
-  ?- calI(r,r,overlineopen(r,r)).
-    NO
-  ?- calI(r,s_1_1,overlineout(in(p),s_1_1)).
-    NO
-  ?- calI(r,s_1_2,overlineout(in(p),s_1_2)).
-    NO
-  ?- calI(r,s_2_1,overlineout(in(p),s_2_1)).
-    NO
   ?- calI(s_1_1,p,out(s_1_1)).
-    NO
-  ?- calI(s_1_1,p,overlinein(out(s_1_1),p)).
-    NO
-  ?- calI(s_1_1,s_1_1,overlineout(p,s_1_1)).
-    NO
-  ?- calI(s_1_1,s_1_2,overlineout(p,s_1_2)).
-    NO
-  ?- calI(s_1_1,s_2_1,overlineout(p,s_2_1)).
     NO
   ?- calI(s_1_2,p,out(s_1_2)).
     NO
-  ?- calI(s_1_2,p,overlinein(out(s_1_2),p)).
-    NO
-  ?- calI(s_1_2,s_1_1,overlineout(p,s_1_1)).
-    NO
-  ?- calI(s_1_2,s_1_2,overlineout(p,s_1_2)).
-    NO
-  ?- calI(s_1_2,s_2_1,overlineout(p,s_2_1)).
-    NO
   ?- calI(s_2_1,p,out(s_2_1)).
-    NO
-  ?- calI(s_2_1,p,overlinein(out(s_2_1),p)).
-    NO
-  ?- calI(s_2_1,s_1_1,overlineout(p,s_1_1)).
-    NO
-  ?- calI(s_2_1,s_1_2,overlineout(p,s_1_2)).
-    NO
-  ?- calI(s_2_1,s_2_1,overlineout(p,s_2_1)).
     NO
