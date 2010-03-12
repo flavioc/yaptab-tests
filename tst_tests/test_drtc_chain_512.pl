@@ -1,4 +1,4 @@
 
-:- ['anc_d', 'data/chain_4096'].
+:- ['anc_d', 'data/chain_512'].
 
 time_query :- anc_d(X, Y), fail.
