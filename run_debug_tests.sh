@@ -19,7 +19,9 @@ OUTPUT_FILTER=${CURRENT_DIRECTORY}/run_output_filter.py
 
 check_output () {
    status=0
-   diff -u ${RESULTS_TEMP_DIR}/${file}.tables ${RESULTS_OK_DIR}/${file}.tables > ${RESULTS_TEMP_DIR}/${file}.diff_tables 2>> ${RESULTS_TEMP_DIR}/${file}.stderr || status=1
+   if test -z "$IGNORE_TABLES"; then
+     diff -u ${RESULTS_TEMP_DIR}/${file}.tables ${RESULTS_OK_DIR}/${file}.tables > ${RESULTS_TEMP_DIR}/${file}.diff_tables 2>> ${RESULTS_TEMP_DIR}/${file}.stderr || status=1
+   fi
    diff -u ${RESULTS_TEMP_DIR}/${file}.solutions ${RESULTS_OK_DIR}/${file}.solutions > ${RESULTS_TEMP_DIR}/${file}.diff_solutions 2>> ${RESULTS_TEMP_DIR}/${file}.stderr || status=`expr ${status} + 2`
    if test ${status} -eq 0; then
       echo -n "ok!"
@@ -40,13 +42,15 @@ check_output () {
          fi
          status=`expr ${status} - 2`
       fi
-      if test ${status} -eq 1; then
-         xsb_status=0
-         diff -u ${RESULTS_TEMP_DIR}/${file}.tables ${RESULTS_OK_DIR}/${file}.tables_xsb > /dev/null 2>> /dev/null || xsb_status=1
-         if test ${xsb_status} -eq 1; then
-            echo -n "   [ tables output ]"
-         else
-            echo -n "   [ tables output (XSB compatible) ]"
+      if test -z "$IGNORE_TABLES"; then
+        if test ${status} -eq 1; then
+           xsb_status=0
+           diff -u ${RESULTS_TEMP_DIR}/${file}.tables ${RESULTS_OK_DIR}/${file}.tables_xsb > /dev/null 2>> /dev/null || xsb_status=1
+           if test ${xsb_status} -eq 1; then
+              echo -n "   [ tables output ]"
+           else
+              echo -n "   [ tables output (XSB compatible) ]"
+           fi
          fi
       fi
    fi
