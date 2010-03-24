@@ -1,4 +1,4 @@
-same_gen([_131136],[_131136])
-same_gen(_131144,_131144)
-same_gen(_131147,_131147)
-same_gen(f(_131142),f(_131142))
+same_gen(A,A)
+same_gen(A,A)
+same_gen([A],[A])
+same_gen(f(A),f(A))

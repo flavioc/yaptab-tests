@@ -3,7 +3,7 @@
 tabled_predicate(p/2).
 
 backtrack_and_print(Goal) :-
-  call(Goal), write(Goal), nl, fail.
+  call(Goal), numbervars(Goal, 0, _), write(Goal), nl, fail.
 backtrack_and_print(_).
 
 generate_calls(A, 0) :- !.

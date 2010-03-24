@@ -1,3 +1,3 @@
 backtrack_and_print(Query) :-
-  call(Query), write(Query), nl, fail.
+  call(Query), numbervars(Query, 0, _), write(Query), nl, fail.
 backtrack_and_print(_).
