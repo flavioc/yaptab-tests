@@ -1,24 +1,4 @@
 Table structure for predicate 'p/2'
-  ?- p(123456781,VAR0).
-    NO
-  ?- p(123456782,VAR0).
-    NO
-  ?- p(123456783,VAR0).
-    NO
-  ?- p(123456784,VAR0).
-    NO
-  ?- p(123456785,VAR0).
-    NO
-  ?- p(123456786,VAR0).
-    NO
-  ?- p(123456787,VAR0).
-    NO
-  ?- p(123456788,VAR0).
-    NO
-  ?- p(123456789,VAR0).
-    NO
-  ?- p(VAR0,VAR0).
-    NO
   ?- p(VAR0,VAR1).
     VAR0: 123456781    VAR1: 2
     VAR0: 123456781    VAR1: 5

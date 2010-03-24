@@ -3183,8 +3183,6 @@ Table structure for predicate '_$_$_flora_eql/2'
     NO
   ?- _$_$_flora_eql(covent_garden,VAR0).
     NO
-  ?- _$_$_flora_eql(direct,VAR0).
-    NO
   ?- _$_$_flora_eql(ealing_broadway,VAR0).
     NO
   ?- _$_$_flora_eql(ealing_common,VAR0).
@@ -30176,8 +30174,6 @@ Table structure for predicate '_$_$_flora_subclass/2'
     VAR0: connection    VAR1: connection
     VAR0: direct    VAR1: connection
     VAR0: direct    VAR1: direct
-  ?- _$_$_flora_subclass(VAR0,direct).
-    NO
   ?- _$_$_flora_subclass(VAR0,station).
     NO
   ?- _$_$_flora_subclass(connection,VAR0).
