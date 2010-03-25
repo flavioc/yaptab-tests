@@ -119,7 +119,7 @@ run_recursive ()
   rm -f "${1}/"*.xwam
   mv "${1}/${RESULTS_TEMP_DIR}/"* "${RESULTS_DIR}" 2> /dev/null
 
-  for dir in $(ls ${1}/); do
+  for dir in $(ls ${1}/test_*); do
     if [ -d "${1}/${dir}" ]; then
       [ "${dir}" == "run_results_ok" ] && continue
       [ "${dir}" == "run_results_temp" ] && continue
