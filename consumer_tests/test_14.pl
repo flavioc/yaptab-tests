@@ -1,3 +1,4 @@
+% tests cut of subgoal frames and dependencies.
 
 :- table p/2.
 :- table a/1.

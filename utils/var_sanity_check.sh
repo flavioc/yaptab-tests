@@ -23,11 +23,8 @@ run_load_test () {
 
 run_test basic_tests
 run_test path_small_tests
-run_test complex_types_tests
 
-export IGNORE_TABLES=yes
 run_load_test basic_tests
 run_load_test path_small_tests
-run_load_test complex_types_tests
 
 bash utils/clear_results.sh

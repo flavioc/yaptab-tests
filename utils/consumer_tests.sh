@@ -8,4 +8,4 @@ if [ -z "$YAP" ]; then
 fi
 
 export IGNORE_TABLES=yes
-bash run_debug_test_suite.sh -o consumer_tests -c run_config_files/yap_batched_load_answers.pl $YAP
+bash run_debug_test_suite.sh -o consumer_tests -c run_config_files/yap_batched_exec_answers.pl $YAP
