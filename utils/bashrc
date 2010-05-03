@@ -1,0 +1,17 @@
+function test_convert_csv ()
+{
+  file=$1
+
+  cat $1 | python $HOME/Projects/yaptab-tests/utils/parse_time_test.py | sed -e 's/\./,/g'
+}
+
+function convert_all_files ()
+{
+  for file in *.txt; do
+    base=`basename -s .txt $file`
+    csv="$base.csv"
+    echo $csv
+    test_convert_csv $file > $csv
+  done
+}
+
