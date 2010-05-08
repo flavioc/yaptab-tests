@@ -3,6 +3,7 @@
 
 time_query :- reach(systemLeader_0(5,end), par(D, E, A, B)), fail.
 
-%:- yap_flag(tabling_mode, grounded).
-
-%:- time_query.
+debug_query :- Query = reach(systemLeader_0(5,end), par(D, E, A, B)),
+               call(Query),
+               numbervars(Query, 0, _),
+               write(Query), nl, fail.
