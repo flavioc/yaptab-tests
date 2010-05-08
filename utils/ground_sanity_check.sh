@@ -10,7 +10,7 @@ fi
 run_test () {
   test=$1
   bash ./run_debug_test_suite.sh -o $test \
-    -c run_config_files/yap_grounded_exec_answers.pl \
+    -c run_config_files/yap_retroactive_exec_answers.pl \
     -a "-h 500000 -s 200000 -t 100000" \
     $YAP || exit 1
 }
@@ -18,7 +18,7 @@ run_test () {
 run_load_test () {
   test=$1
   bash ./run_debug_test_suite.sh -o $test \
-    -c run_config_files/yap_grounded_load_answers.pl \
+    -c run_config_files/yap_retroactive_load_answers.pl \
     -a "-h 500000 -s 200000 -t 100000" \
     $YAP || exit 1
 }
