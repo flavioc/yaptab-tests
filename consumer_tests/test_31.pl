@@ -14,7 +14,7 @@ t(X) :- a(X).
 t(X) :- p(1, X), a(A), p(B, C).
 t(2). t(3).
 
-:- use_grounded_tabling p/2.
+:- use_retroactive_tabling p/2.
 
 p(1,5). p(1,6). p(10, 10).
 p(1, X) :- a(A), X = 20.

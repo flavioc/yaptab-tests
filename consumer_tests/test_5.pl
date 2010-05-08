@@ -1,10 +1,10 @@
-% tests pruning of grounded generators
+% tests pruning of retroactive generators
 
 :- table p/2.
 :- table a/2.
 
-:- use_grounded_tabling p/2.
-:- use_grounded_tabling a/2.
+:- use_retroactive_tabling p/2.
+:- use_retroactive_tabling a/2.
 
 a(X, Y) :- e(X, Z), a(Z, Y).
 a(X, Y) :- e(X, Y).

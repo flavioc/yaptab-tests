@@ -2,7 +2,7 @@
 
 :- table p/2.
 
-:- use_grounded_tabling p/2.
+:- use_retroactive_tabling p/2.
 
 e(1, 2).
 e(1, 1).

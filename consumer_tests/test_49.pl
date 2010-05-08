@@ -1,6 +1,6 @@
 :- table p/3.
 
-:- use_grounded_tabling p/3.
+:- use_retroactive_tabling p/3.
 
 p(1, 2, 3).
 p(1, 2, 5).

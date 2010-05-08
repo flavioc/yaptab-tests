@@ -6,7 +6,7 @@
 
 :- use_variant_tabling a/1.
 :- use_variant_tabling b/1.
-:- use_grounded_tabling p/2.
+:- use_retroactive_tabling p/2.
 
 p(1, Y) :- a(A), b(Y).
 p(10, 20).

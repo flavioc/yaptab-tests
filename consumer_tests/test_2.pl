@@ -1,7 +1,7 @@
 % tests pruning with interior nodes.
 
 :- table p/2.
-:- use_grounded_tabling p/2.
+:- use_retroactive_tabling p/2.
 
 p(X, Y) :- a(X, Y).
 p(1, 2).

@@ -2,7 +2,7 @@
 
 :- table p/2.
 
-:- use_grounded_tabling p/2.
+:- use_retroactive_tabling p/2.
 
 p(1, X) :- p(2, X).
 p(2, X) :- p(A, X).

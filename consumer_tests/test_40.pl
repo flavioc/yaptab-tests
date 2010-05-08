@@ -4,7 +4,7 @@
 % a(1, B) after t(1, E).
 
 :- table p/2.
-:- use_grounded_tabling p/2.
+:- use_retroactive_tabling p/2.
 
 :- table t/2.
 :- use_variant_tabling t/2.

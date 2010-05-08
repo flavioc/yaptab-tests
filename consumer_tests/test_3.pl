@@ -3,7 +3,7 @@
 :- table a/2.
 :- table p/2.
 :- use_variant_tabling a/2.
-:- use_grounded_tabling p/2.
+:- use_retroactive_tabling p/2.
 
 p(X, Y) :- a(X, Y).
 p(2, 3).

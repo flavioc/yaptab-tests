@@ -4,8 +4,8 @@
 :- table b/2.
 :- table a/2.
 
-:- use_grounded_tabling p/2.
-:- use_grounded_tabling b/2.
+:- use_retroactive_tabling p/2.
+:- use_retroactive_tabling b/2.
 :- use_variant_tabling a/2.
 
 p(X, Y) :- a(X, Y).

@@ -3,7 +3,7 @@
 :- table p/2.
 :- table a/2.
 
-:- use_grounded_tabling p/2.
+:- use_retroactive_tabling p/2.
 :- use_subsumptive_tabling a/2.
 
 a(X, Y) :- e(X, Z), a(Z, Y).

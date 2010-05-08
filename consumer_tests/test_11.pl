@@ -4,7 +4,7 @@
 :- table p/2.
 
 :- use_variant_tabling t/1.
-:- use_grounded_tabling p/2.
+:- use_retroactive_tabling p/2.
 
 t(X) :- p(1, X).
 t(3).

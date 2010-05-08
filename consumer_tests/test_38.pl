@@ -2,7 +2,7 @@
 % in which the leader is t(1, X), not a(1, X).
 
 :- table p/2.
-:- use_grounded_tabling p/2.
+:- use_retroactive_tabling p/2.
 
 :- table t/2.
 :- use_variant_tabling t/2.

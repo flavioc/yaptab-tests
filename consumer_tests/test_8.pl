@@ -3,7 +3,7 @@
 :- table p/2.
 :- table t/1.
 :- use_variant_tabling t/1.
-:- use_grounded_tabling p/2.
+:- use_retroactive_tabling p/2.
 :- yap_flag(tabling_mode, load_answers).
 
 t(X) :- p(1, X), p(A, B).

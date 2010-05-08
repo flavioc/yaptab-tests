@@ -4,8 +4,8 @@
 :- table t/3.
 :- table b/2.
 
-:- use_grounded_tabling p/2.
-:- use_grounded_tabling b/2.
+:- use_retroactive_tabling p/2.
+:- use_retroactive_tabling b/2.
 :- use_subsumptive_tabling t/3.
 
 p(X, 55) :- t(X, A, B).
