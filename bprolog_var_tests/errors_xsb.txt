@@ -1,0 +1,15 @@
+##################################################################
+Output (less subgoals):
+   test_atr2 (tables)
+   test_farmer (tables)
+   test_lightbulbs (tables)
+   test_peep (tables)
+##################################################################
+Output (extra subgoals with answer NO):
+   test_sgm (tables)
+##################################################################
+Errors (missing solutions):
+   test_cs_o
+   test_cs_r
+   test_kalah
+##################################################################

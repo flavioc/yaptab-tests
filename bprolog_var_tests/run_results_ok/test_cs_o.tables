@@ -1,0 +1,226 @@
+Table structure for predicate 'addelement__1/3'
+  ?- addelement__1(VAR0,VAR1,VAR2).
+    VAR0: [list]    VAR1: [ANSVAR0,list]    VAR2: [ANSVAR0,list]
+Table structure for predicate 'addliste__1/3'
+  ?- addliste__1(VAR0,VAR1,VAR2).
+    VAR0: [list]    VAR1: [ANSVAR0,list]    VAR2: [ANSVAR0,list]
+    VAR0: [list]    VAR1: [ANSVAR0]    VAR2: [ANSVAR0]
+    VAR0: [list]    VAR1: [list]    VAR2: [list]
+Table structure for predicate 'allsplit__1/2'
+  ?- allsplit__1(VAR0,VAR1).
+    VAR0: [ANSVAR0]    VAR1: [list]
+    VAR0: [list]    VAR1: [list]
+Table structure for predicate 'append__1/3'
+  ?- append__1(VAR0,VAR1,VAR2).
+    VAR0: [list]    VAR1: [ANSVAR0]    VAR2: [ANSVAR0,list]
+    VAR0: [list]    VAR1: [ANSVAR0]    VAR2: [ANSVAR0]
+Table structure for predicate 'combcut__1/6'
+  ?- combcut__1(VAR0,VAR1,VAR2,VAR3,VAR4,VAR5).
+    VAR0: [ANSVAR0,list]    VAR1: [list]    VAR2: [ANSVAR1,list]    VAR3: [ANSVAR0,list]    VAR4: [num]    VAR5: [list]
+    VAR0: [ANSVAR0,list]    VAR1: [list]    VAR2: [list]    VAR3: [ANSVAR0,list]    VAR4: [num]    VAR5: [list]
+    VAR0: [ANSVAR0]    VAR1: [list]    VAR2: [ANSVAR1,list]    VAR3: [ANSVAR0]    VAR4: [num]    VAR5: [list]
+    VAR0: [ANSVAR0]    VAR1: [list]    VAR2: [list]    VAR3: [ANSVAR0]    VAR4: [num]    VAR5: [list]
+    VAR0: [list]    VAR1: [list]    VAR2: [ANSVAR0,list]    VAR3: [list]    VAR4: [num]    VAR5: [list]
+    VAR0: [list]    VAR1: [list]    VAR2: [list]    VAR3: [list]    VAR4: [num]    VAR5: [list]
+Table structure for predicate 'combcutaux__1/6'
+  ?- combcutaux__1(VAR0,VAR1,VAR2,VAR3,VAR4,VAR5).
+    VAR0: [ANSVAR0,list]    VAR1: [list]    VAR2: [list]    VAR3: [ANSVAR1,list]    VAR4: [ANSVAR0,list]    VAR5: [num]
+    VAR0: [ANSVAR0,list]    VAR1: [list]    VAR2: [list]    VAR3: [list]    VAR4: [ANSVAR0,list]    VAR5: [num]
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR1]    VAR2: [list]    VAR3: [ANSVAR2]    VAR4: [ANSVAR0]    VAR5: [num]
+    VAR0: [ANSVAR0]    VAR1: [list]    VAR2: [list]    VAR3: [ANSVAR1,list]    VAR4: [ANSVAR0]    VAR5: [num]
+    VAR0: [ANSVAR0]    VAR1: [list]    VAR2: [list]    VAR3: [list]    VAR4: [ANSVAR0]    VAR5: [num]
+    VAR0: [list]    VAR1: [list]    VAR2: [list]    VAR3: [ANSVAR0,list]    VAR4: [list]    VAR5: [num]
+    VAR0: [list]    VAR1: [list]    VAR2: [list]    VAR3: [list]    VAR4: [list]    VAR5: [num]
+Table structure for predicate 'combination__1/3'
+  ?- combination__1(VAR0,VAR1,VAR2).
+    NO
+Table structure for predicate 'combine__1/4'
+  ?- combine__1(VAR0,VAR1,VAR2,VAR3).
+    VAR0: [list]    VAR1: [ANSVAR0,list]    VAR2: [ANSVAR1,list]    VAR3: [list]
+    VAR0: [list]    VAR1: [ANSVAR0,list]    VAR2: [ANSVAR1]    VAR3: [list]
+    VAR0: [list]    VAR1: [ANSVAR0,list]    VAR2: [list]    VAR3: [list]
+    VAR0: [list]    VAR1: [list]    VAR2: [ANSVAR0,list]    VAR3: [list]
+    VAR0: [list]    VAR1: [list]    VAR2: [ANSVAR0]    VAR3: [list]
+    VAR0: [list]    VAR1: [list]    VAR2: [list]    VAR3: [list]
+Table structure for predicate 'configuration__1/1'
+  ?- configuration__1(VAR0).
+    NO
+Table structure for predicate 'construct__1/3'
+  ?- construct__1(VAR0,VAR1,VAR2).
+    VAR0: [list]    VAR1: [ANSVAR0]    VAR2: [list]
+Table structure for predicate 'cut__1/5'
+  ?- cut__1(VAR0,VAR1,VAR2,VAR3,VAR4).
+    NO
+Table structure for predicate 'cuth__1/1'
+  ?- cuth__1(VAR0).
+    VAR0: [atom]
+Table structure for predicate 'cutv__1/1'
+  ?- cutv__1(VAR0).
+    VAR0: [atom]
+Table structure for predicate 'empty__1/1'
+  ?- empty__1(VAR0).
+    VAR0: [atom]
+Table structure for predicate 'emptyconfig__1/1'
+  ?- emptyconfig__1(VAR0).
+    NO
+Table structure for predicate 'find__1/3'
+  ?- find__1(VAR0,VAR1,VAR2).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR1,list]    VAR2: [ANSVAR2]
+    VAR0: [num]    VAR1: [ANSVAR0,list]    VAR2: [ANSVAR1]
+Table structure for predicate 'gencut__1/4'
+  ?- gencut__1(VAR0,VAR1,VAR2,VAR3).
+    VAR0: [list]    VAR1: [ANSVAR0]    VAR2: [ANSVAR1]    VAR3: [list]
+Table structure for predicate 'genempty__1/2'
+  ?- genempty__1(VAR0,VAR1).
+    VAR0: [list]    VAR1: [list]
+Table structure for predicate 'generatecut__1/6'
+  ?- generatecut__1(VAR0,VAR1,VAR2,VAR3,VAR4,VAR5).
+    NO
+Table structure for predicate 'generatecut__1/9'
+  ?- generatecut__1(VAR0,VAR1,VAR2,VAR3,VAR4,VAR5,VAR6,VAR7,VAR8).
+    NO
+Table structure for predicate 'generatecutaux__1/9'
+  ?- generatecutaux__1(VAR0,VAR1,VAR2,VAR3,VAR4,VAR5,VAR6,VAR7,VAR8).
+    VAR0: [ANSVAR0]    VAR1: [num]    VAR2: [num]    VAR3: [num]    VAR4: [num]    VAR5: [list]    VAR6: [list]    VAR7: [num]    VAR8: [ANSVAR1]
+    VAR0: [ANSVAR0]    VAR1: [num]    VAR2: [num]    VAR3: [num]    VAR4: [num]    VAR5: [list]    VAR6: [list]    VAR7: [num]    VAR8: [num]
+Table structure for predicate 'horizontal__1/1'
+  ?- horizontal__1(VAR0).
+    VAR0: [num]
+Table structure for predicate 'horizontalcut__1/1'
+  ?- horizontalcut__1(VAR0).
+    NO
+Table structure for predicate 'intersection__1/2'
+  ?- intersection__1(VAR0,VAR1).
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR1,list]
+Table structure for predicate 'member__1/2'
+  ?- member__1(VAR0,VAR1).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR1,list]
+Table structure for predicate 'nobeter__1/2'
+  ?- nobeter__1(VAR0,VAR1).
+    VAR0: [ANSVAR0]    VAR1: [list]
+    VAR0: [num]    VAR1: [list]
+Table structure for predicate 'nobeter__1/3'
+  ?- nobeter__1(VAR0,VAR1,VAR2).
+    VAR0: [ANSVAR0]    VAR1: [list]    VAR2: [ANSVAR1]
+    VAR0: [ANSVAR0]    VAR1: [list]    VAR2: [num]
+    VAR0: [num]    VAR1: [list]    VAR2: [ANSVAR0]
+    VAR0: [num]    VAR1: [list]    VAR2: [num]
+Table structure for predicate 'pgenconfig__1/1'
+  ?- pgenconfig__1(VAR0).
+    NO
+Table structure for predicate 'quantity__1/1'
+  ?- quantity__1(VAR0).
+    VAR0: [atom]
+Table structure for predicate 'set_unify/2'
+  ?- set_unify([VAR0],VAR1).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0]
+  ?- set_unify([VAR0],[VAR1,list]).
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0]
+  ?- set_unify([VAR0],[VAR1]).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0]
+  ?- set_unify([VAR0],[[VAR1,list],list]).
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0]
+  ?- set_unify([VAR0],[[VAR1,list]]).
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0]
+  ?- set_unify([VAR0],[[VAR1],list]).
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0]
+  ?- set_unify([VAR0],[[VAR1]]).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0]
+  ?- set_unify([VAR0],[[list],list]).
+    VAR0: [list]
+  ?- set_unify([VAR0],[[list]]).
+    VAR0: [list]
+  ?- set_unify([VAR0],[atom]).
+    VAR0: [atom]
+  ?- set_unify([VAR0],[list]).
+    VAR0: [list]
+  ?- set_unify([VAR0],[num]).
+    VAR0: [num]
+  ?- set_unify([VAR0],num).
+    VAR0: [num]
+  ?- set_unify([[VAR0,list]],[VAR1,list]).
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0,list]
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0]
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0,list]
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0]
+    VAR0: [list]    VAR1: [list]
+  ?- set_unify([[VAR0,list]],[VAR1]).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0,list]
+  ?- set_unify([[VAR0,list]],[list]).
+    VAR0: [list]
+  ?- set_unify([[VAR0],[VAR1]],num).
+    VAR0: [num]    VAR1: [num]
+  ?- set_unify([[VAR0],[[num]]],num).
+    VAR0: [num]
+  ?- set_unify([[VAR0],[num]],num).
+    VAR0: [num]
+  ?- set_unify([[VAR0]],VAR1).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0]
+  ?- set_unify([[VAR0]],[VAR1,list]).
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0]
+  ?- set_unify([[VAR0]],[VAR1]).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0]
+  ?- set_unify([[VAR0]],[list]).
+    VAR0: [list]
+  ?- set_unify([[VAR0]],[num]).
+    VAR0: [num]
+  ?- set_unify([[VAR0]],num).
+    VAR0: [num]
+  ?- set_unify([[[VAR0,list]]],[list]).
+    VAR0: [list]
+  ?- set_unify([[[VAR0],[VAR1]],[[[[VAR2],[[num]]],[[num]]],[num]]],num).
+    VAR0: [num]    VAR1: [num]    VAR2: [num]
+  ?- set_unify([[[VAR0]]],[list]).
+    VAR0: [list]
+  ?- set_unify([[[[num]],[[num]]],[VAR0]],num).
+    VAR0: [num]
+  ?- set_unify([[[num]],[VAR0]],num).
+    VAR0: [num]
+  ?- set_unify([[atom]],[list]).
+    NO
+  ?- set_unify([[list]],[VAR0,list]).
+    VAR0: [list]
+  ?- set_unify([[list]],[VAR0]).
+    VAR0: [list]
+  ?- set_unify([[list]],[list]).
+    TRUE
+  ?- set_unify([[num]],[VAR0]).
+    VAR0: [num]
+  ?- set_unify([[num]],[num]).
+    TRUE
+  ?- set_unify([list,VAR0],[VAR1]).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0,list]
+  ?- set_unify([list,VAR0],[list]).
+    VAR0: [list]
+  ?- set_unify([list,[list]],[VAR0,list]).
+    VAR0: [list]
+  ?- set_unify([list,list,list],VAR0).
+    VAR0: [list]
+  ?- set_unify([list,list,list],[VAR0]).
+    VAR0: [list]
+  ?- set_unify([list,list,list],num).
+    NO
+  ?- set_unify([list],VAR0).
+    VAR0: [list]
+  ?- set_unify([num],VAR0).
+    VAR0: [num]
+  ?- set_unify([num],num).
+    TRUE
+Table structure for predicate 'split__1/2'
+  ?- split__1(VAR0,VAR1).
+    VAR0: [list]    VAR1: [list]
+Table structure for predicate 'split__1/3'
+  ?- split__1(VAR0,VAR1,VAR2).
+    VAR0: [list]    VAR1: [list]    VAR2: [list]
+Table structure for predicate 'vertical__1/1'
+  ?- vertical__1(VAR0).
+    VAR0: [num]
+Table structure for predicate 'verticalcut__1/1'
+  ?- verticalcut__1(VAR0).
+    NO
+Table structure for predicate 'wasteh__1/1'
+  ?- wasteh__1(VAR0).
+    VAR0: [num]
+Table structure for predicate 'wastev__1/1'
+  ?- wastev__1(VAR0).
+    VAR0: [num]

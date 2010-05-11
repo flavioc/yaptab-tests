@@ -1,0 +1,2 @@
+[takes(farmer,goat),go_alone(farmer),takes(farmer,cabbage),takes(farmer,goat),takes(farmer,wolf),go_alone(farmer),takes(farmer,goat)]
+[takes(farmer,goat),go_alone(farmer),takes(farmer,wolf),takes(farmer,goat),takes(farmer,cabbage),go_alone(farmer),takes(farmer,goat)]

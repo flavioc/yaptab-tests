@@ -1,0 +1,21 @@
+Table structure for predicate 'pdcg/3'
+  ?- pdcg(n_sent,[t_hukusi_desu,t_prefix_go,t_sahen_meisi_2FH_ga_ni,t_p_rentai_no,t_prefix_go,t_sahen_meisi_2FH_ga_o,t_auxstem_desu,t_infl_spe_sho,t_auxstem_intn_u,t_aux_sfp_ka],[]).
+    TRUE
+  ?- pdcg(n_sent,[t_hutu_meisi,t_tsuzuri,t_tsuzuri,t_tsuzuri,t_tsuzuri,t_tsuzuri,t_auxstem_desu,t_infl_spe_su],[]).
+    TRUE
+  ?- pdcg(n_sent,[t_interj_hesit,t_interj_hesit,t_daimeisi_exp,t_num_hito,t_suffix_num_ri,t_auxstem_desu,t_infl_spe_su,t_p_conj_syusi,t_interj_hesit,t_hutu_meisi,t_p_kaku_de,t_adjstem_2FH_ga_de,t_infl_adj_i,t_p_jun,t_auxstem_desu,t_infl_spe_su,t_aux_sfp_kedo],[]).
+    TRUE
+  ?- pdcg(n_sent,[t_interj_hesit,t_interj_pre,t_daimeisi_domo,t_myoji_first,t_namae_last,t_p_kaku_to,t_vstem_5_w_2FH_ga_to,t_infl_5_wi,t_auxstem_masu,t_infl_spe_su,t_p_conj_syusi,t_daimeisi_exp,t_p_rentai_no,t_hutu_meisi,t_p_rentai_no,t_sahen_meisi_2FH_ga_o,t_p_kaku_o,t_sahen_dousi_renyo_2FH_ga_o,t_auxstem_wish,t_infl_adj_i,t_p_jun,t_auxstem_desu,t_infl_spe_su,t_aux_sfp_ga],[]).
+    TRUE
+  ?- pdcg(n_sent,[t_interj_hesit,t_rentai,t_sahen_meisi_2FH_ga,t_p_rentai_no,t_prefix_o,t_hutu_meisi,t_p_kaku_o,t_prefix_go,t_sahen_meisi_2FH_ga_o,t_auxstem_desu,t_infl_spe_sho,t_auxstem_intn_u,t_aux_sfp_ka],[]).
+    TRUE
+  ?- pdcg(n_sent,[t_interj_post,t_koyuu_meisi,t_aux_de,t_auxstem_copula_masu,t_infl_spe_su],[]).
+    TRUE
+  ?- pdcg(n_sent,[t_interj_pre,t_hukusi_desu,t_auxstem_desu,t_infl_spe_su],[]).
+    TRUE
+  ?- pdcg(n_sent,[t_interj_pre,t_hutu_meisi,t_aux_de,t_auxstem_copula_masu,t_infl_spe_su,t_aux_sfp_ne],[]).
+    TRUE
+  ?- pdcg(n_sent,[t_interj_pre,t_meisi_tsuki,t_meisi_hi,t_p_kaku_kara,t_meisi_tsuki,t_meisi_hi,t_p_rentai_no,t_num_nano,t_suffix_num_ka,t_suffix_quant_quant,t_auxstem_desu,t_infl_spe_su,t_aux_sfp_kedo],[]).
+    TRUE
+  ?- pdcg(n_sent,[t_prefix_o,t_hutu_meisi_post,t_suffix_name,t_p_rentai_no,t_prefix_o,t_hutu_meisi,t_p_rentai_no,t_hutu_meisi,t_p_kaku_o,t_vstem_1_2FH_ga_o,t_auxstem_masu,t_infl_spe_su,t_auxstem_desu,t_infl_spe_sho,t_auxstem_intn_u,t_aux_sfp_ka],[]).
+    TRUE

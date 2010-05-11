@@ -1,0 +1,216 @@
+Table structure for predicate 'disj__1/4'
+  ?- disj__1(VAR0,VAR1,VAR2,VAR3).
+    VAR0: [num]    VAR1: [ANSVAR0]    VAR2: [num]    VAR3: [num]
+    VAR0: [num]    VAR1: [num]    VAR2: [num]    VAR3: [ANSVAR0]
+Table structure for predicate 'disjunct__1/1'
+  ?- disjunct__1(VAR0).
+    VAR0: [list]
+Table structure for predicate 'duration__1/2'
+  ?- duration__1(VAR0,VAR1).
+    VAR0: [atom]    VAR1: [atom]
+Table structure for predicate 'el__1/2'
+  ?- el__1(VAR0,VAR1).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR1,list]
+Table structure for predicate 'ellist__1/3'
+  ?- ellist__1(VAR0,VAR1,VAR2).
+    VAR0: [list]    VAR1: [ANSVAR0,list]    VAR2: [list]
+    VAR0: [list]    VAR1: [ANSVAR0]    VAR2: [list]
+    VAR0: [list]    VAR1: [list]    VAR2: [list]
+Table structure for predicate 'gteqc__1/3'
+  ?- gteqc__1(VAR0,VAR1,VAR2).
+    VAR0: [num]    VAR1: [num]    VAR2: [num]
+Table structure for predicate 'jobs__1/1'
+  ?- jobs__1(VAR0).
+    VAR0: [atom]
+Table structure for predicate 'makedisj1__1/3'
+  ?- makedisj1__1(VAR0,VAR1,VAR2).
+    VAR0: [list]    VAR1: [ANSVAR0]    VAR2: [ANSVAR0,list]
+    VAR0: [list]    VAR1: [ANSVAR0]    VAR2: [ANSVAR0]
+Table structure for predicate 'makedisj2__1/4'
+  ?- makedisj2__1(VAR0,VAR1,VAR2,VAR3).
+    VAR0: [ANSVAR0]    VAR1: [list]    VAR2: [ANSVAR1]    VAR3: [ANSVAR1]
+    VAR0: [list]    VAR1: [list]    VAR2: [ANSVAR0]    VAR3: [ANSVAR0,list]
+Table structure for predicate 'makedisj__1/4'
+  ?- makedisj__1(VAR0,VAR1,VAR2,VAR3).
+    VAR0: [list]    VAR1: [ANSVAR0,list]    VAR2: [ANSVAR1]    VAR3: [ANSVAR1,list]
+    VAR0: [list]    VAR1: [ANSVAR0,list]    VAR2: [ANSVAR1]    VAR3: [ANSVAR1]
+    VAR0: [list]    VAR1: [ANSVAR0]    VAR2: [ANSVAR1]    VAR3: [ANSVAR1,list]
+    VAR0: [list]    VAR1: [ANSVAR0]    VAR2: [ANSVAR1]    VAR3: [ANSVAR1]
+    VAR0: [list]    VAR1: [list]    VAR2: [ANSVAR0]    VAR3: [ANSVAR0,list]
+    VAR0: [list]    VAR1: [list]    VAR2: [ANSVAR0]    VAR3: [ANSVAR0]
+Table structure for predicate 'makemaxef__1/2'
+  ?- makemaxef__1(VAR0,VAR1).
+    VAR0: [list]    VAR1: [ANSVAR0,list]
+    VAR0: [list]    VAR1: [ANSVAR0]
+    VAR0: [list]    VAR1: [list]
+Table structure for predicate 'makemaxnf__1/2'
+  ?- makemaxnf__1(VAR0,VAR1).
+    VAR0: [list]    VAR1: [ANSVAR0,list]
+    VAR0: [list]    VAR1: [ANSVAR0]
+    VAR0: [list]    VAR1: [list]
+Table structure for predicate 'makeminaf__1/2'
+  ?- makeminaf__1(VAR0,VAR1).
+    VAR0: [list]    VAR1: [ANSVAR0,list]
+    VAR0: [list]    VAR1: [ANSVAR0]
+    VAR0: [list]    VAR1: [list]
+Table structure for predicate 'makeminnf__1/2'
+  ?- makeminnf__1(VAR0,VAR1).
+    VAR0: [list]    VAR1: [ANSVAR0,list]
+    VAR0: [list]    VAR1: [ANSVAR0]
+    VAR0: [list]    VAR1: [list]
+Table structure for predicate 'makeminsf__1/2'
+  ?- makeminsf__1(VAR0,VAR1).
+    VAR0: [list]    VAR1: [ANSVAR0,list]
+    VAR0: [list]    VAR1: [ANSVAR0]
+    VAR0: [list]    VAR1: [list]
+Table structure for predicate 'makeprec__1/2'
+  ?- makeprec__1(VAR0,VAR1).
+    VAR0: [list]    VAR1: [ANSVAR0,list]
+    VAR0: [list]    VAR1: [ANSVAR0]
+    VAR0: [list]    VAR1: [list]
+Table structure for predicate 'makevars__1/2'
+  ?- makevars__1(VAR0,VAR1).
+    VAR0: [list]    VAR1: [list]
+Table structure for predicate 'maxef__1/1'
+  ?- maxef__1(VAR0).
+    VAR0: [atom]
+Table structure for predicate 'maxnf__1/1'
+  ?- maxnf__1(VAR0).
+    VAR0: [atom]
+Table structure for predicate 'memberEl__1/3'
+  ?- memberEl__1(VAR0,VAR1,VAR2).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0]    VAR2: [ANSVAR1]
+    VAR0: [num]    VAR1: [num]    VAR2: [num]
+Table structure for predicate 'minaf__1/1'
+  ?- minaf__1(VAR0).
+    VAR0: [atom]
+Table structure for predicate 'minnf__1/1'
+  ?- minnf__1(VAR0).
+    VAR0: [atom]
+Table structure for predicate 'minsf__1/1'
+  ?- minsf__1(VAR0).
+    VAR0: [atom]
+Table structure for predicate 'p__1/2'
+  ?- p__1(VAR0,VAR1).
+    VAR0: [num]    VAR1: [ANSVAR0]
+Table structure for predicate 'prec__1/1'
+  ?- prec__1(VAR0).
+    VAR0: [atom]
+Table structure for predicate 'resources__1/1'
+  ?- resources__1(VAR0).
+    VAR0: [atom]
+Table structure for predicate 'rev__1/3'
+  ?- rev__1(VAR0,VAR1,VAR2).
+    VAR0: [list]    VAR1: [ANSVAR0]    VAR2: [ANSVAR0,list]
+    VAR0: [list]    VAR1: [ANSVAR0]    VAR2: [ANSVAR0]
+Table structure for predicate 'set_unify/2'
+  ?- set_unify([VAR0],[VAR1,list]).
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0]
+  ?- set_unify([VAR0],[VAR1]).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0]
+  ?- set_unify([VAR0],[[VAR1,list],list]).
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0]
+  ?- set_unify([VAR0],[[VAR1,list]]).
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0]
+  ?- set_unify([VAR0],[[VAR1],list]).
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0]
+  ?- set_unify([VAR0],[[VAR1]]).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0]
+  ?- set_unify([VAR0],[atom]).
+    VAR0: [atom]
+  ?- set_unify([VAR0],[list]).
+    VAR0: [list]
+  ?- set_unify([VAR0],[num]).
+    VAR0: [num]
+  ?- set_unify([VAR0],num).
+    VAR0: [num]
+  ?- set_unify([[VAR0,list]],[VAR1,list]).
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0,list]
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0]
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0,list]
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0]
+    VAR0: [list]    VAR1: [list]
+  ?- set_unify([[VAR0,list]],[VAR1]).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0,list]
+  ?- set_unify([[VAR0,list]],[list]).
+    VAR0: [list]
+  ?- set_unify([[VAR0],[VAR1]],num).
+    VAR0: [num]    VAR1: [num]
+  ?- set_unify([[VAR0]],[VAR1,list]).
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0]
+  ?- set_unify([[VAR0]],[VAR1]).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0]
+  ?- set_unify([[VAR0]],[list]).
+    VAR0: [list]
+  ?- set_unify([[[VAR0,list],list]],[VAR1,list]).
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0,list]
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0]
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0,list]
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0]
+    VAR0: [list]    VAR1: [list]
+  ?- set_unify([[[VAR0,list],list]],[VAR1]).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0,list]
+  ?- set_unify([[[VAR0,list],list]],[list]).
+    VAR0: [list]
+  ?- set_unify([[[VAR0],[VAR1]],[VAR2]],num).
+    VAR0: [num]    VAR1: [num]    VAR2: [num]
+  ?- set_unify([[[VAR0],list]],[VAR1,list]).
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0,list]
+    VAR0: [ANSVAR0,list]    VAR1: [ANSVAR0]
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0,list]
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0]
+    VAR0: [list]    VAR1: [list]
+  ?- set_unify([[[VAR0],list]],[VAR1]).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0,list]
+  ?- set_unify([[[VAR0],list]],[list]).
+    VAR0: [list]
+  ?- set_unify([[[list],list]],[VAR0,list]).
+    VAR0: [list]
+  ?- set_unify([[[list],list]],[VAR0]).
+    VAR0: [list]
+  ?- set_unify([[[list],list]],[list]).
+    TRUE
+  ?- set_unify([[[num]],[num]],num).
+    TRUE
+  ?- set_unify([[atom]],[list]).
+    NO
+  ?- set_unify([[list]],[VAR0,list]).
+    VAR0: [list]
+  ?- set_unify([[list]],[VAR0]).
+    VAR0: [list]
+  ?- set_unify([[list]],[list]).
+    TRUE
+  ?- set_unify([[num]],[VAR0]).
+    VAR0: [num]
+  ?- set_unify([[num]],[[VAR0]]).
+    VAR0: [num]
+  ?- set_unify([[num]],[num]).
+    TRUE
+  ?- set_unify([[num]],num).
+    TRUE
+  ?- set_unify([list,VAR0],[VAR1]).
+    VAR0: [ANSVAR0]    VAR1: [ANSVAR0,list]
+  ?- set_unify([list,list,list,list],[VAR0]).
+    VAR0: [list]
+  ?- set_unify([list,list,list],[VAR0]).
+    VAR0: [list]
+  ?- set_unify([list,list,list],[list]).
+    TRUE
+  ?- set_unify([num],[VAR0]).
+    VAR0: [num]
+  ?- set_unify([num],[[VAR0]]).
+    VAR0: [num]
+  ?- set_unify([num],[num]).
+    TRUE
+Table structure for predicate 'setup__1/3'
+  ?- setup__1(VAR0,VAR1,VAR2).
+    NO
+Table structure for predicate 'smeqc__1/3'
+  ?- smeqc__1(VAR0,VAR1,VAR2).
+    VAR0: [num]    VAR1: [num]    VAR2: [num]
+Table structure for predicate 'top__1/1'
+  ?- top__1(VAR0).
+    NO
+Table structure for predicate 'zero200__1/1'
+  ?- zero200__1(VAR0).
+    VAR0: [ANSVAR0]

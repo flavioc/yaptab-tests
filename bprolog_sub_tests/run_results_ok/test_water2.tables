@@ -1,0 +1,307 @@
+Table structure for predicate 'solve_dfs/3'
+  ?- solve_dfs(0,jugs(0,0),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(0,1),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(0,2),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(0,3),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(0,4),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(0,5),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(1,0),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(1,5),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(2,0),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(2,5),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(3,0),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(3,5),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(5,0),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(5,5),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(6,0),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(6,5),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(7,0),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(7,5),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(8,0),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(8,1),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(8,2),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(8,3),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(8,4),VAR0).
+    NO
+  ?- solve_dfs(0,jugs(8,5),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(0,0),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(0,1),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(0,2),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(0,3),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(0,5),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(1,0),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(1,5),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(2,0),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(2,5),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(3,0),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(3,5),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(5,0),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(5,5),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(6,0),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(6,5),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(7,0),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(7,5),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(8,0),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(8,2),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(8,3),VAR0).
+    NO
+  ?- solve_dfs(1,jugs(8,4),VAR0).
+    VAR0: []
+  ?- solve_dfs(1,jugs(8,5),VAR0).
+    NO
+  ?- solve_dfs(10,jugs(0,5),VAR0).
+    VAR0: [transfer(2,1),fill(2),transfer(2,1),empty(1),transfer(2,1),fill(2),transfer(2,1),fill(2),transfer(2,1)]
+  ?- solve_dfs(10,jugs(8,0),VAR0).
+    NO
+  ?- solve_dfs(11,jugs(0,0),VAR0).
+    VAR0: [fill(2),transfer(2,1),fill(2),transfer(2,1),empty(1),transfer(2,1),fill(2),transfer(2,1),fill(2),transfer(2,1)]
+  ?- solve_dfs(2,jugs(0,0),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(0,2),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(0,3),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(0,5),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(1,0),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(1,5),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(2,0),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(2,5),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(3,0),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(3,5),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(5,0),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(5,5),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(6,0),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(6,5),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(7,0),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(7,5),VAR0).
+    VAR0: [transfer(2,1)]
+  ?- solve_dfs(2,jugs(8,0),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(8,2),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(8,3),VAR0).
+    NO
+  ?- solve_dfs(2,jugs(8,5),VAR0).
+    NO
+  ?- solve_dfs(3,jugs(0,0),VAR0).
+    NO
+  ?- solve_dfs(3,jugs(0,2),VAR0).
+    NO
+  ?- solve_dfs(3,jugs(0,3),VAR0).
+    NO
+  ?- solve_dfs(3,jugs(0,5),VAR0).
+    NO
+  ?- solve_dfs(3,jugs(1,5),VAR0).
+    NO
+  ?- solve_dfs(3,jugs(2,0),VAR0).
+    NO
+  ?- solve_dfs(3,jugs(2,5),VAR0).
+    NO
+  ?- solve_dfs(3,jugs(3,0),VAR0).
+    NO
+  ?- solve_dfs(3,jugs(3,5),VAR0).
+    NO
+  ?- solve_dfs(3,jugs(5,0),VAR0).
+    NO
+  ?- solve_dfs(3,jugs(5,5),VAR0).
+    NO
+  ?- solve_dfs(3,jugs(6,0),VAR0).
+    NO
+  ?- solve_dfs(3,jugs(6,5),VAR0).
+    NO
+  ?- solve_dfs(3,jugs(7,0),VAR0).
+    VAR0: [fill(2),transfer(2,1)]
+  ?- solve_dfs(3,jugs(8,0),VAR0).
+    NO
+  ?- solve_dfs(3,jugs(8,2),VAR0).
+    NO
+  ?- solve_dfs(3,jugs(8,3),VAR0).
+    NO
+  ?- solve_dfs(3,jugs(8,5),VAR0).
+    NO
+  ?- solve_dfs(4,jugs(0,0),VAR0).
+    NO
+  ?- solve_dfs(4,jugs(0,2),VAR0).
+    NO
+  ?- solve_dfs(4,jugs(0,3),VAR0).
+    NO
+  ?- solve_dfs(4,jugs(0,5),VAR0).
+    NO
+  ?- solve_dfs(4,jugs(2,0),VAR0).
+    NO
+  ?- solve_dfs(4,jugs(2,5),VAR0).
+    VAR0: [transfer(2,1),fill(2),transfer(2,1)]
+  ?- solve_dfs(4,jugs(3,0),VAR0).
+    NO
+  ?- solve_dfs(4,jugs(3,5),VAR0).
+    NO
+  ?- solve_dfs(4,jugs(5,0),VAR0).
+    NO
+  ?- solve_dfs(4,jugs(5,5),VAR0).
+    NO
+  ?- solve_dfs(4,jugs(6,0),VAR0).
+    NO
+  ?- solve_dfs(4,jugs(6,5),VAR0).
+    NO
+  ?- solve_dfs(4,jugs(8,0),VAR0).
+    NO
+  ?- solve_dfs(4,jugs(8,2),VAR0).
+    NO
+  ?- solve_dfs(4,jugs(8,3),VAR0).
+    NO
+  ?- solve_dfs(4,jugs(8,5),VAR0).
+    NO
+  ?- solve_dfs(5,jugs(0,0),VAR0).
+    NO
+  ?- solve_dfs(5,jugs(0,2),VAR0).
+    NO
+  ?- solve_dfs(5,jugs(0,3),VAR0).
+    NO
+  ?- solve_dfs(5,jugs(0,5),VAR0).
+    NO
+  ?- solve_dfs(5,jugs(2,0),VAR0).
+    VAR0: [fill(2),transfer(2,1),fill(2),transfer(2,1)]
+  ?- solve_dfs(5,jugs(3,0),VAR0).
+    NO
+  ?- solve_dfs(5,jugs(3,5),VAR0).
+    NO
+  ?- solve_dfs(5,jugs(5,0),VAR0).
+    NO
+  ?- solve_dfs(5,jugs(5,5),VAR0).
+    NO
+  ?- solve_dfs(5,jugs(6,5),VAR0).
+    NO
+  ?- solve_dfs(5,jugs(8,0),VAR0).
+    NO
+  ?- solve_dfs(5,jugs(8,2),VAR0).
+    NO
+  ?- solve_dfs(5,jugs(8,3),VAR0).
+    NO
+  ?- solve_dfs(5,jugs(8,5),VAR0).
+    NO
+  ?- solve_dfs(6,jugs(0,0),VAR0).
+    NO
+  ?- solve_dfs(6,jugs(0,2),VAR0).
+    VAR0: [transfer(2,1),fill(2),transfer(2,1),fill(2),transfer(2,1)]
+  ?- solve_dfs(6,jugs(0,3),VAR0).
+    NO
+  ?- solve_dfs(6,jugs(0,5),VAR0).
+    NO
+  ?- solve_dfs(6,jugs(3,0),VAR0).
+    NO
+  ?- solve_dfs(6,jugs(3,5),VAR0).
+    NO
+  ?- solve_dfs(6,jugs(5,0),VAR0).
+    NO
+  ?- solve_dfs(6,jugs(5,5),VAR0).
+    NO
+  ?- solve_dfs(6,jugs(8,0),VAR0).
+    NO
+  ?- solve_dfs(6,jugs(8,2),VAR0).
+    NO
+  ?- solve_dfs(6,jugs(8,3),VAR0).
+    NO
+  ?- solve_dfs(6,jugs(8,5),VAR0).
+    NO
+  ?- solve_dfs(7,jugs(0,0),VAR0).
+    NO
+  ?- solve_dfs(7,jugs(0,3),VAR0).
+    NO
+  ?- solve_dfs(7,jugs(0,5),VAR0).
+    NO
+  ?- solve_dfs(7,jugs(3,0),VAR0).
+    NO
+  ?- solve_dfs(7,jugs(3,5),VAR0).
+    NO
+  ?- solve_dfs(7,jugs(5,0),VAR0).
+    NO
+  ?- solve_dfs(7,jugs(5,5),VAR0).
+    NO
+  ?- solve_dfs(7,jugs(8,0),VAR0).
+    NO
+  ?- solve_dfs(7,jugs(8,2),VAR0).
+    VAR0: [empty(1),transfer(2,1),fill(2),transfer(2,1),fill(2),transfer(2,1)]
+  ?- solve_dfs(7,jugs(8,5),VAR0).
+    NO
+  ?- solve_dfs(8,jugs(0,0),VAR0).
+    NO
+  ?- solve_dfs(8,jugs(0,5),VAR0).
+    NO
+  ?- solve_dfs(8,jugs(3,0),VAR0).
+    NO
+  ?- solve_dfs(8,jugs(3,5),VAR0).
+    NO
+  ?- solve_dfs(8,jugs(5,0),VAR0).
+    NO
+  ?- solve_dfs(8,jugs(5,5),VAR0).
+    VAR0: [transfer(2,1),empty(1),transfer(2,1),fill(2),transfer(2,1),fill(2),transfer(2,1)]
+  ?- solve_dfs(8,jugs(8,0),VAR0).
+    NO
+  ?- solve_dfs(8,jugs(8,5),VAR0).
+    NO
+  ?- solve_dfs(9,jugs(0,0),VAR0).
+    NO
+  ?- solve_dfs(9,jugs(0,5),VAR0).
+    NO
+  ?- solve_dfs(9,jugs(3,5),VAR0).
+    NO
+  ?- solve_dfs(9,jugs(5,0),VAR0).
+    VAR0: [fill(2),transfer(2,1),empty(1),transfer(2,1),fill(2),transfer(2,1),fill(2),transfer(2,1)]
+  ?- solve_dfs(9,jugs(8,0),VAR0).
+    NO
+  ?- solve_dfs(9,jugs(8,5),VAR0).
+    NO

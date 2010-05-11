@@ -1,0 +1,102 @@
+Table structure for predicate 'state/6'
+  ?- state(0,s,n,n,n,VAR0).
+    NO
+  ?- state(0,s,n,n,s,VAR0).
+    NO
+  ?- state(0,s,n,s,n,VAR0).
+    NO
+  ?- state(0,s,n,s,s,VAR0).
+    NO
+  ?- state(0,s,s,n,n,VAR0).
+    NO
+  ?- state(0,s,s,n,s,VAR0).
+    NO
+  ?- state(0,s,s,s,n,VAR0).
+    NO
+  ?- state(0,s,s,s,s,VAR0).
+    NO
+  ?- state(1,n,n,n,n,VAR0).
+    VAR0: []
+  ?- state(1,n,n,n,s,VAR0).
+    NO
+  ?- state(1,n,n,s,n,VAR0).
+    NO
+  ?- state(1,n,n,s,s,VAR0).
+    NO
+  ?- state(1,n,s,n,n,VAR0).
+    NO
+  ?- state(1,n,s,n,s,VAR0).
+    NO
+  ?- state(1,n,s,s,n,VAR0).
+    NO
+  ?- state(1,n,s,s,s,VAR0).
+    NO
+  ?- state(2,s,n,n,s,VAR0).
+    NO
+  ?- state(2,s,n,s,n,VAR0).
+    VAR0: [takes(farmer,goat)]
+  ?- state(2,s,n,s,s,VAR0).
+    NO
+  ?- state(2,s,s,n,n,VAR0).
+    NO
+  ?- state(2,s,s,n,s,VAR0).
+    NO
+  ?- state(2,s,s,s,n,VAR0).
+    NO
+  ?- state(2,s,s,s,s,VAR0).
+    NO
+  ?- state(3,n,n,n,s,VAR0).
+    NO
+  ?- state(3,n,n,s,n,VAR0).
+    VAR0: [go_alone(farmer),takes(farmer,goat)]
+  ?- state(3,n,n,s,s,VAR0).
+    NO
+  ?- state(3,n,s,n,n,VAR0).
+    NO
+  ?- state(3,n,s,n,s,VAR0).
+    NO
+  ?- state(3,n,s,s,n,VAR0).
+    NO
+  ?- state(3,n,s,s,s,VAR0).
+    NO
+  ?- state(4,s,n,n,s,VAR0).
+    NO
+  ?- state(4,s,n,s,s,VAR0).
+    VAR0: [takes(farmer,cabbage),go_alone(farmer),takes(farmer,goat)]
+  ?- state(4,s,s,n,n,VAR0).
+    NO
+  ?- state(4,s,s,n,s,VAR0).
+    NO
+  ?- state(4,s,s,s,n,VAR0).
+    VAR0: [takes(farmer,wolf),go_alone(farmer),takes(farmer,goat)]
+  ?- state(4,s,s,s,s,VAR0).
+    NO
+  ?- state(5,n,n,n,s,VAR0).
+    VAR0: [takes(farmer,goat),takes(farmer,cabbage),go_alone(farmer),takes(farmer,goat)]
+  ?- state(5,n,n,s,s,VAR0).
+    NO
+  ?- state(5,n,s,n,n,VAR0).
+    VAR0: [takes(farmer,goat),takes(farmer,wolf),go_alone(farmer),takes(farmer,goat)]
+  ?- state(5,n,s,n,s,VAR0).
+    NO
+  ?- state(5,n,s,s,n,VAR0).
+    NO
+  ?- state(5,n,s,s,s,VAR0).
+    NO
+  ?- state(6,s,s,n,s,VAR0).
+    VAR0: [takes(farmer,cabbage),takes(farmer,goat),takes(farmer,wolf),go_alone(farmer),takes(farmer,goat)]
+    VAR0: [takes(farmer,wolf),takes(farmer,goat),takes(farmer,cabbage),go_alone(farmer),takes(farmer,goat)]
+  ?- state(6,s,s,s,s,VAR0).
+    NO
+  ?- state(7,n,n,s,s,VAR0).
+    NO
+  ?- state(7,n,s,n,s,VAR0).
+    VAR0: [go_alone(farmer),takes(farmer,cabbage),takes(farmer,goat),takes(farmer,wolf),go_alone(farmer),takes(farmer,goat)]
+    VAR0: [go_alone(farmer),takes(farmer,wolf),takes(farmer,goat),takes(farmer,cabbage),go_alone(farmer),takes(farmer,goat)]
+  ?- state(7,n,s,s,n,VAR0).
+    NO
+  ?- state(7,n,s,s,s,VAR0).
+    NO
+  ?- state(8,s,s,s,s,VAR0).
+    VAR0: [takes(farmer,goat),go_alone(farmer),takes(farmer,cabbage),takes(farmer,goat),takes(farmer,wolf),go_alone(farmer),takes(farmer,goat)]
+    VAR0: [takes(farmer,goat),go_alone(farmer),takes(farmer,wolf),takes(farmer,goat),takes(farmer,cabbage),go_alone(farmer),takes(farmer,goat)]

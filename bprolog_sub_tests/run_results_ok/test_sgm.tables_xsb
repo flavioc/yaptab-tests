@@ -1,0 +1,9765 @@
+Table structure for predicate 'edge/2'
+  ?- edge(0,VAR0).
+    NO
+  ?- edge(1,VAR0).
+    VAR0: 0
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 3
+    VAR0: 30
+    VAR0: 33
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 49
+    VAR0: 6
+    VAR0: 7
+  ?- edge(10,VAR0).
+    VAR0: 11
+    VAR0: 13
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 22
+    VAR0: 24
+    VAR0: 25
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 36
+    VAR0: 38
+    VAR0: 39
+    VAR0: 40
+    VAR0: 41
+    VAR0: 43
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 49
+    VAR0: 5
+  ?- edge(11,VAR0).
+    VAR0: 0
+    VAR0: 10
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 22
+    VAR0: 23
+    VAR0: 25
+    VAR0: 26
+    VAR0: 29
+    VAR0: 3
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 35
+    VAR0: 36
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 42
+    VAR0: 46
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 6
+    VAR0: 9
+  ?- edge(12,VAR0).
+    VAR0: 1
+    VAR0: 11
+    VAR0: 13
+    VAR0: 15
+    VAR0: 19
+    VAR0: 21
+    VAR0: 23
+    VAR0: 24
+    VAR0: 27
+    VAR0: 29
+    VAR0: 30
+    VAR0: 31
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 38
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 45
+    VAR0: 46
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 6
+    VAR0: 8
+    VAR0: 9
+  ?- edge(13,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 14
+    VAR0: 15
+    VAR0: 17
+    VAR0: 19
+    VAR0: 2
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 25
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 34
+    VAR0: 35
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 44
+    VAR0: 45
+    VAR0: 47
+    VAR0: 48
+    VAR0: 5
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(14,VAR0).
+    VAR0: 11
+    VAR0: 12
+    VAR0: 15
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 29
+    VAR0: 31
+    VAR0: 32
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(15,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 28
+    VAR0: 3
+    VAR0: 31
+    VAR0: 34
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 40
+    VAR0: 41
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 6
+    VAR0: 8
+    VAR0: 9
+  ?- edge(16,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 17
+    VAR0: 18
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 23
+    VAR0: 25
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 4
+    VAR0: 41
+    VAR0: 44
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 5
+    VAR0: 7
+  ?- edge(17,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 10
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 18
+    VAR0: 19
+    VAR0: 20
+    VAR0: 23
+    VAR0: 25
+    VAR0: 27
+    VAR0: 32
+    VAR0: 34
+    VAR0: 38
+    VAR0: 39
+    VAR0: 40
+    VAR0: 41
+    VAR0: 43
+    VAR0: 44
+    VAR0: 47
+    VAR0: 48
+    VAR0: 5
+    VAR0: 6
+    VAR0: 9
+  ?- edge(18,VAR0).
+    VAR0: 0
+    VAR0: 10
+    VAR0: 11
+    VAR0: 16
+    VAR0: 17
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 31
+    VAR0: 33
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 8
+  ?- edge(19,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 10
+    VAR0: 12
+    VAR0: 13
+    VAR0: 17
+    VAR0: 18
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 27
+    VAR0: 28
+    VAR0: 3
+    VAR0: 30
+    VAR0: 33
+    VAR0: 35
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 41
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 48
+    VAR0: 49
+    VAR0: 7
+    VAR0: 9
+  ?- edge(2,VAR0).
+    VAR0: 0
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 19
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 24
+    VAR0: 28
+    VAR0: 29
+    VAR0: 30
+    VAR0: 32
+    VAR0: 33
+    VAR0: 35
+    VAR0: 37
+    VAR0: 39
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(20,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 12
+    VAR0: 15
+    VAR0: 17
+    VAR0: 19
+    VAR0: 2
+    VAR0: 21
+    VAR0: 22
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 30
+    VAR0: 31
+    VAR0: 34
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 40
+    VAR0: 41
+    VAR0: 43
+    VAR0: 47
+    VAR0: 49
+    VAR0: 5
+    VAR0: 6
+    VAR0: 8
+    VAR0: 9
+  ?- edge(21,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 13
+    VAR0: 15
+    VAR0: 16
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 34
+    VAR0: 35
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 9
+  ?- edge(22,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 19
+    VAR0: 2
+    VAR0: 23
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 44
+    VAR0: 45
+    VAR0: 47
+    VAR0: 48
+    VAR0: 5
+    VAR0: 7
+    VAR0: 9
+  ?- edge(23,VAR0).
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 30
+    VAR0: 33
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 39
+    VAR0: 40
+    VAR0: 42
+    VAR0: 43
+    VAR0: 45
+    VAR0: 46
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(24,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 23
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 3
+    VAR0: 30
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 37
+    VAR0: 39
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 44
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+  ?- edge(25,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 11
+    VAR0: 12
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 2
+    VAR0: 21
+    VAR0: 22
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 31
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 49
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(26,VAR0).
+    VAR0: 0
+    VAR0: 10
+    VAR0: 12
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 23
+    VAR0: 24
+    VAR0: 28
+    VAR0: 3
+    VAR0: 31
+    VAR0: 32
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 4
+    VAR0: 42
+    VAR0: 43
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+  ?- edge(27,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 15
+    VAR0: 16
+    VAR0: 18
+    VAR0: 19
+    VAR0: 20
+    VAR0: 21
+    VAR0: 25
+    VAR0: 28
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 40
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+  ?- edge(28,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 10
+    VAR0: 14
+    VAR0: 15
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 22
+    VAR0: 23
+    VAR0: 25
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 36
+    VAR0: 38
+    VAR0: 40
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 47
+    VAR0: 49
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(29,VAR0).
+    VAR0: 10
+    VAR0: 11
+    VAR0: 14
+    VAR0: 16
+    VAR0: 17
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 26
+    VAR0: 27
+    VAR0: 3
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 36
+    VAR0: 39
+    VAR0: 40
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(3,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 13
+    VAR0: 15
+    VAR0: 17
+    VAR0: 19
+    VAR0: 2
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 30
+    VAR0: 31
+    VAR0: 33
+    VAR0: 34
+    VAR0: 36
+    VAR0: 41
+    VAR0: 42
+    VAR0: 44
+    VAR0: 46
+    VAR0: 49
+    VAR0: 5
+    VAR0: 8
+    VAR0: 9
+  ?- edge(30,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 17
+    VAR0: 19
+    VAR0: 2
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 27
+    VAR0: 3
+    VAR0: 31
+    VAR0: 32
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 5
+    VAR0: 6
+    VAR0: 8
+  ?- edge(31,VAR0).
+    VAR0: 0
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 16
+    VAR0: 23
+    VAR0: 24
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 30
+    VAR0: 32
+    VAR0: 33
+    VAR0: 35
+    VAR0: 36
+    VAR0: 38
+    VAR0: 39
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 46
+    VAR0: 48
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(32,VAR0).
+    VAR0: 0
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 19
+    VAR0: 2
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 30
+    VAR0: 31
+    VAR0: 33
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 40
+    VAR0: 41
+    VAR0: 44
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 9
+  ?- edge(33,VAR0).
+    VAR0: 0
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 18
+    VAR0: 19
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 35
+    VAR0: 36
+    VAR0: 38
+    VAR0: 39
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 45
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 6
+    VAR0: 8
+    VAR0: 9
+  ?- edge(34,VAR0).
+    VAR0: 0
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 3
+    VAR0: 31
+    VAR0: 33
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 4
+    VAR0: 41
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 48
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+  ?- edge(35,VAR0).
+    VAR0: 0
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 2
+    VAR0: 20
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 31
+    VAR0: 33
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 40
+    VAR0: 42
+    VAR0: 43
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 49
+    VAR0: 5
+    VAR0: 6
+    VAR0: 9
+  ?- edge(36,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 10
+    VAR0: 12
+    VAR0: 13
+    VAR0: 16
+    VAR0: 17
+    VAR0: 19
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 38
+    VAR0: 40
+    VAR0: 41
+    VAR0: 43
+    VAR0: 44
+    VAR0: 46
+    VAR0: 47
+    VAR0: 49
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(37,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 13
+    VAR0: 16
+    VAR0: 18
+    VAR0: 21
+    VAR0: 25
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 6
+    VAR0: 8
+    VAR0: 9
+  ?- edge(38,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 13
+    VAR0: 16
+    VAR0: 2
+    VAR0: 22
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 44
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 7
+    VAR0: 8
+  ?- edge(39,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 20
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 32
+    VAR0: 34
+    VAR0: 35
+    VAR0: 37
+    VAR0: 38
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 46
+    VAR0: 47
+    VAR0: 49
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+  ?- edge(4,VAR0).
+    VAR0: 0
+    VAR0: 11
+    VAR0: 13
+    VAR0: 14
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 21
+    VAR0: 22
+    VAR0: 24
+    VAR0: 25
+    VAR0: 27
+    VAR0: 29
+    VAR0: 31
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(40,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 41
+    VAR0: 43
+    VAR0: 46
+    VAR0: 47
+    VAR0: 49
+    VAR0: 6
+    VAR0: 8
+  ?- edge(41,VAR0).
+    VAR0: 0
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 16
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 23
+    VAR0: 25
+    VAR0: 27
+    VAR0: 28
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 34
+    VAR0: 37
+    VAR0: 38
+    VAR0: 4
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 47
+    VAR0: 48
+    VAR0: 6
+    VAR0: 8
+  ?- edge(42,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 28
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 39
+    VAR0: 41
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 7
+    VAR0: 8
+  ?- edge(43,VAR0).
+    VAR0: 0
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 23
+    VAR0: 24
+    VAR0: 26
+    VAR0: 27
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 36
+    VAR0: 38
+    VAR0: 41
+    VAR0: 42
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 5
+    VAR0: 6
+    VAR0: 8
+    VAR0: 9
+  ?- edge(44,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 16
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 35
+    VAR0: 36
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 46
+    VAR0: 49
+    VAR0: 5
+    VAR0: 7
+    VAR0: 8
+  ?- edge(45,VAR0).
+    VAR0: 12
+    VAR0: 14
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 31
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(46,VAR0).
+    VAR0: 1
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 16
+    VAR0: 19
+    VAR0: 21
+    VAR0: 22
+    VAR0: 25
+    VAR0: 27
+    VAR0: 28
+    VAR0: 3
+    VAR0: 30
+    VAR0: 32
+    VAR0: 33
+    VAR0: 35
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 40
+    VAR0: 42
+    VAR0: 43
+    VAR0: 45
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+  ?- edge(47,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 23
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 3
+    VAR0: 30
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 43
+    VAR0: 45
+    VAR0: 46
+    VAR0: 48
+    VAR0: 7
+    VAR0: 9
+  ?- edge(48,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 13
+    VAR0: 15
+    VAR0: 16
+    VAR0: 18
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 24
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 37
+    VAR0: 41
+    VAR0: 46
+    VAR0: 5
+    VAR0: 8
+    VAR0: 9
+  ?- edge(49,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 14
+    VAR0: 16
+    VAR0: 18
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 30
+    VAR0: 32
+    VAR0: 33
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 4
+    VAR0: 41
+    VAR0: 42
+    VAR0: 44
+    VAR0: 46
+    VAR0: 48
+    VAR0: 5
+    VAR0: 7
+    VAR0: 9
+  ?- edge(5,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 23
+    VAR0: 24
+    VAR0: 28
+    VAR0: 29
+    VAR0: 31
+    VAR0: 34
+    VAR0: 35
+    VAR0: 38
+    VAR0: 4
+    VAR0: 40
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 46
+    VAR0: 48
+    VAR0: 49
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+  ?- edge(6,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 18
+    VAR0: 19
+    VAR0: 21
+    VAR0: 23
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 34
+    VAR0: 37
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 8
+  ?- edge(7,VAR0).
+    VAR0: 0
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 29
+    VAR0: 3
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 40
+    VAR0: 43
+    VAR0: 44
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 6
+    VAR0: 8
+  ?- edge(8,VAR0).
+    VAR0: 0
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 19
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 34
+    VAR0: 35
+    VAR0: 37
+    VAR0: 4
+    VAR0: 42
+    VAR0: 43
+    VAR0: 45
+    VAR0: 48
+    VAR0: 7
+    VAR0: 9
+  ?- edge(9,VAR0).
+    VAR0: 0
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 21
+    VAR0: 22
+    VAR0: 24
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 35
+    VAR0: 36
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 46
+    VAR0: 47
+    VAR0: 49
+    VAR0: 7
+    VAR0: 8
+  ?- edge(VAR0,0).
+    VAR0: 1
+    VAR0: 11
+    VAR0: 13
+    VAR0: 15
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 21
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 28
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 49
+    VAR0: 50
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(VAR0,1).
+    VAR0: 12
+    VAR0: 13
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 19
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 24
+    VAR0: 25
+    VAR0: 27
+    VAR0: 28
+    VAR0: 3
+    VAR0: 30
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 40
+    VAR0: 42
+    VAR0: 44
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+  ?- edge(VAR0,10).
+    VAR0: 11
+    VAR0: 13
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 36
+    VAR0: 39
+    VAR0: 40
+    VAR0: 41
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+  ?- edge(VAR0,11).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 18
+    VAR0: 2
+    VAR0: 21
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 27
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 50
+    VAR0: 7
+    VAR0: 8
+  ?- edge(VAR0,12).
+    VAR0: 1
+    VAR0: 11
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 23
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 8
+  ?- edge(VAR0,13).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 19
+    VAR0: 2
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 27
+    VAR0: 3
+    VAR0: 31
+    VAR0: 32
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 46
+    VAR0: 48
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 9
+  ?- edge(VAR0,14).
+    VAR0: 1
+    VAR0: 11
+    VAR0: 13
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 2
+    VAR0: 22
+    VAR0: 24
+    VAR0: 25
+    VAR0: 28
+    VAR0: 29
+    VAR0: 31
+    VAR0: 33
+    VAR0: 34
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 45
+    VAR0: 46
+    VAR0: 49
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 9
+  ?- edge(VAR0,15).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 17
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 3
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 39
+    VAR0: 40
+    VAR0: 42
+    VAR0: 43
+    VAR0: 47
+    VAR0: 48
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(VAR0,16).
+    VAR0: 10
+    VAR0: 11
+    VAR0: 18
+    VAR0: 2
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 29
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(VAR0,17).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 13
+    VAR0: 16
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 26
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 32
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 4
+    VAR0: 40
+    VAR0: 42
+    VAR0: 43
+    VAR0: 45
+    VAR0: 47
+    VAR0: 50
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(VAR0,18).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 14
+    VAR0: 16
+    VAR0: 17
+    VAR0: 19
+    VAR0: 21
+    VAR0: 23
+    VAR0: 24
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 33
+    VAR0: 34
+    VAR0: 37
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 9
+  ?- edge(VAR0,19).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 17
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 36
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 44
+    VAR0: 46
+    VAR0: 47
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(VAR0,2).
+    VAR0: 10
+    VAR0: 11
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 18
+    VAR0: 19
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 25
+    VAR0: 26
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 32
+    VAR0: 34
+    VAR0: 35
+    VAR0: 38
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 47
+    VAR0: 5
+    VAR0: 9
+  ?- edge(VAR0,20).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 23
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 39
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 45
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 7
+  ?- edge(VAR0,21).
+    VAR0: 1
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 23
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 29
+    VAR0: 3
+    VAR0: 33
+    VAR0: 36
+    VAR0: 37
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(VAR0,22).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 18
+    VAR0: 2
+    VAR0: 20
+    VAR0: 23
+    VAR0: 25
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 33
+    VAR0: 36
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 42
+    VAR0: 45
+    VAR0: 46
+    VAR0: 48
+    VAR0: 49
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(VAR0,23).
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 21
+    VAR0: 22
+    VAR0: 24
+    VAR0: 26
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 36
+    VAR0: 39
+    VAR0: 40
+    VAR0: 41
+    VAR0: 43
+    VAR0: 44
+    VAR0: 47
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+  ?- edge(VAR0,24).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 12
+    VAR0: 15
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 26
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 34
+    VAR0: 36
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(VAR0,25).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 27
+    VAR0: 28
+    VAR0: 3
+    VAR0: 30
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 49
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+  ?- edge(VAR0,26).
+    VAR0: 1
+    VAR0: 11
+    VAR0: 14
+    VAR0: 15
+    VAR0: 18
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 29
+    VAR0: 3
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 38
+    VAR0: 39
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 47
+    VAR0: 49
+    VAR0: 6
+    VAR0: 9
+  ?- edge(VAR0,27).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 12
+    VAR0: 14
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 50
+    VAR0: 6
+    VAR0: 9
+  ?- edge(VAR0,28).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 15
+    VAR0: 16
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 3
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 44
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 5
+    VAR0: 6
+    VAR0: 9
+  ?- edge(VAR0,29).
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 14
+    VAR0: 16
+    VAR0: 2
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 31
+    VAR0: 32
+    VAR0: 35
+    VAR0: 37
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 43
+    VAR0: 48
+    VAR0: 5
+    VAR0: 50
+    VAR0: 7
+    VAR0: 9
+  ?- edge(VAR0,3).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 13
+    VAR0: 15
+    VAR0: 16
+    VAR0: 19
+    VAR0: 21
+    VAR0: 22
+    VAR0: 24
+    VAR0: 26
+    VAR0: 28
+    VAR0: 29
+    VAR0: 30
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 38
+    VAR0: 39
+    VAR0: 41
+    VAR0: 43
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(VAR0,30).
+    VAR0: 1
+    VAR0: 12
+    VAR0: 13
+    VAR0: 16
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 23
+    VAR0: 24
+    VAR0: 28
+    VAR0: 3
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 6
+    VAR0: 8
+    VAR0: 9
+  ?- edge(VAR0,31).
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 18
+    VAR0: 20
+    VAR0: 25
+    VAR0: 26
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 48
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 8
+  ?- edge(VAR0,32).
+    VAR0: 10
+    VAR0: 11
+    VAR0: 14
+    VAR0: 16
+    VAR0: 17
+    VAR0: 2
+    VAR0: 24
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 30
+    VAR0: 31
+    VAR0: 33
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 44
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+  ?- edge(VAR0,33).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 16
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 31
+    VAR0: 32
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 4
+    VAR0: 44
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 50
+    VAR0: 7
+  ?- edge(VAR0,34).
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 17
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 24
+    VAR0: 25
+    VAR0: 27
+    VAR0: 28
+    VAR0: 3
+    VAR0: 30
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 41
+    VAR0: 47
+    VAR0: 48
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+  ?- edge(VAR0,35).
+    VAR0: 1
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 16
+    VAR0: 19
+    VAR0: 2
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 25
+    VAR0: 30
+    VAR0: 31
+    VAR0: 33
+    VAR0: 34
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 42
+    VAR0: 44
+    VAR0: 46
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(VAR0,36).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 14
+    VAR0: 16
+    VAR0: 20
+    VAR0: 22
+    VAR0: 23
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 38
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 49
+    VAR0: 7
+    VAR0: 9
+  ?- edge(VAR0,37).
+    VAR0: 1
+    VAR0: 13
+    VAR0: 15
+    VAR0: 16
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 30
+    VAR0: 32
+    VAR0: 34
+    VAR0: 35
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 45
+    VAR0: 46
+    VAR0: 48
+    VAR0: 49
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+  ?- edge(VAR0,38).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 20
+    VAR0: 21
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 7
+  ?- edge(VAR0,39).
+    VAR0: 10
+    VAR0: 11
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 27
+    VAR0: 29
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 35
+    VAR0: 37
+    VAR0: 4
+    VAR0: 40
+    VAR0: 42
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 6
+    VAR0: 9
+  ?- edge(VAR0,4).
+    VAR0: 1
+    VAR0: 11
+    VAR0: 13
+    VAR0: 14
+    VAR0: 16
+    VAR0: 18
+    VAR0: 19
+    VAR0: 21
+    VAR0: 22
+    VAR0: 25
+    VAR0: 26
+    VAR0: 30
+    VAR0: 34
+    VAR0: 37
+    VAR0: 39
+    VAR0: 40
+    VAR0: 41
+    VAR0: 44
+    VAR0: 47
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 8
+    VAR0: 9
+  ?- edge(VAR0,40).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 17
+    VAR0: 18
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 44
+    VAR0: 46
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 9
+  ?- edge(VAR0,41).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 22
+    VAR0: 24
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 40
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 48
+    VAR0: 49
+    VAR0: 50
+    VAR0: 6
+  ?- edge(VAR0,42).
+    VAR0: 1
+    VAR0: 11
+    VAR0: 12
+    VAR0: 14
+    VAR0: 18
+    VAR0: 2
+    VAR0: 21
+    VAR0: 23
+    VAR0: 24
+    VAR0: 26
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 33
+    VAR0: 35
+    VAR0: 37
+    VAR0: 38
+    VAR0: 4
+    VAR0: 41
+    VAR0: 43
+    VAR0: 45
+    VAR0: 46
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 8
+    VAR0: 9
+  ?- edge(VAR0,43).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 12
+    VAR0: 15
+    VAR0: 17
+    VAR0: 18
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 23
+    VAR0: 25
+    VAR0: 26
+    VAR0: 28
+    VAR0: 29
+    VAR0: 30
+    VAR0: 31
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 5
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- edge(VAR0,44).
+    VAR0: 13
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 21
+    VAR0: 22
+    VAR0: 24
+    VAR0: 25
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 32
+    VAR0: 34
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 4
+    VAR0: 41
+    VAR0: 42
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 9
+  ?- edge(VAR0,45).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 12
+    VAR0: 13
+    VAR0: 15
+    VAR0: 18
+    VAR0: 19
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 25
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 30
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 37
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 46
+    VAR0: 47
+    VAR0: 50
+    VAR0: 6
+    VAR0: 8
+  ?- edge(VAR0,46).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 21
+    VAR0: 23
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 29
+    VAR0: 3
+    VAR0: 31
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 9
+  ?- edge(VAR0,47).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 32
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 45
+    VAR0: 46
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 9
+  ?- edge(VAR0,48).
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 26
+    VAR0: 27
+    VAR0: 29
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 37
+    VAR0: 38
+    VAR0: 4
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+  ?- edge(VAR0,49).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 14
+    VAR0: 15
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 27
+    VAR0: 28
+    VAR0: 3
+    VAR0: 32
+    VAR0: 33
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 42
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 9
+  ?- edge(VAR0,5).
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 2
+    VAR0: 20
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 27
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 38
+    VAR0: 39
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 46
+    VAR0: 48
+    VAR0: 49
+  ?- edge(VAR0,50).
+    NO
+  ?- edge(VAR0,6).
+    VAR0: 1
+    VAR0: 11
+    VAR0: 12
+    VAR0: 15
+    VAR0: 17
+    VAR0: 2
+    VAR0: 20
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 30
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 43
+    VAR0: 45
+    VAR0: 46
+    VAR0: 5
+    VAR0: 7
+  ?- edge(VAR0,7).
+    VAR0: 1
+    VAR0: 13
+    VAR0: 14
+    VAR0: 16
+    VAR0: 19
+    VAR0: 2
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 31
+    VAR0: 32
+    VAR0: 34
+    VAR0: 36
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 42
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 49
+    VAR0: 5
+    VAR0: 8
+    VAR0: 9
+  ?- edge(VAR0,8).
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 18
+    VAR0: 2
+    VAR0: 20
+    VAR0: 23
+    VAR0: 25
+    VAR0: 26
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 33
+    VAR0: 34
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 48
+    VAR0: 5
+    VAR0: 6
+    VAR0: 7
+    VAR0: 9
+  ?- edge(VAR0,9).
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 17
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 25
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 4
+    VAR0: 43
+    VAR0: 45
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 50
+    VAR0: 8
+  ?- edge(VAR0,VAR1).
+    VAR0: 1    VAR1: 0
+    VAR0: 1    VAR1: 11
+    VAR0: 1    VAR1: 12
+    VAR0: 1    VAR1: 13
+    VAR0: 1    VAR1: 14
+    VAR0: 1    VAR1: 15
+    VAR0: 1    VAR1: 17
+    VAR0: 1    VAR1: 18
+    VAR0: 1    VAR1: 19
+    VAR0: 1    VAR1: 20
+    VAR0: 1    VAR1: 21
+    VAR0: 1    VAR1: 22
+    VAR0: 1    VAR1: 24
+    VAR0: 1    VAR1: 25
+    VAR0: 1    VAR1: 26
+    VAR0: 1    VAR1: 27
+    VAR0: 1    VAR1: 28
+    VAR0: 1    VAR1: 3
+    VAR0: 1    VAR1: 30
+    VAR0: 1    VAR1: 33
+    VAR0: 1    VAR1: 35
+    VAR0: 1    VAR1: 36
+    VAR0: 1    VAR1: 37
+    VAR0: 1    VAR1: 38
+    VAR0: 1    VAR1: 4
+    VAR0: 1    VAR1: 40
+    VAR0: 1    VAR1: 41
+    VAR0: 1    VAR1: 42
+    VAR0: 1    VAR1: 43
+    VAR0: 1    VAR1: 45
+    VAR0: 1    VAR1: 46
+    VAR0: 1    VAR1: 47
+    VAR0: 1    VAR1: 49
+    VAR0: 1    VAR1: 6
+    VAR0: 1    VAR1: 7
+    VAR0: 10    VAR1: 11
+    VAR0: 10    VAR1: 13
+    VAR0: 10    VAR1: 15
+    VAR0: 10    VAR1: 16
+    VAR0: 10    VAR1: 17
+    VAR0: 10    VAR1: 18
+    VAR0: 10    VAR1: 19
+    VAR0: 10    VAR1: 2
+    VAR0: 10    VAR1: 20
+    VAR0: 10    VAR1: 22
+    VAR0: 10    VAR1: 24
+    VAR0: 10    VAR1: 25
+    VAR0: 10    VAR1: 27
+    VAR0: 10    VAR1: 28
+    VAR0: 10    VAR1: 29
+    VAR0: 10    VAR1: 3
+    VAR0: 10    VAR1: 31
+    VAR0: 10    VAR1: 32
+    VAR0: 10    VAR1: 33
+    VAR0: 10    VAR1: 36
+    VAR0: 10    VAR1: 38
+    VAR0: 10    VAR1: 39
+    VAR0: 10    VAR1: 40
+    VAR0: 10    VAR1: 41
+    VAR0: 10    VAR1: 43
+    VAR0: 10    VAR1: 45
+    VAR0: 10    VAR1: 46
+    VAR0: 10    VAR1: 47
+    VAR0: 10    VAR1: 49
+    VAR0: 10    VAR1: 5
+    VAR0: 11    VAR1: 0
+    VAR0: 11    VAR1: 10
+    VAR0: 11    VAR1: 12
+    VAR0: 11    VAR1: 13
+    VAR0: 11    VAR1: 14
+    VAR0: 11    VAR1: 15
+    VAR0: 11    VAR1: 16
+    VAR0: 11    VAR1: 18
+    VAR0: 11    VAR1: 19
+    VAR0: 11    VAR1: 2
+    VAR0: 11    VAR1: 22
+    VAR0: 11    VAR1: 23
+    VAR0: 11    VAR1: 25
+    VAR0: 11    VAR1: 26
+    VAR0: 11    VAR1: 29
+    VAR0: 11    VAR1: 3
+    VAR0: 11    VAR1: 31
+    VAR0: 11    VAR1: 32
+    VAR0: 11    VAR1: 33
+    VAR0: 11    VAR1: 35
+    VAR0: 11    VAR1: 36
+    VAR0: 11    VAR1: 38
+    VAR0: 11    VAR1: 39
+    VAR0: 11    VAR1: 4
+    VAR0: 11    VAR1: 40
+    VAR0: 11    VAR1: 42
+    VAR0: 11    VAR1: 46
+    VAR0: 11    VAR1: 48
+    VAR0: 11    VAR1: 49
+    VAR0: 11    VAR1: 5
+    VAR0: 11    VAR1: 6
+    VAR0: 11    VAR1: 9
+    VAR0: 12    VAR1: 1
+    VAR0: 12    VAR1: 11
+    VAR0: 12    VAR1: 13
+    VAR0: 12    VAR1: 15
+    VAR0: 12    VAR1: 19
+    VAR0: 12    VAR1: 21
+    VAR0: 12    VAR1: 23
+    VAR0: 12    VAR1: 24
+    VAR0: 12    VAR1: 27
+    VAR0: 12    VAR1: 29
+    VAR0: 12    VAR1: 30
+    VAR0: 12    VAR1: 31
+    VAR0: 12    VAR1: 34
+    VAR0: 12    VAR1: 35
+    VAR0: 12    VAR1: 36
+    VAR0: 12    VAR1: 38
+    VAR0: 12    VAR1: 41
+    VAR0: 12    VAR1: 42
+    VAR0: 12    VAR1: 43
+    VAR0: 12    VAR1: 45
+    VAR0: 12    VAR1: 46
+    VAR0: 12    VAR1: 48
+    VAR0: 12    VAR1: 49
+    VAR0: 12    VAR1: 5
+    VAR0: 12    VAR1: 6
+    VAR0: 12    VAR1: 8
+    VAR0: 12    VAR1: 9
+    VAR0: 13    VAR1: 0
+    VAR0: 13    VAR1: 1
+    VAR0: 13    VAR1: 10
+    VAR0: 13    VAR1: 11
+    VAR0: 13    VAR1: 12
+    VAR0: 13    VAR1: 14
+    VAR0: 13    VAR1: 15
+    VAR0: 13    VAR1: 17
+    VAR0: 13    VAR1: 19
+    VAR0: 13    VAR1: 2
+    VAR0: 13    VAR1: 21
+    VAR0: 13    VAR1: 22
+    VAR0: 13    VAR1: 23
+    VAR0: 13    VAR1: 25
+    VAR0: 13    VAR1: 3
+    VAR0: 13    VAR1: 30
+    VAR0: 13    VAR1: 31
+    VAR0: 13    VAR1: 34
+    VAR0: 13    VAR1: 35
+    VAR0: 13    VAR1: 37
+    VAR0: 13    VAR1: 38
+    VAR0: 13    VAR1: 39
+    VAR0: 13    VAR1: 4
+    VAR0: 13    VAR1: 40
+    VAR0: 13    VAR1: 41
+    VAR0: 13    VAR1: 44
+    VAR0: 13    VAR1: 45
+    VAR0: 13    VAR1: 47
+    VAR0: 13    VAR1: 48
+    VAR0: 13    VAR1: 5
+    VAR0: 13    VAR1: 7
+    VAR0: 13    VAR1: 8
+    VAR0: 13    VAR1: 9
+    VAR0: 14    VAR1: 11
+    VAR0: 14    VAR1: 12
+    VAR0: 14    VAR1: 15
+    VAR0: 14    VAR1: 18
+    VAR0: 14    VAR1: 19
+    VAR0: 14    VAR1: 2
+    VAR0: 14    VAR1: 21
+    VAR0: 14    VAR1: 22
+    VAR0: 14    VAR1: 23
+    VAR0: 14    VAR1: 25
+    VAR0: 14    VAR1: 26
+    VAR0: 14    VAR1: 27
+    VAR0: 14    VAR1: 29
+    VAR0: 14    VAR1: 31
+    VAR0: 14    VAR1: 32
+    VAR0: 14    VAR1: 34
+    VAR0: 14    VAR1: 35
+    VAR0: 14    VAR1: 36
+    VAR0: 14    VAR1: 38
+    VAR0: 14    VAR1: 39
+    VAR0: 14    VAR1: 4
+    VAR0: 14    VAR1: 40
+    VAR0: 14    VAR1: 41
+    VAR0: 14    VAR1: 42
+    VAR0: 14    VAR1: 46
+    VAR0: 14    VAR1: 47
+    VAR0: 14    VAR1: 48
+    VAR0: 14    VAR1: 49
+    VAR0: 14    VAR1: 5
+    VAR0: 14    VAR1: 7
+    VAR0: 14    VAR1: 8
+    VAR0: 14    VAR1: 9
+    VAR0: 15    VAR1: 0
+    VAR0: 15    VAR1: 1
+    VAR0: 15    VAR1: 11
+    VAR0: 15    VAR1: 12
+    VAR0: 15    VAR1: 13
+    VAR0: 15    VAR1: 14
+    VAR0: 15    VAR1: 2
+    VAR0: 15    VAR1: 20
+    VAR0: 15    VAR1: 21
+    VAR0: 15    VAR1: 22
+    VAR0: 15    VAR1: 23
+    VAR0: 15    VAR1: 24
+    VAR0: 15    VAR1: 25
+    VAR0: 15    VAR1: 26
+    VAR0: 15    VAR1: 28
+    VAR0: 15    VAR1: 3
+    VAR0: 15    VAR1: 31
+    VAR0: 15    VAR1: 34
+    VAR0: 15    VAR1: 37
+    VAR0: 15    VAR1: 38
+    VAR0: 15    VAR1: 39
+    VAR0: 15    VAR1: 40
+    VAR0: 15    VAR1: 41
+    VAR0: 15    VAR1: 43
+    VAR0: 15    VAR1: 44
+    VAR0: 15    VAR1: 45
+    VAR0: 15    VAR1: 46
+    VAR0: 15    VAR1: 47
+    VAR0: 15    VAR1: 48
+    VAR0: 15    VAR1: 49
+    VAR0: 15    VAR1: 5
+    VAR0: 15    VAR1: 6
+    VAR0: 15    VAR1: 8
+    VAR0: 15    VAR1: 9
+    VAR0: 16    VAR1: 1
+    VAR0: 16    VAR1: 10
+    VAR0: 16    VAR1: 12
+    VAR0: 16    VAR1: 13
+    VAR0: 16    VAR1: 14
+    VAR0: 16    VAR1: 17
+    VAR0: 16    VAR1: 18
+    VAR0: 16    VAR1: 2
+    VAR0: 16    VAR1: 20
+    VAR0: 16    VAR1: 21
+    VAR0: 16    VAR1: 23
+    VAR0: 16    VAR1: 25
+    VAR0: 16    VAR1: 27
+    VAR0: 16    VAR1: 28
+    VAR0: 16    VAR1: 29
+    VAR0: 16    VAR1: 3
+    VAR0: 16    VAR1: 30
+    VAR0: 16    VAR1: 31
+    VAR0: 16    VAR1: 32
+    VAR0: 16    VAR1: 33
+    VAR0: 16    VAR1: 35
+    VAR0: 16    VAR1: 36
+    VAR0: 16    VAR1: 37
+    VAR0: 16    VAR1: 38
+    VAR0: 16    VAR1: 4
+    VAR0: 16    VAR1: 41
+    VAR0: 16    VAR1: 44
+    VAR0: 16    VAR1: 46
+    VAR0: 16    VAR1: 47
+    VAR0: 16    VAR1: 48
+    VAR0: 16    VAR1: 5
+    VAR0: 16    VAR1: 7
+    VAR0: 17    VAR1: 0
+    VAR0: 17    VAR1: 1
+    VAR0: 17    VAR1: 10
+    VAR0: 17    VAR1: 12
+    VAR0: 17    VAR1: 13
+    VAR0: 17    VAR1: 14
+    VAR0: 17    VAR1: 15
+    VAR0: 17    VAR1: 18
+    VAR0: 17    VAR1: 19
+    VAR0: 17    VAR1: 20
+    VAR0: 17    VAR1: 23
+    VAR0: 17    VAR1: 25
+    VAR0: 17    VAR1: 27
+    VAR0: 17    VAR1: 32
+    VAR0: 17    VAR1: 34
+    VAR0: 17    VAR1: 38
+    VAR0: 17    VAR1: 39
+    VAR0: 17    VAR1: 40
+    VAR0: 17    VAR1: 41
+    VAR0: 17    VAR1: 43
+    VAR0: 17    VAR1: 44
+    VAR0: 17    VAR1: 47
+    VAR0: 17    VAR1: 48
+    VAR0: 17    VAR1: 5
+    VAR0: 17    VAR1: 6
+    VAR0: 17    VAR1: 9
+    VAR0: 18    VAR1: 0
+    VAR0: 18    VAR1: 10
+    VAR0: 18    VAR1: 11
+    VAR0: 18    VAR1: 16
+    VAR0: 18    VAR1: 17
+    VAR0: 18    VAR1: 2
+    VAR0: 18    VAR1: 20
+    VAR0: 18    VAR1: 21
+    VAR0: 18    VAR1: 22
+    VAR0: 18    VAR1: 23
+    VAR0: 18    VAR1: 24
+    VAR0: 18    VAR1: 25
+    VAR0: 18    VAR1: 26
+    VAR0: 18    VAR1: 27
+    VAR0: 18    VAR1: 28
+    VAR0: 18    VAR1: 31
+    VAR0: 18    VAR1: 33
+    VAR0: 18    VAR1: 38
+    VAR0: 18    VAR1: 39
+    VAR0: 18    VAR1: 4
+    VAR0: 18    VAR1: 40
+    VAR0: 18    VAR1: 42
+    VAR0: 18    VAR1: 43
+    VAR0: 18    VAR1: 44
+    VAR0: 18    VAR1: 45
+    VAR0: 18    VAR1: 46
+    VAR0: 18    VAR1: 47
+    VAR0: 18    VAR1: 48
+    VAR0: 18    VAR1: 49
+    VAR0: 18    VAR1: 8
+    VAR0: 19    VAR1: 0
+    VAR0: 19    VAR1: 1
+    VAR0: 19    VAR1: 10
+    VAR0: 19    VAR1: 12
+    VAR0: 19    VAR1: 13
+    VAR0: 19    VAR1: 17
+    VAR0: 19    VAR1: 18
+    VAR0: 19    VAR1: 2
+    VAR0: 19    VAR1: 20
+    VAR0: 19    VAR1: 21
+    VAR0: 19    VAR1: 23
+    VAR0: 19    VAR1: 24
+    VAR0: 19    VAR1: 25
+    VAR0: 19    VAR1: 27
+    VAR0: 19    VAR1: 28
+    VAR0: 19    VAR1: 3
+    VAR0: 19    VAR1: 30
+    VAR0: 19    VAR1: 33
+    VAR0: 19    VAR1: 35
+    VAR0: 19    VAR1: 37
+    VAR0: 19    VAR1: 38
+    VAR0: 19    VAR1: 39
+    VAR0: 19    VAR1: 4
+    VAR0: 19    VAR1: 41
+    VAR0: 19    VAR1: 44
+    VAR0: 19    VAR1: 45
+    VAR0: 19    VAR1: 46
+    VAR0: 19    VAR1: 48
+    VAR0: 19    VAR1: 49
+    VAR0: 19    VAR1: 7
+    VAR0: 19    VAR1: 9
+    VAR0: 2    VAR1: 0
+    VAR0: 2    VAR1: 11
+    VAR0: 2    VAR1: 12
+    VAR0: 2    VAR1: 13
+    VAR0: 2    VAR1: 14
+    VAR0: 2    VAR1: 15
+    VAR0: 2    VAR1: 16
+    VAR0: 2    VAR1: 17
+    VAR0: 2    VAR1: 19
+    VAR0: 2    VAR1: 20
+    VAR0: 2    VAR1: 21
+    VAR0: 2    VAR1: 22
+    VAR0: 2    VAR1: 24
+    VAR0: 2    VAR1: 28
+    VAR0: 2    VAR1: 29
+    VAR0: 2    VAR1: 30
+    VAR0: 2    VAR1: 32
+    VAR0: 2    VAR1: 33
+    VAR0: 2    VAR1: 35
+    VAR0: 2    VAR1: 37
+    VAR0: 2    VAR1: 39
+    VAR0: 2    VAR1: 41
+    VAR0: 2    VAR1: 42
+    VAR0: 2    VAR1: 43
+    VAR0: 2    VAR1: 44
+    VAR0: 2    VAR1: 46
+    VAR0: 2    VAR1: 47
+    VAR0: 2    VAR1: 48
+    VAR0: 2    VAR1: 49
+    VAR0: 2    VAR1: 5
+    VAR0: 2    VAR1: 6
+    VAR0: 2    VAR1: 7
+    VAR0: 2    VAR1: 8
+    VAR0: 2    VAR1: 9
+    VAR0: 20    VAR1: 1
+    VAR0: 20    VAR1: 10
+    VAR0: 20    VAR1: 12
+    VAR0: 20    VAR1: 15
+    VAR0: 20    VAR1: 17
+    VAR0: 20    VAR1: 19
+    VAR0: 20    VAR1: 2
+    VAR0: 20    VAR1: 21
+    VAR0: 20    VAR1: 22
+    VAR0: 20    VAR1: 24
+    VAR0: 20    VAR1: 25
+    VAR0: 20    VAR1: 26
+    VAR0: 20    VAR1: 27
+    VAR0: 20    VAR1: 28
+    VAR0: 20    VAR1: 30
+    VAR0: 20    VAR1: 31
+    VAR0: 20    VAR1: 34
+    VAR0: 20    VAR1: 36
+    VAR0: 20    VAR1: 37
+    VAR0: 20    VAR1: 38
+    VAR0: 20    VAR1: 40
+    VAR0: 20    VAR1: 41
+    VAR0: 20    VAR1: 43
+    VAR0: 20    VAR1: 47
+    VAR0: 20    VAR1: 49
+    VAR0: 20    VAR1: 5
+    VAR0: 20    VAR1: 6
+    VAR0: 20    VAR1: 8
+    VAR0: 20    VAR1: 9
+    VAR0: 21    VAR1: 0
+    VAR0: 21    VAR1: 1
+    VAR0: 21    VAR1: 10
+    VAR0: 21    VAR1: 11
+    VAR0: 21    VAR1: 13
+    VAR0: 21    VAR1: 15
+    VAR0: 21    VAR1: 16
+    VAR0: 21    VAR1: 18
+    VAR0: 21    VAR1: 19
+    VAR0: 21    VAR1: 2
+    VAR0: 21    VAR1: 23
+    VAR0: 21    VAR1: 24
+    VAR0: 21    VAR1: 25
+    VAR0: 21    VAR1: 26
+    VAR0: 21    VAR1: 27
+    VAR0: 21    VAR1: 28
+    VAR0: 21    VAR1: 29
+    VAR0: 21    VAR1: 3
+    VAR0: 21    VAR1: 34
+    VAR0: 21    VAR1: 35
+    VAR0: 21    VAR1: 37
+    VAR0: 21    VAR1: 38
+    VAR0: 21    VAR1: 39
+    VAR0: 21    VAR1: 4
+    VAR0: 21    VAR1: 40
+    VAR0: 21    VAR1: 42
+    VAR0: 21    VAR1: 43
+    VAR0: 21    VAR1: 44
+    VAR0: 21    VAR1: 45
+    VAR0: 21    VAR1: 46
+    VAR0: 21    VAR1: 47
+    VAR0: 21    VAR1: 9
+    VAR0: 22    VAR1: 1
+    VAR0: 22    VAR1: 10
+    VAR0: 22    VAR1: 13
+    VAR0: 22    VAR1: 14
+    VAR0: 22    VAR1: 15
+    VAR0: 22    VAR1: 16
+    VAR0: 22    VAR1: 17
+    VAR0: 22    VAR1: 19
+    VAR0: 22    VAR1: 2
+    VAR0: 22    VAR1: 23
+    VAR0: 22    VAR1: 25
+    VAR0: 22    VAR1: 26
+    VAR0: 22    VAR1: 27
+    VAR0: 22    VAR1: 28
+    VAR0: 22    VAR1: 29
+    VAR0: 22    VAR1: 3
+    VAR0: 22    VAR1: 33
+    VAR0: 22    VAR1: 34
+    VAR0: 22    VAR1: 35
+    VAR0: 22    VAR1: 36
+    VAR0: 22    VAR1: 37
+    VAR0: 22    VAR1: 39
+    VAR0: 22    VAR1: 4
+    VAR0: 22    VAR1: 40
+    VAR0: 22    VAR1: 41
+    VAR0: 22    VAR1: 44
+    VAR0: 22    VAR1: 45
+    VAR0: 22    VAR1: 47
+    VAR0: 22    VAR1: 48
+    VAR0: 22    VAR1: 5
+    VAR0: 22    VAR1: 7
+    VAR0: 22    VAR1: 9
+    VAR0: 23    VAR1: 10
+    VAR0: 23    VAR1: 11
+    VAR0: 23    VAR1: 12
+    VAR0: 23    VAR1: 13
+    VAR0: 23    VAR1: 15
+    VAR0: 23    VAR1: 16
+    VAR0: 23    VAR1: 17
+    VAR0: 23    VAR1: 18
+    VAR0: 23    VAR1: 19
+    VAR0: 23    VAR1: 2
+    VAR0: 23    VAR1: 20
+    VAR0: 23    VAR1: 21
+    VAR0: 23    VAR1: 22
+    VAR0: 23    VAR1: 25
+    VAR0: 23    VAR1: 26
+    VAR0: 23    VAR1: 27
+    VAR0: 23    VAR1: 28
+    VAR0: 23    VAR1: 29
+    VAR0: 23    VAR1: 30
+    VAR0: 23    VAR1: 33
+    VAR0: 23    VAR1: 35
+    VAR0: 23    VAR1: 36
+    VAR0: 23    VAR1: 37
+    VAR0: 23    VAR1: 39
+    VAR0: 23    VAR1: 40
+    VAR0: 23    VAR1: 42
+    VAR0: 23    VAR1: 43
+    VAR0: 23    VAR1: 45
+    VAR0: 23    VAR1: 46
+    VAR0: 23    VAR1: 48
+    VAR0: 23    VAR1: 49
+    VAR0: 23    VAR1: 5
+    VAR0: 23    VAR1: 7
+    VAR0: 23    VAR1: 8
+    VAR0: 23    VAR1: 9
+    VAR0: 24    VAR1: 0
+    VAR0: 24    VAR1: 1
+    VAR0: 24    VAR1: 10
+    VAR0: 24    VAR1: 11
+    VAR0: 24    VAR1: 13
+    VAR0: 24    VAR1: 14
+    VAR0: 24    VAR1: 15
+    VAR0: 24    VAR1: 16
+    VAR0: 24    VAR1: 17
+    VAR0: 24    VAR1: 18
+    VAR0: 24    VAR1: 23
+    VAR0: 24    VAR1: 26
+    VAR0: 24    VAR1: 27
+    VAR0: 24    VAR1: 28
+    VAR0: 24    VAR1: 3
+    VAR0: 24    VAR1: 30
+    VAR0: 24    VAR1: 32
+    VAR0: 24    VAR1: 33
+    VAR0: 24    VAR1: 34
+    VAR0: 24    VAR1: 37
+    VAR0: 24    VAR1: 39
+    VAR0: 24    VAR1: 40
+    VAR0: 24    VAR1: 41
+    VAR0: 24    VAR1: 42
+    VAR0: 24    VAR1: 44
+    VAR0: 24    VAR1: 48
+    VAR0: 24    VAR1: 49
+    VAR0: 24    VAR1: 5
+    VAR0: 24    VAR1: 6
+    VAR0: 24    VAR1: 7
+    VAR0: 25    VAR1: 0
+    VAR0: 25    VAR1: 1
+    VAR0: 25    VAR1: 11
+    VAR0: 25    VAR1: 12
+    VAR0: 25    VAR1: 14
+    VAR0: 25    VAR1: 15
+    VAR0: 25    VAR1: 16
+    VAR0: 25    VAR1: 2
+    VAR0: 25    VAR1: 21
+    VAR0: 25    VAR1: 22
+    VAR0: 25    VAR1: 26
+    VAR0: 25    VAR1: 27
+    VAR0: 25    VAR1: 28
+    VAR0: 25    VAR1: 31
+    VAR0: 25    VAR1: 34
+    VAR0: 25    VAR1: 35
+    VAR0: 25    VAR1: 36
+    VAR0: 25    VAR1: 37
+    VAR0: 25    VAR1: 38
+    VAR0: 25    VAR1: 39
+    VAR0: 25    VAR1: 4
+    VAR0: 25    VAR1: 40
+    VAR0: 25    VAR1: 43
+    VAR0: 25    VAR1: 44
+    VAR0: 25    VAR1: 45
+    VAR0: 25    VAR1: 46
+    VAR0: 25    VAR1: 47
+    VAR0: 25    VAR1: 49
+    VAR0: 25    VAR1: 6
+    VAR0: 25    VAR1: 7
+    VAR0: 25    VAR1: 8
+    VAR0: 25    VAR1: 9
+    VAR0: 26    VAR1: 0
+    VAR0: 26    VAR1: 10
+    VAR0: 26    VAR1: 12
+    VAR0: 26    VAR1: 15
+    VAR0: 26    VAR1: 16
+    VAR0: 26    VAR1: 17
+    VAR0: 26    VAR1: 18
+    VAR0: 26    VAR1: 19
+    VAR0: 26    VAR1: 2
+    VAR0: 26    VAR1: 20
+    VAR0: 26    VAR1: 21
+    VAR0: 26    VAR1: 23
+    VAR0: 26    VAR1: 24
+    VAR0: 26    VAR1: 28
+    VAR0: 26    VAR1: 3
+    VAR0: 26    VAR1: 31
+    VAR0: 26    VAR1: 32
+    VAR0: 26    VAR1: 36
+    VAR0: 26    VAR1: 37
+    VAR0: 26    VAR1: 38
+    VAR0: 26    VAR1: 4
+    VAR0: 26    VAR1: 42
+    VAR0: 26    VAR1: 43
+    VAR0: 26    VAR1: 46
+    VAR0: 26    VAR1: 47
+    VAR0: 26    VAR1: 48
+    VAR0: 26    VAR1: 6
+    VAR0: 26    VAR1: 7
+    VAR0: 26    VAR1: 8
+    VAR0: 27    VAR1: 1
+    VAR0: 27    VAR1: 10
+    VAR0: 27    VAR1: 11
+    VAR0: 27    VAR1: 12
+    VAR0: 27    VAR1: 13
+    VAR0: 27    VAR1: 15
+    VAR0: 27    VAR1: 16
+    VAR0: 27    VAR1: 18
+    VAR0: 27    VAR1: 19
+    VAR0: 27    VAR1: 20
+    VAR0: 27    VAR1: 21
+    VAR0: 27    VAR1: 25
+    VAR0: 27    VAR1: 28
+    VAR0: 27    VAR1: 32
+    VAR0: 27    VAR1: 33
+    VAR0: 27    VAR1: 34
+    VAR0: 27    VAR1: 36
+    VAR0: 27    VAR1: 37
+    VAR0: 27    VAR1: 38
+    VAR0: 27    VAR1: 39
+    VAR0: 27    VAR1: 40
+    VAR0: 27    VAR1: 44
+    VAR0: 27    VAR1: 45
+    VAR0: 27    VAR1: 46
+    VAR0: 27    VAR1: 47
+    VAR0: 27    VAR1: 48
+    VAR0: 27    VAR1: 49
+    VAR0: 27    VAR1: 5
+    VAR0: 27    VAR1: 6
+    VAR0: 27    VAR1: 7
+    VAR0: 28    VAR1: 0
+    VAR0: 28    VAR1: 1
+    VAR0: 28    VAR1: 10
+    VAR0: 28    VAR1: 14
+    VAR0: 28    VAR1: 15
+    VAR0: 28    VAR1: 17
+    VAR0: 28    VAR1: 18
+    VAR0: 28    VAR1: 19
+    VAR0: 28    VAR1: 2
+    VAR0: 28    VAR1: 20
+    VAR0: 28    VAR1: 22
+    VAR0: 28    VAR1: 23
+    VAR0: 28    VAR1: 25
+    VAR0: 28    VAR1: 3
+    VAR0: 28    VAR1: 30
+    VAR0: 28    VAR1: 31
+    VAR0: 28    VAR1: 32
+    VAR0: 28    VAR1: 33
+    VAR0: 28    VAR1: 34
+    VAR0: 28    VAR1: 36
+    VAR0: 28    VAR1: 38
+    VAR0: 28    VAR1: 40
+    VAR0: 28    VAR1: 42
+    VAR0: 28    VAR1: 43
+    VAR0: 28    VAR1: 44
+    VAR0: 28    VAR1: 45
+    VAR0: 28    VAR1: 47
+    VAR0: 28    VAR1: 49
+    VAR0: 28    VAR1: 6
+    VAR0: 28    VAR1: 7
+    VAR0: 28    VAR1: 8
+    VAR0: 28    VAR1: 9
+    VAR0: 29    VAR1: 10
+    VAR0: 29    VAR1: 11
+    VAR0: 29    VAR1: 14
+    VAR0: 29    VAR1: 16
+    VAR0: 29    VAR1: 17
+    VAR0: 29    VAR1: 19
+    VAR0: 29    VAR1: 2
+    VAR0: 29    VAR1: 20
+    VAR0: 29    VAR1: 21
+    VAR0: 29    VAR1: 22
+    VAR0: 29    VAR1: 23
+    VAR0: 29    VAR1: 26
+    VAR0: 29    VAR1: 27
+    VAR0: 29    VAR1: 3
+    VAR0: 29    VAR1: 31
+    VAR0: 29    VAR1: 32
+    VAR0: 29    VAR1: 33
+    VAR0: 29    VAR1: 36
+    VAR0: 29    VAR1: 39
+    VAR0: 29    VAR1: 40
+    VAR0: 29    VAR1: 42
+    VAR0: 29    VAR1: 43
+    VAR0: 29    VAR1: 44
+    VAR0: 29    VAR1: 45
+    VAR0: 29    VAR1: 46
+    VAR0: 29    VAR1: 47
+    VAR0: 29    VAR1: 48
+    VAR0: 29    VAR1: 5
+    VAR0: 29    VAR1: 6
+    VAR0: 29    VAR1: 7
+    VAR0: 29    VAR1: 8
+    VAR0: 29    VAR1: 9
+    VAR0: 3    VAR1: 0
+    VAR0: 3    VAR1: 1
+    VAR0: 3    VAR1: 10
+    VAR0: 3    VAR1: 11
+    VAR0: 3    VAR1: 13
+    VAR0: 3    VAR1: 15
+    VAR0: 3    VAR1: 17
+    VAR0: 3    VAR1: 19
+    VAR0: 3    VAR1: 2
+    VAR0: 3    VAR1: 21
+    VAR0: 3    VAR1: 22
+    VAR0: 3    VAR1: 23
+    VAR0: 3    VAR1: 24
+    VAR0: 3    VAR1: 25
+    VAR0: 3    VAR1: 26
+    VAR0: 3    VAR1: 27
+    VAR0: 3    VAR1: 28
+    VAR0: 3    VAR1: 30
+    VAR0: 3    VAR1: 31
+    VAR0: 3    VAR1: 33
+    VAR0: 3    VAR1: 34
+    VAR0: 3    VAR1: 36
+    VAR0: 3    VAR1: 41
+    VAR0: 3    VAR1: 42
+    VAR0: 3    VAR1: 44
+    VAR0: 3    VAR1: 46
+    VAR0: 3    VAR1: 49
+    VAR0: 3    VAR1: 5
+    VAR0: 3    VAR1: 8
+    VAR0: 3    VAR1: 9
+    VAR0: 30    VAR1: 0
+    VAR0: 30    VAR1: 1
+    VAR0: 30    VAR1: 10
+    VAR0: 30    VAR1: 11
+    VAR0: 30    VAR1: 17
+    VAR0: 30    VAR1: 19
+    VAR0: 30    VAR1: 2
+    VAR0: 30    VAR1: 23
+    VAR0: 30    VAR1: 24
+    VAR0: 30    VAR1: 25
+    VAR0: 30    VAR1: 27
+    VAR0: 30    VAR1: 3
+    VAR0: 30    VAR1: 31
+    VAR0: 30    VAR1: 32
+    VAR0: 30    VAR1: 34
+    VAR0: 30    VAR1: 35
+    VAR0: 30    VAR1: 36
+    VAR0: 30    VAR1: 37
+    VAR0: 30    VAR1: 38
+    VAR0: 30    VAR1: 39
+    VAR0: 30    VAR1: 4
+    VAR0: 30    VAR1: 40
+    VAR0: 30    VAR1: 41
+    VAR0: 30    VAR1: 42
+    VAR0: 30    VAR1: 43
+    VAR0: 30    VAR1: 44
+    VAR0: 30    VAR1: 45
+    VAR0: 30    VAR1: 5
+    VAR0: 30    VAR1: 6
+    VAR0: 30    VAR1: 8
+    VAR0: 31    VAR1: 0
+    VAR0: 31    VAR1: 10
+    VAR0: 31    VAR1: 11
+    VAR0: 31    VAR1: 12
+    VAR0: 31    VAR1: 13
+    VAR0: 31    VAR1: 14
+    VAR0: 31    VAR1: 16
+    VAR0: 31    VAR1: 23
+    VAR0: 31    VAR1: 24
+    VAR0: 31    VAR1: 26
+    VAR0: 31    VAR1: 27
+    VAR0: 31    VAR1: 28
+    VAR0: 31    VAR1: 29
+    VAR0: 31    VAR1: 30
+    VAR0: 31    VAR1: 32
+    VAR0: 31    VAR1: 33
+    VAR0: 31    VAR1: 35
+    VAR0: 31    VAR1: 36
+    VAR0: 31    VAR1: 38
+    VAR0: 31    VAR1: 39
+    VAR0: 31    VAR1: 40
+    VAR0: 31    VAR1: 41
+    VAR0: 31    VAR1: 42
+    VAR0: 31    VAR1: 43
+    VAR0: 31    VAR1: 46
+    VAR0: 31    VAR1: 48
+    VAR0: 31    VAR1: 7
+    VAR0: 31    VAR1: 8
+    VAR0: 31    VAR1: 9
+    VAR0: 32    VAR1: 0
+    VAR0: 32    VAR1: 10
+    VAR0: 32    VAR1: 11
+    VAR0: 32    VAR1: 12
+    VAR0: 32    VAR1: 13
+    VAR0: 32    VAR1: 15
+    VAR0: 32    VAR1: 16
+    VAR0: 32    VAR1: 17
+    VAR0: 32    VAR1: 19
+    VAR0: 32    VAR1: 2
+    VAR0: 32    VAR1: 23
+    VAR0: 32    VAR1: 24
+    VAR0: 32    VAR1: 25
+    VAR0: 32    VAR1: 26
+    VAR0: 32    VAR1: 27
+    VAR0: 32    VAR1: 28
+    VAR0: 32    VAR1: 29
+    VAR0: 32    VAR1: 30
+    VAR0: 32    VAR1: 31
+    VAR0: 32    VAR1: 33
+    VAR0: 32    VAR1: 37
+    VAR0: 32    VAR1: 38
+    VAR0: 32    VAR1: 39
+    VAR0: 32    VAR1: 40
+    VAR0: 32    VAR1: 41
+    VAR0: 32    VAR1: 44
+    VAR0: 32    VAR1: 47
+    VAR0: 32    VAR1: 48
+    VAR0: 32    VAR1: 49
+    VAR0: 32    VAR1: 5
+    VAR0: 32    VAR1: 6
+    VAR0: 32    VAR1: 7
+    VAR0: 32    VAR1: 9
+    VAR0: 33    VAR1: 0
+    VAR0: 33    VAR1: 10
+    VAR0: 33    VAR1: 11
+    VAR0: 33    VAR1: 12
+    VAR0: 33    VAR1: 14
+    VAR0: 33    VAR1: 15
+    VAR0: 33    VAR1: 16
+    VAR0: 33    VAR1: 18
+    VAR0: 33    VAR1: 19
+    VAR0: 33    VAR1: 21
+    VAR0: 33    VAR1: 22
+    VAR0: 33    VAR1: 23
+    VAR0: 33    VAR1: 25
+    VAR0: 33    VAR1: 26
+    VAR0: 33    VAR1: 27
+    VAR0: 33    VAR1: 28
+    VAR0: 33    VAR1: 3
+    VAR0: 33    VAR1: 30
+    VAR0: 33    VAR1: 31
+    VAR0: 33    VAR1: 32
+    VAR0: 33    VAR1: 35
+    VAR0: 33    VAR1: 36
+    VAR0: 33    VAR1: 38
+    VAR0: 33    VAR1: 39
+    VAR0: 33    VAR1: 41
+    VAR0: 33    VAR1: 42
+    VAR0: 33    VAR1: 43
+    VAR0: 33    VAR1: 45
+    VAR0: 33    VAR1: 48
+    VAR0: 33    VAR1: 49
+    VAR0: 33    VAR1: 5
+    VAR0: 33    VAR1: 6
+    VAR0: 33    VAR1: 8
+    VAR0: 33    VAR1: 9
+    VAR0: 34    VAR1: 0
+    VAR0: 34    VAR1: 10
+    VAR0: 34    VAR1: 11
+    VAR0: 34    VAR1: 12
+    VAR0: 34    VAR1: 14
+    VAR0: 34    VAR1: 15
+    VAR0: 34    VAR1: 16
+    VAR0: 34    VAR1: 17
+    VAR0: 34    VAR1: 18
+    VAR0: 34    VAR1: 19
+    VAR0: 34    VAR1: 2
+    VAR0: 34    VAR1: 20
+    VAR0: 34    VAR1: 24
+    VAR0: 34    VAR1: 25
+    VAR0: 34    VAR1: 26
+    VAR0: 34    VAR1: 27
+    VAR0: 34    VAR1: 28
+    VAR0: 34    VAR1: 3
+    VAR0: 34    VAR1: 31
+    VAR0: 34    VAR1: 33
+    VAR0: 34    VAR1: 35
+    VAR0: 34    VAR1: 36
+    VAR0: 34    VAR1: 37
+    VAR0: 34    VAR1: 4
+    VAR0: 34    VAR1: 41
+    VAR0: 34    VAR1: 43
+    VAR0: 34    VAR1: 44
+    VAR0: 34    VAR1: 45
+    VAR0: 34    VAR1: 46
+    VAR0: 34    VAR1: 48
+    VAR0: 34    VAR1: 5
+    VAR0: 34    VAR1: 6
+    VAR0: 34    VAR1: 7
+    VAR0: 34    VAR1: 8
+    VAR0: 35    VAR1: 0
+    VAR0: 35    VAR1: 11
+    VAR0: 35    VAR1: 12
+    VAR0: 35    VAR1: 13
+    VAR0: 35    VAR1: 15
+    VAR0: 35    VAR1: 16
+    VAR0: 35    VAR1: 17
+    VAR0: 35    VAR1: 2
+    VAR0: 35    VAR1: 20
+    VAR0: 35    VAR1: 25
+    VAR0: 35    VAR1: 26
+    VAR0: 35    VAR1: 27
+    VAR0: 35    VAR1: 28
+    VAR0: 35    VAR1: 29
+    VAR0: 35    VAR1: 3
+    VAR0: 35    VAR1: 31
+    VAR0: 35    VAR1: 33
+    VAR0: 35    VAR1: 36
+    VAR0: 35    VAR1: 37
+    VAR0: 35    VAR1: 38
+    VAR0: 35    VAR1: 39
+    VAR0: 35    VAR1: 40
+    VAR0: 35    VAR1: 42
+    VAR0: 35    VAR1: 43
+    VAR0: 35    VAR1: 45
+    VAR0: 35    VAR1: 46
+    VAR0: 35    VAR1: 47
+    VAR0: 35    VAR1: 49
+    VAR0: 35    VAR1: 5
+    VAR0: 35    VAR1: 6
+    VAR0: 35    VAR1: 9
+    VAR0: 36    VAR1: 0
+    VAR0: 36    VAR1: 1
+    VAR0: 36    VAR1: 10
+    VAR0: 36    VAR1: 12
+    VAR0: 36    VAR1: 13
+    VAR0: 36    VAR1: 16
+    VAR0: 36    VAR1: 17
+    VAR0: 36    VAR1: 19
+    VAR0: 36    VAR1: 20
+    VAR0: 36    VAR1: 21
+    VAR0: 36    VAR1: 22
+    VAR0: 36    VAR1: 23
+    VAR0: 36    VAR1: 24
+    VAR0: 36    VAR1: 25
+    VAR0: 36    VAR1: 26
+    VAR0: 36    VAR1: 27
+    VAR0: 36    VAR1: 28
+    VAR0: 36    VAR1: 30
+    VAR0: 36    VAR1: 31
+    VAR0: 36    VAR1: 32
+    VAR0: 36    VAR1: 33
+    VAR0: 36    VAR1: 34
+    VAR0: 36    VAR1: 38
+    VAR0: 36    VAR1: 40
+    VAR0: 36    VAR1: 41
+    VAR0: 36    VAR1: 43
+    VAR0: 36    VAR1: 44
+    VAR0: 36    VAR1: 46
+    VAR0: 36    VAR1: 47
+    VAR0: 36    VAR1: 49
+    VAR0: 36    VAR1: 5
+    VAR0: 36    VAR1: 6
+    VAR0: 36    VAR1: 7
+    VAR0: 36    VAR1: 8
+    VAR0: 36    VAR1: 9
+    VAR0: 37    VAR1: 0
+    VAR0: 37    VAR1: 1
+    VAR0: 37    VAR1: 13
+    VAR0: 37    VAR1: 16
+    VAR0: 37    VAR1: 18
+    VAR0: 37    VAR1: 21
+    VAR0: 37    VAR1: 25
+    VAR0: 37    VAR1: 27
+    VAR0: 37    VAR1: 28
+    VAR0: 37    VAR1: 29
+    VAR0: 37    VAR1: 30
+    VAR0: 37    VAR1: 31
+    VAR0: 37    VAR1: 32
+    VAR0: 37    VAR1: 33
+    VAR0: 37    VAR1: 34
+    VAR0: 37    VAR1: 38
+    VAR0: 37    VAR1: 39
+    VAR0: 37    VAR1: 4
+    VAR0: 37    VAR1: 40
+    VAR0: 37    VAR1: 41
+    VAR0: 37    VAR1: 42
+    VAR0: 37    VAR1: 43
+    VAR0: 37    VAR1: 44
+    VAR0: 37    VAR1: 45
+    VAR0: 37    VAR1: 46
+    VAR0: 37    VAR1: 47
+    VAR0: 37    VAR1: 48
+    VAR0: 37    VAR1: 49
+    VAR0: 37    VAR1: 6
+    VAR0: 37    VAR1: 8
+    VAR0: 37    VAR1: 9
+    VAR0: 38    VAR1: 0
+    VAR0: 38    VAR1: 1
+    VAR0: 38    VAR1: 13
+    VAR0: 38    VAR1: 16
+    VAR0: 38    VAR1: 2
+    VAR0: 38    VAR1: 22
+    VAR0: 38    VAR1: 24
+    VAR0: 38    VAR1: 25
+    VAR0: 38    VAR1: 26
+    VAR0: 38    VAR1: 27
+    VAR0: 38    VAR1: 28
+    VAR0: 38    VAR1: 3
+    VAR0: 38    VAR1: 30
+    VAR0: 38    VAR1: 31
+    VAR0: 38    VAR1: 32
+    VAR0: 38    VAR1: 34
+    VAR0: 38    VAR1: 35
+    VAR0: 38    VAR1: 36
+    VAR0: 38    VAR1: 40
+    VAR0: 38    VAR1: 41
+    VAR0: 38    VAR1: 42
+    VAR0: 38    VAR1: 44
+    VAR0: 38    VAR1: 46
+    VAR0: 38    VAR1: 47
+    VAR0: 38    VAR1: 48
+    VAR0: 38    VAR1: 49
+    VAR0: 38    VAR1: 5
+    VAR0: 38    VAR1: 7
+    VAR0: 38    VAR1: 8
+    VAR0: 39    VAR1: 0
+    VAR0: 39    VAR1: 1
+    VAR0: 39    VAR1: 10
+    VAR0: 39    VAR1: 11
+    VAR0: 39    VAR1: 13
+    VAR0: 39    VAR1: 14
+    VAR0: 39    VAR1: 15
+    VAR0: 39    VAR1: 16
+    VAR0: 39    VAR1: 20
+    VAR0: 39    VAR1: 22
+    VAR0: 39    VAR1: 23
+    VAR0: 39    VAR1: 24
+    VAR0: 39    VAR1: 25
+    VAR0: 39    VAR1: 26
+    VAR0: 39    VAR1: 27
+    VAR0: 39    VAR1: 29
+    VAR0: 39    VAR1: 3
+    VAR0: 39    VAR1: 30
+    VAR0: 39    VAR1: 32
+    VAR0: 39    VAR1: 34
+    VAR0: 39    VAR1: 35
+    VAR0: 39    VAR1: 37
+    VAR0: 39    VAR1: 38
+    VAR0: 39    VAR1: 4
+    VAR0: 39    VAR1: 40
+    VAR0: 39    VAR1: 41
+    VAR0: 39    VAR1: 46
+    VAR0: 39    VAR1: 47
+    VAR0: 39    VAR1: 49
+    VAR0: 39    VAR1: 5
+    VAR0: 39    VAR1: 6
+    VAR0: 39    VAR1: 7
+    VAR0: 39    VAR1: 8
+    VAR0: 4    VAR1: 0
+    VAR0: 4    VAR1: 11
+    VAR0: 4    VAR1: 13
+    VAR0: 4    VAR1: 14
+    VAR0: 4    VAR1: 17
+    VAR0: 4    VAR1: 18
+    VAR0: 4    VAR1: 19
+    VAR0: 4    VAR1: 2
+    VAR0: 4    VAR1: 21
+    VAR0: 4    VAR1: 22
+    VAR0: 4    VAR1: 24
+    VAR0: 4    VAR1: 25
+    VAR0: 4    VAR1: 27
+    VAR0: 4    VAR1: 29
+    VAR0: 4    VAR1: 31
+    VAR0: 4    VAR1: 33
+    VAR0: 4    VAR1: 34
+    VAR0: 4    VAR1: 35
+    VAR0: 4    VAR1: 37
+    VAR0: 4    VAR1: 38
+    VAR0: 4    VAR1: 39
+    VAR0: 4    VAR1: 42
+    VAR0: 4    VAR1: 43
+    VAR0: 4    VAR1: 44
+    VAR0: 4    VAR1: 46
+    VAR0: 4    VAR1: 47
+    VAR0: 4    VAR1: 48
+    VAR0: 4    VAR1: 49
+    VAR0: 4    VAR1: 6
+    VAR0: 4    VAR1: 7
+    VAR0: 4    VAR1: 8
+    VAR0: 4    VAR1: 9
+    VAR0: 40    VAR1: 1
+    VAR0: 40    VAR1: 10
+    VAR0: 40    VAR1: 11
+    VAR0: 40    VAR1: 12
+    VAR0: 40    VAR1: 13
+    VAR0: 40    VAR1: 14
+    VAR0: 40    VAR1: 15
+    VAR0: 40    VAR1: 17
+    VAR0: 40    VAR1: 18
+    VAR0: 40    VAR1: 19
+    VAR0: 40    VAR1: 2
+    VAR0: 40    VAR1: 21
+    VAR0: 40    VAR1: 22
+    VAR0: 40    VAR1: 23
+    VAR0: 40    VAR1: 24
+    VAR0: 40    VAR1: 25
+    VAR0: 40    VAR1: 27
+    VAR0: 40    VAR1: 28
+    VAR0: 40    VAR1: 29
+    VAR0: 40    VAR1: 30
+    VAR0: 40    VAR1: 31
+    VAR0: 40    VAR1: 32
+    VAR0: 40    VAR1: 37
+    VAR0: 40    VAR1: 38
+    VAR0: 40    VAR1: 39
+    VAR0: 40    VAR1: 4
+    VAR0: 40    VAR1: 41
+    VAR0: 40    VAR1: 43
+    VAR0: 40    VAR1: 46
+    VAR0: 40    VAR1: 47
+    VAR0: 40    VAR1: 49
+    VAR0: 40    VAR1: 6
+    VAR0: 40    VAR1: 8
+    VAR0: 41    VAR1: 0
+    VAR0: 41    VAR1: 10
+    VAR0: 41    VAR1: 11
+    VAR0: 41    VAR1: 12
+    VAR0: 41    VAR1: 13
+    VAR0: 41    VAR1: 14
+    VAR0: 41    VAR1: 16
+    VAR0: 41    VAR1: 18
+    VAR0: 41    VAR1: 19
+    VAR0: 41    VAR1: 2
+    VAR0: 41    VAR1: 20
+    VAR0: 41    VAR1: 21
+    VAR0: 41    VAR1: 23
+    VAR0: 41    VAR1: 25
+    VAR0: 41    VAR1: 27
+    VAR0: 41    VAR1: 28
+    VAR0: 41    VAR1: 3
+    VAR0: 41    VAR1: 30
+    VAR0: 41    VAR1: 31
+    VAR0: 41    VAR1: 32
+    VAR0: 41    VAR1: 34
+    VAR0: 41    VAR1: 37
+    VAR0: 41    VAR1: 38
+    VAR0: 41    VAR1: 4
+    VAR0: 41    VAR1: 42
+    VAR0: 41    VAR1: 43
+    VAR0: 41    VAR1: 44
+    VAR0: 41    VAR1: 45
+    VAR0: 41    VAR1: 47
+    VAR0: 41    VAR1: 48
+    VAR0: 41    VAR1: 6
+    VAR0: 41    VAR1: 8
+    VAR0: 42    VAR1: 0
+    VAR0: 42    VAR1: 1
+    VAR0: 42    VAR1: 11
+    VAR0: 42    VAR1: 12
+    VAR0: 42    VAR1: 13
+    VAR0: 42    VAR1: 14
+    VAR0: 42    VAR1: 15
+    VAR0: 42    VAR1: 16
+    VAR0: 42    VAR1: 17
+    VAR0: 42    VAR1: 18
+    VAR0: 42    VAR1: 20
+    VAR0: 42    VAR1: 21
+    VAR0: 42    VAR1: 22
+    VAR0: 42    VAR1: 24
+    VAR0: 42    VAR1: 25
+    VAR0: 42    VAR1: 26
+    VAR0: 42    VAR1: 28
+    VAR0: 42    VAR1: 30
+    VAR0: 42    VAR1: 31
+    VAR0: 42    VAR1: 32
+    VAR0: 42    VAR1: 35
+    VAR0: 42    VAR1: 36
+    VAR0: 42    VAR1: 37
+    VAR0: 42    VAR1: 39
+    VAR0: 42    VAR1: 41
+    VAR0: 42    VAR1: 44
+    VAR0: 42    VAR1: 45
+    VAR0: 42    VAR1: 46
+    VAR0: 42    VAR1: 47
+    VAR0: 42    VAR1: 48
+    VAR0: 42    VAR1: 49
+    VAR0: 42    VAR1: 5
+    VAR0: 42    VAR1: 7
+    VAR0: 42    VAR1: 8
+    VAR0: 43    VAR1: 0
+    VAR0: 43    VAR1: 11
+    VAR0: 43    VAR1: 12
+    VAR0: 43    VAR1: 13
+    VAR0: 43    VAR1: 15
+    VAR0: 43    VAR1: 16
+    VAR0: 43    VAR1: 17
+    VAR0: 43    VAR1: 18
+    VAR0: 43    VAR1: 2
+    VAR0: 43    VAR1: 20
+    VAR0: 43    VAR1: 21
+    VAR0: 43    VAR1: 23
+    VAR0: 43    VAR1: 24
+    VAR0: 43    VAR1: 26
+    VAR0: 43    VAR1: 27
+    VAR0: 43    VAR1: 29
+    VAR0: 43    VAR1: 3
+    VAR0: 43    VAR1: 30
+    VAR0: 43    VAR1: 31
+    VAR0: 43    VAR1: 36
+    VAR0: 43    VAR1: 38
+    VAR0: 43    VAR1: 41
+    VAR0: 43    VAR1: 42
+    VAR0: 43    VAR1: 45
+    VAR0: 43    VAR1: 46
+    VAR0: 43    VAR1: 47
+    VAR0: 43    VAR1: 48
+    VAR0: 43    VAR1: 5
+    VAR0: 43    VAR1: 6
+    VAR0: 43    VAR1: 8
+    VAR0: 43    VAR1: 9
+    VAR0: 44    VAR1: 0
+    VAR0: 44    VAR1: 1
+    VAR0: 44    VAR1: 11
+    VAR0: 44    VAR1: 12
+    VAR0: 44    VAR1: 13
+    VAR0: 44    VAR1: 16
+    VAR0: 44    VAR1: 18
+    VAR0: 44    VAR1: 19
+    VAR0: 44    VAR1: 2
+    VAR0: 44    VAR1: 23
+    VAR0: 44    VAR1: 24
+    VAR0: 44    VAR1: 25
+    VAR0: 44    VAR1: 26
+    VAR0: 44    VAR1: 27
+    VAR0: 44    VAR1: 28
+    VAR0: 44    VAR1: 30
+    VAR0: 44    VAR1: 31
+    VAR0: 44    VAR1: 32
+    VAR0: 44    VAR1: 33
+    VAR0: 44    VAR1: 35
+    VAR0: 44    VAR1: 36
+    VAR0: 44    VAR1: 38
+    VAR0: 44    VAR1: 39
+    VAR0: 44    VAR1: 4
+    VAR0: 44    VAR1: 40
+    VAR0: 44    VAR1: 41
+    VAR0: 44    VAR1: 46
+    VAR0: 44    VAR1: 49
+    VAR0: 44    VAR1: 5
+    VAR0: 44    VAR1: 7
+    VAR0: 44    VAR1: 8
+    VAR0: 45    VAR1: 12
+    VAR0: 45    VAR1: 14
+    VAR0: 45    VAR1: 16
+    VAR0: 45    VAR1: 17
+    VAR0: 45    VAR1: 18
+    VAR0: 45    VAR1: 2
+    VAR0: 45    VAR1: 20
+    VAR0: 45    VAR1: 21
+    VAR0: 45    VAR1: 22
+    VAR0: 45    VAR1: 24
+    VAR0: 45    VAR1: 25
+    VAR0: 45    VAR1: 26
+    VAR0: 45    VAR1: 27
+    VAR0: 45    VAR1: 31
+    VAR0: 45    VAR1: 36
+    VAR0: 45    VAR1: 37
+    VAR0: 45    VAR1: 38
+    VAR0: 45    VAR1: 39
+    VAR0: 45    VAR1: 41
+    VAR0: 45    VAR1: 42
+    VAR0: 45    VAR1: 43
+    VAR0: 45    VAR1: 46
+    VAR0: 45    VAR1: 47
+    VAR0: 45    VAR1: 48
+    VAR0: 45    VAR1: 49
+    VAR0: 45    VAR1: 6
+    VAR0: 45    VAR1: 7
+    VAR0: 45    VAR1: 8
+    VAR0: 45    VAR1: 9
+    VAR0: 46    VAR1: 1
+    VAR0: 46    VAR1: 12
+    VAR0: 46    VAR1: 13
+    VAR0: 46    VAR1: 14
+    VAR0: 46    VAR1: 16
+    VAR0: 46    VAR1: 19
+    VAR0: 46    VAR1: 21
+    VAR0: 46    VAR1: 22
+    VAR0: 46    VAR1: 25
+    VAR0: 46    VAR1: 27
+    VAR0: 46    VAR1: 28
+    VAR0: 46    VAR1: 3
+    VAR0: 46    VAR1: 30
+    VAR0: 46    VAR1: 32
+    VAR0: 46    VAR1: 33
+    VAR0: 46    VAR1: 35
+    VAR0: 46    VAR1: 37
+    VAR0: 46    VAR1: 38
+    VAR0: 46    VAR1: 39
+    VAR0: 46    VAR1: 40
+    VAR0: 46    VAR1: 42
+    VAR0: 46    VAR1: 43
+    VAR0: 46    VAR1: 45
+    VAR0: 46    VAR1: 47
+    VAR0: 46    VAR1: 48
+    VAR0: 46    VAR1: 49
+    VAR0: 46    VAR1: 5
+    VAR0: 46    VAR1: 6
+    VAR0: 46    VAR1: 7
+    VAR0: 46    VAR1: 8
+    VAR0: 47    VAR1: 1
+    VAR0: 47    VAR1: 10
+    VAR0: 47    VAR1: 11
+    VAR0: 47    VAR1: 15
+    VAR0: 47    VAR1: 16
+    VAR0: 47    VAR1: 17
+    VAR0: 47    VAR1: 18
+    VAR0: 47    VAR1: 19
+    VAR0: 47    VAR1: 2
+    VAR0: 47    VAR1: 20
+    VAR0: 47    VAR1: 21
+    VAR0: 47    VAR1: 23
+    VAR0: 47    VAR1: 25
+    VAR0: 47    VAR1: 26
+    VAR0: 47    VAR1: 27
+    VAR0: 47    VAR1: 28
+    VAR0: 47    VAR1: 3
+    VAR0: 47    VAR1: 30
+    VAR0: 47    VAR1: 32
+    VAR0: 47    VAR1: 33
+    VAR0: 47    VAR1: 34
+    VAR0: 47    VAR1: 38
+    VAR0: 47    VAR1: 39
+    VAR0: 47    VAR1: 4
+    VAR0: 47    VAR1: 43
+    VAR0: 47    VAR1: 45
+    VAR0: 47    VAR1: 46
+    VAR0: 47    VAR1: 48
+    VAR0: 47    VAR1: 7
+    VAR0: 47    VAR1: 9
+    VAR0: 48    VAR1: 1
+    VAR0: 48    VAR1: 10
+    VAR0: 48    VAR1: 11
+    VAR0: 48    VAR1: 13
+    VAR0: 48    VAR1: 15
+    VAR0: 48    VAR1: 16
+    VAR0: 48    VAR1: 18
+    VAR0: 48    VAR1: 20
+    VAR0: 48    VAR1: 21
+    VAR0: 48    VAR1: 22
+    VAR0: 48    VAR1: 24
+    VAR0: 48    VAR1: 27
+    VAR0: 48    VAR1: 28
+    VAR0: 48    VAR1: 29
+    VAR0: 48    VAR1: 3
+    VAR0: 48    VAR1: 30
+    VAR0: 48    VAR1: 31
+    VAR0: 48    VAR1: 32
+    VAR0: 48    VAR1: 33
+    VAR0: 48    VAR1: 34
+    VAR0: 48    VAR1: 35
+    VAR0: 48    VAR1: 37
+    VAR0: 48    VAR1: 41
+    VAR0: 48    VAR1: 46
+    VAR0: 48    VAR1: 5
+    VAR0: 48    VAR1: 8
+    VAR0: 48    VAR1: 9
+    VAR0: 49    VAR1: 0
+    VAR0: 49    VAR1: 1
+    VAR0: 49    VAR1: 10
+    VAR0: 49    VAR1: 11
+    VAR0: 49    VAR1: 12
+    VAR0: 49    VAR1: 14
+    VAR0: 49    VAR1: 16
+    VAR0: 49    VAR1: 18
+    VAR0: 49    VAR1: 20
+    VAR0: 49    VAR1: 21
+    VAR0: 49    VAR1: 22
+    VAR0: 49    VAR1: 24
+    VAR0: 49    VAR1: 25
+    VAR0: 49    VAR1: 26
+    VAR0: 49    VAR1: 27
+    VAR0: 49    VAR1: 30
+    VAR0: 49    VAR1: 32
+    VAR0: 49    VAR1: 33
+    VAR0: 49    VAR1: 35
+    VAR0: 49    VAR1: 36
+    VAR0: 49    VAR1: 37
+    VAR0: 49    VAR1: 38
+    VAR0: 49    VAR1: 4
+    VAR0: 49    VAR1: 41
+    VAR0: 49    VAR1: 42
+    VAR0: 49    VAR1: 44
+    VAR0: 49    VAR1: 46
+    VAR0: 49    VAR1: 48
+    VAR0: 49    VAR1: 5
+    VAR0: 49    VAR1: 7
+    VAR0: 49    VAR1: 9
+    VAR0: 5    VAR1: 1
+    VAR0: 5    VAR1: 10
+    VAR0: 5    VAR1: 12
+    VAR0: 5    VAR1: 13
+    VAR0: 5    VAR1: 14
+    VAR0: 5    VAR1: 15
+    VAR0: 5    VAR1: 16
+    VAR0: 5    VAR1: 18
+    VAR0: 5    VAR1: 19
+    VAR0: 5    VAR1: 2
+    VAR0: 5    VAR1: 20
+    VAR0: 5    VAR1: 21
+    VAR0: 5    VAR1: 23
+    VAR0: 5    VAR1: 24
+    VAR0: 5    VAR1: 28
+    VAR0: 5    VAR1: 29
+    VAR0: 5    VAR1: 31
+    VAR0: 5    VAR1: 34
+    VAR0: 5    VAR1: 35
+    VAR0: 5    VAR1: 38
+    VAR0: 5    VAR1: 4
+    VAR0: 5    VAR1: 40
+    VAR0: 5    VAR1: 42
+    VAR0: 5    VAR1: 43
+    VAR0: 5    VAR1: 44
+    VAR0: 5    VAR1: 46
+    VAR0: 5    VAR1: 48
+    VAR0: 5    VAR1: 49
+    VAR0: 5    VAR1: 6
+    VAR0: 5    VAR1: 7
+    VAR0: 5    VAR1: 8
+    VAR0: 50    VAR1: 0
+    VAR0: 50    VAR1: 1
+    VAR0: 50    VAR1: 11
+    VAR0: 50    VAR1: 12
+    VAR0: 50    VAR1: 16
+    VAR0: 50    VAR1: 17
+    VAR0: 50    VAR1: 18
+    VAR0: 50    VAR1: 23
+    VAR0: 50    VAR1: 24
+    VAR0: 50    VAR1: 25
+    VAR0: 50    VAR1: 27
+    VAR0: 50    VAR1: 29
+    VAR0: 50    VAR1: 31
+    VAR0: 50    VAR1: 33
+    VAR0: 50    VAR1: 34
+    VAR0: 50    VAR1: 37
+    VAR0: 50    VAR1: 38
+    VAR0: 50    VAR1: 4
+    VAR0: 50    VAR1: 41
+    VAR0: 50    VAR1: 42
+    VAR0: 50    VAR1: 44
+    VAR0: 50    VAR1: 45
+    VAR0: 50    VAR1: 46
+    VAR0: 50    VAR1: 47
+    VAR0: 50    VAR1: 48
+    VAR0: 50    VAR1: 49
+    VAR0: 50    VAR1: 9
+    VAR0: 6    VAR1: 1
+    VAR0: 6    VAR1: 10
+    VAR0: 6    VAR1: 12
+    VAR0: 6    VAR1: 13
+    VAR0: 6    VAR1: 14
+    VAR0: 6    VAR1: 15
+    VAR0: 6    VAR1: 18
+    VAR0: 6    VAR1: 19
+    VAR0: 6    VAR1: 21
+    VAR0: 6    VAR1: 23
+    VAR0: 6    VAR1: 25
+    VAR0: 6    VAR1: 26
+    VAR0: 6    VAR1: 27
+    VAR0: 6    VAR1: 28
+    VAR0: 6    VAR1: 3
+    VAR0: 6    VAR1: 30
+    VAR0: 6    VAR1: 31
+    VAR0: 6    VAR1: 32
+    VAR0: 6    VAR1: 34
+    VAR0: 6    VAR1: 37
+    VAR0: 6    VAR1: 39
+    VAR0: 6    VAR1: 4
+    VAR0: 6    VAR1: 40
+    VAR0: 6    VAR1: 41
+    VAR0: 6    VAR1: 42
+    VAR0: 6    VAR1: 44
+    VAR0: 6    VAR1: 45
+    VAR0: 6    VAR1: 46
+    VAR0: 6    VAR1: 47
+    VAR0: 6    VAR1: 48
+    VAR0: 6    VAR1: 49
+    VAR0: 6    VAR1: 8
+    VAR0: 7    VAR1: 0
+    VAR0: 7    VAR1: 1
+    VAR0: 7    VAR1: 10
+    VAR0: 7    VAR1: 11
+    VAR0: 7    VAR1: 13
+    VAR0: 7    VAR1: 14
+    VAR0: 7    VAR1: 15
+    VAR0: 7    VAR1: 16
+    VAR0: 7    VAR1: 17
+    VAR0: 7    VAR1: 18
+    VAR0: 7    VAR1: 19
+    VAR0: 7    VAR1: 20
+    VAR0: 7    VAR1: 21
+    VAR0: 7    VAR1: 22
+    VAR0: 7    VAR1: 23
+    VAR0: 7    VAR1: 24
+    VAR0: 7    VAR1: 25
+    VAR0: 7    VAR1: 29
+    VAR0: 7    VAR1: 3
+    VAR0: 7    VAR1: 32
+    VAR0: 7    VAR1: 33
+    VAR0: 7    VAR1: 34
+    VAR0: 7    VAR1: 35
+    VAR0: 7    VAR1: 36
+    VAR0: 7    VAR1: 37
+    VAR0: 7    VAR1: 38
+    VAR0: 7    VAR1: 40
+    VAR0: 7    VAR1: 43
+    VAR0: 7    VAR1: 44
+    VAR0: 7    VAR1: 46
+    VAR0: 7    VAR1: 47
+    VAR0: 7    VAR1: 48
+    VAR0: 7    VAR1: 49
+    VAR0: 7    VAR1: 6
+    VAR0: 7    VAR1: 8
+    VAR0: 8    VAR1: 0
+    VAR0: 8    VAR1: 10
+    VAR0: 8    VAR1: 11
+    VAR0: 8    VAR1: 12
+    VAR0: 8    VAR1: 15
+    VAR0: 8    VAR1: 16
+    VAR0: 8    VAR1: 17
+    VAR0: 8    VAR1: 19
+    VAR0: 8    VAR1: 21
+    VAR0: 8    VAR1: 22
+    VAR0: 8    VAR1: 23
+    VAR0: 8    VAR1: 24
+    VAR0: 8    VAR1: 25
+    VAR0: 8    VAR1: 3
+    VAR0: 8    VAR1: 30
+    VAR0: 8    VAR1: 31
+    VAR0: 8    VAR1: 32
+    VAR0: 8    VAR1: 34
+    VAR0: 8    VAR1: 35
+    VAR0: 8    VAR1: 37
+    VAR0: 8    VAR1: 4
+    VAR0: 8    VAR1: 42
+    VAR0: 8    VAR1: 43
+    VAR0: 8    VAR1: 45
+    VAR0: 8    VAR1: 48
+    VAR0: 8    VAR1: 7
+    VAR0: 8    VAR1: 9
+    VAR0: 9    VAR1: 0
+    VAR0: 9    VAR1: 13
+    VAR0: 9    VAR1: 14
+    VAR0: 9    VAR1: 15
+    VAR0: 9    VAR1: 16
+    VAR0: 9    VAR1: 17
+    VAR0: 9    VAR1: 18
+    VAR0: 9    VAR1: 19
+    VAR0: 9    VAR1: 2
+    VAR0: 9    VAR1: 21
+    VAR0: 9    VAR1: 22
+    VAR0: 9    VAR1: 24
+    VAR0: 9    VAR1: 26
+    VAR0: 9    VAR1: 27
+    VAR0: 9    VAR1: 28
+    VAR0: 9    VAR1: 29
+    VAR0: 9    VAR1: 3
+    VAR0: 9    VAR1: 30
+    VAR0: 9    VAR1: 35
+    VAR0: 9    VAR1: 36
+    VAR0: 9    VAR1: 39
+    VAR0: 9    VAR1: 4
+    VAR0: 9    VAR1: 40
+    VAR0: 9    VAR1: 42
+    VAR0: 9    VAR1: 43
+    VAR0: 9    VAR1: 44
+    VAR0: 9    VAR1: 46
+    VAR0: 9    VAR1: 47
+    VAR0: 9    VAR1: 49
+    VAR0: 9    VAR1: 7
+    VAR0: 9    VAR1: 8
+Table structure for predicate 'sg/2'
+  ?- sg(0,VAR0).
+    VAR0: 0
+  ?- sg(1,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(10,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(11,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(12,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(13,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(14,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(15,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(16,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(17,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(18,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(19,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(2,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(20,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(21,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(22,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(23,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(24,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(25,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(26,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(27,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(28,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(29,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(3,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(30,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(31,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(32,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(33,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(34,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(35,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(36,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(37,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(38,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(39,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(4,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(40,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(41,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(42,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(43,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(44,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(45,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(46,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(47,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(48,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(49,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(5,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(6,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(7,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(8,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(9,VAR0).
+    VAR0: 1
+    VAR0: 10
+    VAR0: 11
+    VAR0: 12
+    VAR0: 13
+    VAR0: 14
+    VAR0: 15
+    VAR0: 16
+    VAR0: 17
+    VAR0: 18
+    VAR0: 19
+    VAR0: 2
+    VAR0: 20
+    VAR0: 21
+    VAR0: 22
+    VAR0: 23
+    VAR0: 24
+    VAR0: 25
+    VAR0: 26
+    VAR0: 27
+    VAR0: 28
+    VAR0: 29
+    VAR0: 3
+    VAR0: 30
+    VAR0: 31
+    VAR0: 32
+    VAR0: 33
+    VAR0: 34
+    VAR0: 35
+    VAR0: 36
+    VAR0: 37
+    VAR0: 38
+    VAR0: 39
+    VAR0: 4
+    VAR0: 40
+    VAR0: 41
+    VAR0: 42
+    VAR0: 43
+    VAR0: 44
+    VAR0: 45
+    VAR0: 46
+    VAR0: 47
+    VAR0: 48
+    VAR0: 49
+    VAR0: 5
+    VAR0: 50
+    VAR0: 6
+    VAR0: 7
+    VAR0: 8
+    VAR0: 9
+  ?- sg(VAR0,VAR1).
+    VAR0: 1    VAR1: 1
+    VAR0: 1    VAR1: 10
+    VAR0: 1    VAR1: 11
+    VAR0: 1    VAR1: 12
+    VAR0: 1    VAR1: 13
+    VAR0: 1    VAR1: 14
+    VAR0: 1    VAR1: 15
+    VAR0: 1    VAR1: 16
+    VAR0: 1    VAR1: 17
+    VAR0: 1    VAR1: 18
+    VAR0: 1    VAR1: 19
+    VAR0: 1    VAR1: 2
+    VAR0: 1    VAR1: 20
+    VAR0: 1    VAR1: 21
+    VAR0: 1    VAR1: 22
+    VAR0: 1    VAR1: 23
+    VAR0: 1    VAR1: 24
+    VAR0: 1    VAR1: 25
+    VAR0: 1    VAR1: 26
+    VAR0: 1    VAR1: 27
+    VAR0: 1    VAR1: 28
+    VAR0: 1    VAR1: 29
+    VAR0: 1    VAR1: 3
+    VAR0: 1    VAR1: 30
+    VAR0: 1    VAR1: 31
+    VAR0: 1    VAR1: 32
+    VAR0: 1    VAR1: 33
+    VAR0: 1    VAR1: 34
+    VAR0: 1    VAR1: 35
+    VAR0: 1    VAR1: 36
+    VAR0: 1    VAR1: 37
+    VAR0: 1    VAR1: 38
+    VAR0: 1    VAR1: 39
+    VAR0: 1    VAR1: 4
+    VAR0: 1    VAR1: 40
+    VAR0: 1    VAR1: 41
+    VAR0: 1    VAR1: 42
+    VAR0: 1    VAR1: 43
+    VAR0: 1    VAR1: 44
+    VAR0: 1    VAR1: 45
+    VAR0: 1    VAR1: 46
+    VAR0: 1    VAR1: 47
+    VAR0: 1    VAR1: 48
+    VAR0: 1    VAR1: 49
+    VAR0: 1    VAR1: 5
+    VAR0: 1    VAR1: 50
+    VAR0: 1    VAR1: 6
+    VAR0: 1    VAR1: 7
+    VAR0: 1    VAR1: 8
+    VAR0: 1    VAR1: 9
+    VAR0: 10    VAR1: 1
+    VAR0: 10    VAR1: 10
+    VAR0: 10    VAR1: 11
+    VAR0: 10    VAR1: 12
+    VAR0: 10    VAR1: 13
+    VAR0: 10    VAR1: 14
+    VAR0: 10    VAR1: 15
+    VAR0: 10    VAR1: 16
+    VAR0: 10    VAR1: 17
+    VAR0: 10    VAR1: 18
+    VAR0: 10    VAR1: 19
+    VAR0: 10    VAR1: 2
+    VAR0: 10    VAR1: 20
+    VAR0: 10    VAR1: 21
+    VAR0: 10    VAR1: 22
+    VAR0: 10    VAR1: 23
+    VAR0: 10    VAR1: 24
+    VAR0: 10    VAR1: 25
+    VAR0: 10    VAR1: 26
+    VAR0: 10    VAR1: 27
+    VAR0: 10    VAR1: 28
+    VAR0: 10    VAR1: 29
+    VAR0: 10    VAR1: 3
+    VAR0: 10    VAR1: 30
+    VAR0: 10    VAR1: 31
+    VAR0: 10    VAR1: 32
+    VAR0: 10    VAR1: 33
+    VAR0: 10    VAR1: 34
+    VAR0: 10    VAR1: 35
+    VAR0: 10    VAR1: 36
+    VAR0: 10    VAR1: 37
+    VAR0: 10    VAR1: 38
+    VAR0: 10    VAR1: 39
+    VAR0: 10    VAR1: 4
+    VAR0: 10    VAR1: 40
+    VAR0: 10    VAR1: 41
+    VAR0: 10    VAR1: 42
+    VAR0: 10    VAR1: 43
+    VAR0: 10    VAR1: 44
+    VAR0: 10    VAR1: 45
+    VAR0: 10    VAR1: 46
+    VAR0: 10    VAR1: 47
+    VAR0: 10    VAR1: 48
+    VAR0: 10    VAR1: 49
+    VAR0: 10    VAR1: 5
+    VAR0: 10    VAR1: 50
+    VAR0: 10    VAR1: 6
+    VAR0: 10    VAR1: 7
+    VAR0: 10    VAR1: 8
+    VAR0: 10    VAR1: 9
+    VAR0: 11    VAR1: 1
+    VAR0: 11    VAR1: 10
+    VAR0: 11    VAR1: 11
+    VAR0: 11    VAR1: 12
+    VAR0: 11    VAR1: 13
+    VAR0: 11    VAR1: 14
+    VAR0: 11    VAR1: 15
+    VAR0: 11    VAR1: 16
+    VAR0: 11    VAR1: 17
+    VAR0: 11    VAR1: 18
+    VAR0: 11    VAR1: 19
+    VAR0: 11    VAR1: 2
+    VAR0: 11    VAR1: 20
+    VAR0: 11    VAR1: 21
+    VAR0: 11    VAR1: 22
+    VAR0: 11    VAR1: 23
+    VAR0: 11    VAR1: 24
+    VAR0: 11    VAR1: 25
+    VAR0: 11    VAR1: 26
+    VAR0: 11    VAR1: 27
+    VAR0: 11    VAR1: 28
+    VAR0: 11    VAR1: 29
+    VAR0: 11    VAR1: 3
+    VAR0: 11    VAR1: 30
+    VAR0: 11    VAR1: 31
+    VAR0: 11    VAR1: 32
+    VAR0: 11    VAR1: 33
+    VAR0: 11    VAR1: 34
+    VAR0: 11    VAR1: 35
+    VAR0: 11    VAR1: 36
+    VAR0: 11    VAR1: 37
+    VAR0: 11    VAR1: 38
+    VAR0: 11    VAR1: 39
+    VAR0: 11    VAR1: 4
+    VAR0: 11    VAR1: 40
+    VAR0: 11    VAR1: 41
+    VAR0: 11    VAR1: 42
+    VAR0: 11    VAR1: 43
+    VAR0: 11    VAR1: 44
+    VAR0: 11    VAR1: 45
+    VAR0: 11    VAR1: 46
+    VAR0: 11    VAR1: 47
+    VAR0: 11    VAR1: 48
+    VAR0: 11    VAR1: 49
+    VAR0: 11    VAR1: 5
+    VAR0: 11    VAR1: 50
+    VAR0: 11    VAR1: 6
+    VAR0: 11    VAR1: 7
+    VAR0: 11    VAR1: 8
+    VAR0: 11    VAR1: 9
+    VAR0: 12    VAR1: 1
+    VAR0: 12    VAR1: 10
+    VAR0: 12    VAR1: 11
+    VAR0: 12    VAR1: 12
+    VAR0: 12    VAR1: 13
+    VAR0: 12    VAR1: 14
+    VAR0: 12    VAR1: 15
+    VAR0: 12    VAR1: 16
+    VAR0: 12    VAR1: 17
+    VAR0: 12    VAR1: 18
+    VAR0: 12    VAR1: 19
+    VAR0: 12    VAR1: 2
+    VAR0: 12    VAR1: 20
+    VAR0: 12    VAR1: 21
+    VAR0: 12    VAR1: 22
+    VAR0: 12    VAR1: 23
+    VAR0: 12    VAR1: 24
+    VAR0: 12    VAR1: 25
+    VAR0: 12    VAR1: 26
+    VAR0: 12    VAR1: 27
+    VAR0: 12    VAR1: 28
+    VAR0: 12    VAR1: 29
+    VAR0: 12    VAR1: 3
+    VAR0: 12    VAR1: 30
+    VAR0: 12    VAR1: 31
+    VAR0: 12    VAR1: 32
+    VAR0: 12    VAR1: 33
+    VAR0: 12    VAR1: 34
+    VAR0: 12    VAR1: 35
+    VAR0: 12    VAR1: 36
+    VAR0: 12    VAR1: 37
+    VAR0: 12    VAR1: 38
+    VAR0: 12    VAR1: 39
+    VAR0: 12    VAR1: 4
+    VAR0: 12    VAR1: 40
+    VAR0: 12    VAR1: 41
+    VAR0: 12    VAR1: 42
+    VAR0: 12    VAR1: 43
+    VAR0: 12    VAR1: 44
+    VAR0: 12    VAR1: 45
+    VAR0: 12    VAR1: 46
+    VAR0: 12    VAR1: 47
+    VAR0: 12    VAR1: 48
+    VAR0: 12    VAR1: 49
+    VAR0: 12    VAR1: 5
+    VAR0: 12    VAR1: 50
+    VAR0: 12    VAR1: 6
+    VAR0: 12    VAR1: 7
+    VAR0: 12    VAR1: 8
+    VAR0: 12    VAR1: 9
+    VAR0: 13    VAR1: 1
+    VAR0: 13    VAR1: 10
+    VAR0: 13    VAR1: 11
+    VAR0: 13    VAR1: 12
+    VAR0: 13    VAR1: 13
+    VAR0: 13    VAR1: 14
+    VAR0: 13    VAR1: 15
+    VAR0: 13    VAR1: 16
+    VAR0: 13    VAR1: 17
+    VAR0: 13    VAR1: 18
+    VAR0: 13    VAR1: 19
+    VAR0: 13    VAR1: 2
+    VAR0: 13    VAR1: 20
+    VAR0: 13    VAR1: 21
+    VAR0: 13    VAR1: 22
+    VAR0: 13    VAR1: 23
+    VAR0: 13    VAR1: 24
+    VAR0: 13    VAR1: 25
+    VAR0: 13    VAR1: 26
+    VAR0: 13    VAR1: 27
+    VAR0: 13    VAR1: 28
+    VAR0: 13    VAR1: 29
+    VAR0: 13    VAR1: 3
+    VAR0: 13    VAR1: 30
+    VAR0: 13    VAR1: 31
+    VAR0: 13    VAR1: 32
+    VAR0: 13    VAR1: 33
+    VAR0: 13    VAR1: 34
+    VAR0: 13    VAR1: 35
+    VAR0: 13    VAR1: 36
+    VAR0: 13    VAR1: 37
+    VAR0: 13    VAR1: 38
+    VAR0: 13    VAR1: 39
+    VAR0: 13    VAR1: 4
+    VAR0: 13    VAR1: 40
+    VAR0: 13    VAR1: 41
+    VAR0: 13    VAR1: 42
+    VAR0: 13    VAR1: 43
+    VAR0: 13    VAR1: 44
+    VAR0: 13    VAR1: 45
+    VAR0: 13    VAR1: 46
+    VAR0: 13    VAR1: 47
+    VAR0: 13    VAR1: 48
+    VAR0: 13    VAR1: 49
+    VAR0: 13    VAR1: 5
+    VAR0: 13    VAR1: 50
+    VAR0: 13    VAR1: 6
+    VAR0: 13    VAR1: 7
+    VAR0: 13    VAR1: 8
+    VAR0: 13    VAR1: 9
+    VAR0: 14    VAR1: 1
+    VAR0: 14    VAR1: 10
+    VAR0: 14    VAR1: 11
+    VAR0: 14    VAR1: 12
+    VAR0: 14    VAR1: 13
+    VAR0: 14    VAR1: 14
+    VAR0: 14    VAR1: 15
+    VAR0: 14    VAR1: 16
+    VAR0: 14    VAR1: 17
+    VAR0: 14    VAR1: 18
+    VAR0: 14    VAR1: 19
+    VAR0: 14    VAR1: 2
+    VAR0: 14    VAR1: 20
+    VAR0: 14    VAR1: 21
+    VAR0: 14    VAR1: 22
+    VAR0: 14    VAR1: 23
+    VAR0: 14    VAR1: 24
+    VAR0: 14    VAR1: 25
+    VAR0: 14    VAR1: 26
+    VAR0: 14    VAR1: 27
+    VAR0: 14    VAR1: 28
+    VAR0: 14    VAR1: 29
+    VAR0: 14    VAR1: 3
+    VAR0: 14    VAR1: 30
+    VAR0: 14    VAR1: 31
+    VAR0: 14    VAR1: 32
+    VAR0: 14    VAR1: 33
+    VAR0: 14    VAR1: 34
+    VAR0: 14    VAR1: 35
+    VAR0: 14    VAR1: 36
+    VAR0: 14    VAR1: 37
+    VAR0: 14    VAR1: 38
+    VAR0: 14    VAR1: 39
+    VAR0: 14    VAR1: 4
+    VAR0: 14    VAR1: 40
+    VAR0: 14    VAR1: 41
+    VAR0: 14    VAR1: 42
+    VAR0: 14    VAR1: 43
+    VAR0: 14    VAR1: 44
+    VAR0: 14    VAR1: 45
+    VAR0: 14    VAR1: 46
+    VAR0: 14    VAR1: 47
+    VAR0: 14    VAR1: 48
+    VAR0: 14    VAR1: 49
+    VAR0: 14    VAR1: 5
+    VAR0: 14    VAR1: 50
+    VAR0: 14    VAR1: 6
+    VAR0: 14    VAR1: 7
+    VAR0: 14    VAR1: 8
+    VAR0: 14    VAR1: 9
+    VAR0: 15    VAR1: 1
+    VAR0: 15    VAR1: 10
+    VAR0: 15    VAR1: 11
+    VAR0: 15    VAR1: 12
+    VAR0: 15    VAR1: 13
+    VAR0: 15    VAR1: 14
+    VAR0: 15    VAR1: 15
+    VAR0: 15    VAR1: 16
+    VAR0: 15    VAR1: 17
+    VAR0: 15    VAR1: 18
+    VAR0: 15    VAR1: 19
+    VAR0: 15    VAR1: 2
+    VAR0: 15    VAR1: 20
+    VAR0: 15    VAR1: 21
+    VAR0: 15    VAR1: 22
+    VAR0: 15    VAR1: 23
+    VAR0: 15    VAR1: 24
+    VAR0: 15    VAR1: 25
+    VAR0: 15    VAR1: 26
+    VAR0: 15    VAR1: 27
+    VAR0: 15    VAR1: 28
+    VAR0: 15    VAR1: 29
+    VAR0: 15    VAR1: 3
+    VAR0: 15    VAR1: 30
+    VAR0: 15    VAR1: 31
+    VAR0: 15    VAR1: 32
+    VAR0: 15    VAR1: 33
+    VAR0: 15    VAR1: 34
+    VAR0: 15    VAR1: 35
+    VAR0: 15    VAR1: 36
+    VAR0: 15    VAR1: 37
+    VAR0: 15    VAR1: 38
+    VAR0: 15    VAR1: 39
+    VAR0: 15    VAR1: 4
+    VAR0: 15    VAR1: 40
+    VAR0: 15    VAR1: 41
+    VAR0: 15    VAR1: 42
+    VAR0: 15    VAR1: 43
+    VAR0: 15    VAR1: 44
+    VAR0: 15    VAR1: 45
+    VAR0: 15    VAR1: 46
+    VAR0: 15    VAR1: 47
+    VAR0: 15    VAR1: 48
+    VAR0: 15    VAR1: 49
+    VAR0: 15    VAR1: 5
+    VAR0: 15    VAR1: 50
+    VAR0: 15    VAR1: 6
+    VAR0: 15    VAR1: 7
+    VAR0: 15    VAR1: 8
+    VAR0: 15    VAR1: 9
+    VAR0: 16    VAR1: 1
+    VAR0: 16    VAR1: 10
+    VAR0: 16    VAR1: 11
+    VAR0: 16    VAR1: 12
+    VAR0: 16    VAR1: 13
+    VAR0: 16    VAR1: 14
+    VAR0: 16    VAR1: 15
+    VAR0: 16    VAR1: 16
+    VAR0: 16    VAR1: 17
+    VAR0: 16    VAR1: 18
+    VAR0: 16    VAR1: 19
+    VAR0: 16    VAR1: 2
+    VAR0: 16    VAR1: 20
+    VAR0: 16    VAR1: 21
+    VAR0: 16    VAR1: 22
+    VAR0: 16    VAR1: 23
+    VAR0: 16    VAR1: 24
+    VAR0: 16    VAR1: 25
+    VAR0: 16    VAR1: 26
+    VAR0: 16    VAR1: 27
+    VAR0: 16    VAR1: 28
+    VAR0: 16    VAR1: 29
+    VAR0: 16    VAR1: 3
+    VAR0: 16    VAR1: 30
+    VAR0: 16    VAR1: 31
+    VAR0: 16    VAR1: 32
+    VAR0: 16    VAR1: 33
+    VAR0: 16    VAR1: 34
+    VAR0: 16    VAR1: 35
+    VAR0: 16    VAR1: 36
+    VAR0: 16    VAR1: 37
+    VAR0: 16    VAR1: 38
+    VAR0: 16    VAR1: 39
+    VAR0: 16    VAR1: 4
+    VAR0: 16    VAR1: 40
+    VAR0: 16    VAR1: 41
+    VAR0: 16    VAR1: 42
+    VAR0: 16    VAR1: 43
+    VAR0: 16    VAR1: 44
+    VAR0: 16    VAR1: 45
+    VAR0: 16    VAR1: 46
+    VAR0: 16    VAR1: 47
+    VAR0: 16    VAR1: 48
+    VAR0: 16    VAR1: 49
+    VAR0: 16    VAR1: 5
+    VAR0: 16    VAR1: 50
+    VAR0: 16    VAR1: 6
+    VAR0: 16    VAR1: 7
+    VAR0: 16    VAR1: 8
+    VAR0: 16    VAR1: 9
+    VAR0: 17    VAR1: 1
+    VAR0: 17    VAR1: 10
+    VAR0: 17    VAR1: 11
+    VAR0: 17    VAR1: 12
+    VAR0: 17    VAR1: 13
+    VAR0: 17    VAR1: 14
+    VAR0: 17    VAR1: 15
+    VAR0: 17    VAR1: 16
+    VAR0: 17    VAR1: 17
+    VAR0: 17    VAR1: 18
+    VAR0: 17    VAR1: 19
+    VAR0: 17    VAR1: 2
+    VAR0: 17    VAR1: 20
+    VAR0: 17    VAR1: 21
+    VAR0: 17    VAR1: 22
+    VAR0: 17    VAR1: 23
+    VAR0: 17    VAR1: 24
+    VAR0: 17    VAR1: 25
+    VAR0: 17    VAR1: 26
+    VAR0: 17    VAR1: 27
+    VAR0: 17    VAR1: 28
+    VAR0: 17    VAR1: 29
+    VAR0: 17    VAR1: 3
+    VAR0: 17    VAR1: 30
+    VAR0: 17    VAR1: 31
+    VAR0: 17    VAR1: 32
+    VAR0: 17    VAR1: 33
+    VAR0: 17    VAR1: 34
+    VAR0: 17    VAR1: 35
+    VAR0: 17    VAR1: 36
+    VAR0: 17    VAR1: 37
+    VAR0: 17    VAR1: 38
+    VAR0: 17    VAR1: 39
+    VAR0: 17    VAR1: 4
+    VAR0: 17    VAR1: 40
+    VAR0: 17    VAR1: 41
+    VAR0: 17    VAR1: 42
+    VAR0: 17    VAR1: 43
+    VAR0: 17    VAR1: 44
+    VAR0: 17    VAR1: 45
+    VAR0: 17    VAR1: 46
+    VAR0: 17    VAR1: 47
+    VAR0: 17    VAR1: 48
+    VAR0: 17    VAR1: 49
+    VAR0: 17    VAR1: 5
+    VAR0: 17    VAR1: 50
+    VAR0: 17    VAR1: 6
+    VAR0: 17    VAR1: 7
+    VAR0: 17    VAR1: 8
+    VAR0: 17    VAR1: 9
+    VAR0: 18    VAR1: 1
+    VAR0: 18    VAR1: 10
+    VAR0: 18    VAR1: 11
+    VAR0: 18    VAR1: 12
+    VAR0: 18    VAR1: 13
+    VAR0: 18    VAR1: 14
+    VAR0: 18    VAR1: 15
+    VAR0: 18    VAR1: 16
+    VAR0: 18    VAR1: 17
+    VAR0: 18    VAR1: 18
+    VAR0: 18    VAR1: 19
+    VAR0: 18    VAR1: 2
+    VAR0: 18    VAR1: 20
+    VAR0: 18    VAR1: 21
+    VAR0: 18    VAR1: 22
+    VAR0: 18    VAR1: 23
+    VAR0: 18    VAR1: 24
+    VAR0: 18    VAR1: 25
+    VAR0: 18    VAR1: 26
+    VAR0: 18    VAR1: 27
+    VAR0: 18    VAR1: 28
+    VAR0: 18    VAR1: 29
+    VAR0: 18    VAR1: 3
+    VAR0: 18    VAR1: 30
+    VAR0: 18    VAR1: 31
+    VAR0: 18    VAR1: 32
+    VAR0: 18    VAR1: 33
+    VAR0: 18    VAR1: 34
+    VAR0: 18    VAR1: 35
+    VAR0: 18    VAR1: 36
+    VAR0: 18    VAR1: 37
+    VAR0: 18    VAR1: 38
+    VAR0: 18    VAR1: 39
+    VAR0: 18    VAR1: 4
+    VAR0: 18    VAR1: 40
+    VAR0: 18    VAR1: 41
+    VAR0: 18    VAR1: 42
+    VAR0: 18    VAR1: 43
+    VAR0: 18    VAR1: 44
+    VAR0: 18    VAR1: 45
+    VAR0: 18    VAR1: 46
+    VAR0: 18    VAR1: 47
+    VAR0: 18    VAR1: 48
+    VAR0: 18    VAR1: 49
+    VAR0: 18    VAR1: 5
+    VAR0: 18    VAR1: 50
+    VAR0: 18    VAR1: 6
+    VAR0: 18    VAR1: 7
+    VAR0: 18    VAR1: 8
+    VAR0: 18    VAR1: 9
+    VAR0: 19    VAR1: 1
+    VAR0: 19    VAR1: 10
+    VAR0: 19    VAR1: 11
+    VAR0: 19    VAR1: 12
+    VAR0: 19    VAR1: 13
+    VAR0: 19    VAR1: 14
+    VAR0: 19    VAR1: 15
+    VAR0: 19    VAR1: 16
+    VAR0: 19    VAR1: 17
+    VAR0: 19    VAR1: 18
+    VAR0: 19    VAR1: 19
+    VAR0: 19    VAR1: 2
+    VAR0: 19    VAR1: 20
+    VAR0: 19    VAR1: 21
+    VAR0: 19    VAR1: 22
+    VAR0: 19    VAR1: 23
+    VAR0: 19    VAR1: 24
+    VAR0: 19    VAR1: 25
+    VAR0: 19    VAR1: 26
+    VAR0: 19    VAR1: 27
+    VAR0: 19    VAR1: 28
+    VAR0: 19    VAR1: 29
+    VAR0: 19    VAR1: 3
+    VAR0: 19    VAR1: 30
+    VAR0: 19    VAR1: 31
+    VAR0: 19    VAR1: 32
+    VAR0: 19    VAR1: 33
+    VAR0: 19    VAR1: 34
+    VAR0: 19    VAR1: 35
+    VAR0: 19    VAR1: 36
+    VAR0: 19    VAR1: 37
+    VAR0: 19    VAR1: 38
+    VAR0: 19    VAR1: 39
+    VAR0: 19    VAR1: 4
+    VAR0: 19    VAR1: 40
+    VAR0: 19    VAR1: 41
+    VAR0: 19    VAR1: 42
+    VAR0: 19    VAR1: 43
+    VAR0: 19    VAR1: 44
+    VAR0: 19    VAR1: 45
+    VAR0: 19    VAR1: 46
+    VAR0: 19    VAR1: 47
+    VAR0: 19    VAR1: 48
+    VAR0: 19    VAR1: 49
+    VAR0: 19    VAR1: 5
+    VAR0: 19    VAR1: 50
+    VAR0: 19    VAR1: 6
+    VAR0: 19    VAR1: 7
+    VAR0: 19    VAR1: 8
+    VAR0: 19    VAR1: 9
+    VAR0: 2    VAR1: 1
+    VAR0: 2    VAR1: 10
+    VAR0: 2    VAR1: 11
+    VAR0: 2    VAR1: 12
+    VAR0: 2    VAR1: 13
+    VAR0: 2    VAR1: 14
+    VAR0: 2    VAR1: 15
+    VAR0: 2    VAR1: 16
+    VAR0: 2    VAR1: 17
+    VAR0: 2    VAR1: 18
+    VAR0: 2    VAR1: 19
+    VAR0: 2    VAR1: 2
+    VAR0: 2    VAR1: 20
+    VAR0: 2    VAR1: 21
+    VAR0: 2    VAR1: 22
+    VAR0: 2    VAR1: 23
+    VAR0: 2    VAR1: 24
+    VAR0: 2    VAR1: 25
+    VAR0: 2    VAR1: 26
+    VAR0: 2    VAR1: 27
+    VAR0: 2    VAR1: 28
+    VAR0: 2    VAR1: 29
+    VAR0: 2    VAR1: 3
+    VAR0: 2    VAR1: 30
+    VAR0: 2    VAR1: 31
+    VAR0: 2    VAR1: 32
+    VAR0: 2    VAR1: 33
+    VAR0: 2    VAR1: 34
+    VAR0: 2    VAR1: 35
+    VAR0: 2    VAR1: 36
+    VAR0: 2    VAR1: 37
+    VAR0: 2    VAR1: 38
+    VAR0: 2    VAR1: 39
+    VAR0: 2    VAR1: 4
+    VAR0: 2    VAR1: 40
+    VAR0: 2    VAR1: 41
+    VAR0: 2    VAR1: 42
+    VAR0: 2    VAR1: 43
+    VAR0: 2    VAR1: 44
+    VAR0: 2    VAR1: 45
+    VAR0: 2    VAR1: 46
+    VAR0: 2    VAR1: 47
+    VAR0: 2    VAR1: 48
+    VAR0: 2    VAR1: 49
+    VAR0: 2    VAR1: 5
+    VAR0: 2    VAR1: 50
+    VAR0: 2    VAR1: 6
+    VAR0: 2    VAR1: 7
+    VAR0: 2    VAR1: 8
+    VAR0: 2    VAR1: 9
+    VAR0: 20    VAR1: 1
+    VAR0: 20    VAR1: 10
+    VAR0: 20    VAR1: 11
+    VAR0: 20    VAR1: 12
+    VAR0: 20    VAR1: 13
+    VAR0: 20    VAR1: 14
+    VAR0: 20    VAR1: 15
+    VAR0: 20    VAR1: 16
+    VAR0: 20    VAR1: 17
+    VAR0: 20    VAR1: 18
+    VAR0: 20    VAR1: 19
+    VAR0: 20    VAR1: 2
+    VAR0: 20    VAR1: 20
+    VAR0: 20    VAR1: 21
+    VAR0: 20    VAR1: 22
+    VAR0: 20    VAR1: 23
+    VAR0: 20    VAR1: 24
+    VAR0: 20    VAR1: 25
+    VAR0: 20    VAR1: 26
+    VAR0: 20    VAR1: 27
+    VAR0: 20    VAR1: 28
+    VAR0: 20    VAR1: 29
+    VAR0: 20    VAR1: 3
+    VAR0: 20    VAR1: 30
+    VAR0: 20    VAR1: 31
+    VAR0: 20    VAR1: 32
+    VAR0: 20    VAR1: 33
+    VAR0: 20    VAR1: 34
+    VAR0: 20    VAR1: 35
+    VAR0: 20    VAR1: 36
+    VAR0: 20    VAR1: 37
+    VAR0: 20    VAR1: 38
+    VAR0: 20    VAR1: 39
+    VAR0: 20    VAR1: 4
+    VAR0: 20    VAR1: 40
+    VAR0: 20    VAR1: 41
+    VAR0: 20    VAR1: 42
+    VAR0: 20    VAR1: 43
+    VAR0: 20    VAR1: 44
+    VAR0: 20    VAR1: 45
+    VAR0: 20    VAR1: 46
+    VAR0: 20    VAR1: 47
+    VAR0: 20    VAR1: 48
+    VAR0: 20    VAR1: 49
+    VAR0: 20    VAR1: 5
+    VAR0: 20    VAR1: 50
+    VAR0: 20    VAR1: 6
+    VAR0: 20    VAR1: 7
+    VAR0: 20    VAR1: 8
+    VAR0: 20    VAR1: 9
+    VAR0: 21    VAR1: 1
+    VAR0: 21    VAR1: 10
+    VAR0: 21    VAR1: 11
+    VAR0: 21    VAR1: 12
+    VAR0: 21    VAR1: 13
+    VAR0: 21    VAR1: 14
+    VAR0: 21    VAR1: 15
+    VAR0: 21    VAR1: 16
+    VAR0: 21    VAR1: 17
+    VAR0: 21    VAR1: 18
+    VAR0: 21    VAR1: 19
+    VAR0: 21    VAR1: 2
+    VAR0: 21    VAR1: 20
+    VAR0: 21    VAR1: 21
+    VAR0: 21    VAR1: 22
+    VAR0: 21    VAR1: 23
+    VAR0: 21    VAR1: 24
+    VAR0: 21    VAR1: 25
+    VAR0: 21    VAR1: 26
+    VAR0: 21    VAR1: 27
+    VAR0: 21    VAR1: 28
+    VAR0: 21    VAR1: 29
+    VAR0: 21    VAR1: 3
+    VAR0: 21    VAR1: 30
+    VAR0: 21    VAR1: 31
+    VAR0: 21    VAR1: 32
+    VAR0: 21    VAR1: 33
+    VAR0: 21    VAR1: 34
+    VAR0: 21    VAR1: 35
+    VAR0: 21    VAR1: 36
+    VAR0: 21    VAR1: 37
+    VAR0: 21    VAR1: 38
+    VAR0: 21    VAR1: 39
+    VAR0: 21    VAR1: 4
+    VAR0: 21    VAR1: 40
+    VAR0: 21    VAR1: 41
+    VAR0: 21    VAR1: 42
+    VAR0: 21    VAR1: 43
+    VAR0: 21    VAR1: 44
+    VAR0: 21    VAR1: 45
+    VAR0: 21    VAR1: 46
+    VAR0: 21    VAR1: 47
+    VAR0: 21    VAR1: 48
+    VAR0: 21    VAR1: 49
+    VAR0: 21    VAR1: 5
+    VAR0: 21    VAR1: 50
+    VAR0: 21    VAR1: 6
+    VAR0: 21    VAR1: 7
+    VAR0: 21    VAR1: 8
+    VAR0: 21    VAR1: 9
+    VAR0: 22    VAR1: 1
+    VAR0: 22    VAR1: 10
+    VAR0: 22    VAR1: 11
+    VAR0: 22    VAR1: 12
+    VAR0: 22    VAR1: 13
+    VAR0: 22    VAR1: 14
+    VAR0: 22    VAR1: 15
+    VAR0: 22    VAR1: 16
+    VAR0: 22    VAR1: 17
+    VAR0: 22    VAR1: 18
+    VAR0: 22    VAR1: 19
+    VAR0: 22    VAR1: 2
+    VAR0: 22    VAR1: 20
+    VAR0: 22    VAR1: 21
+    VAR0: 22    VAR1: 22
+    VAR0: 22    VAR1: 23
+    VAR0: 22    VAR1: 24
+    VAR0: 22    VAR1: 25
+    VAR0: 22    VAR1: 26
+    VAR0: 22    VAR1: 27
+    VAR0: 22    VAR1: 28
+    VAR0: 22    VAR1: 29
+    VAR0: 22    VAR1: 3
+    VAR0: 22    VAR1: 30
+    VAR0: 22    VAR1: 31
+    VAR0: 22    VAR1: 32
+    VAR0: 22    VAR1: 33
+    VAR0: 22    VAR1: 34
+    VAR0: 22    VAR1: 35
+    VAR0: 22    VAR1: 36
+    VAR0: 22    VAR1: 37
+    VAR0: 22    VAR1: 38
+    VAR0: 22    VAR1: 39
+    VAR0: 22    VAR1: 4
+    VAR0: 22    VAR1: 40
+    VAR0: 22    VAR1: 41
+    VAR0: 22    VAR1: 42
+    VAR0: 22    VAR1: 43
+    VAR0: 22    VAR1: 44
+    VAR0: 22    VAR1: 45
+    VAR0: 22    VAR1: 46
+    VAR0: 22    VAR1: 47
+    VAR0: 22    VAR1: 48
+    VAR0: 22    VAR1: 49
+    VAR0: 22    VAR1: 5
+    VAR0: 22    VAR1: 50
+    VAR0: 22    VAR1: 6
+    VAR0: 22    VAR1: 7
+    VAR0: 22    VAR1: 8
+    VAR0: 22    VAR1: 9
+    VAR0: 23    VAR1: 1
+    VAR0: 23    VAR1: 10
+    VAR0: 23    VAR1: 11
+    VAR0: 23    VAR1: 12
+    VAR0: 23    VAR1: 13
+    VAR0: 23    VAR1: 14
+    VAR0: 23    VAR1: 15
+    VAR0: 23    VAR1: 16
+    VAR0: 23    VAR1: 17
+    VAR0: 23    VAR1: 18
+    VAR0: 23    VAR1: 19
+    VAR0: 23    VAR1: 2
+    VAR0: 23    VAR1: 20
+    VAR0: 23    VAR1: 21
+    VAR0: 23    VAR1: 22
+    VAR0: 23    VAR1: 23
+    VAR0: 23    VAR1: 24
+    VAR0: 23    VAR1: 25
+    VAR0: 23    VAR1: 26
+    VAR0: 23    VAR1: 27
+    VAR0: 23    VAR1: 28
+    VAR0: 23    VAR1: 29
+    VAR0: 23    VAR1: 3
+    VAR0: 23    VAR1: 30
+    VAR0: 23    VAR1: 31
+    VAR0: 23    VAR1: 32
+    VAR0: 23    VAR1: 33
+    VAR0: 23    VAR1: 34
+    VAR0: 23    VAR1: 35
+    VAR0: 23    VAR1: 36
+    VAR0: 23    VAR1: 37
+    VAR0: 23    VAR1: 38
+    VAR0: 23    VAR1: 39
+    VAR0: 23    VAR1: 4
+    VAR0: 23    VAR1: 40
+    VAR0: 23    VAR1: 41
+    VAR0: 23    VAR1: 42
+    VAR0: 23    VAR1: 43
+    VAR0: 23    VAR1: 44
+    VAR0: 23    VAR1: 45
+    VAR0: 23    VAR1: 46
+    VAR0: 23    VAR1: 47
+    VAR0: 23    VAR1: 48
+    VAR0: 23    VAR1: 49
+    VAR0: 23    VAR1: 5
+    VAR0: 23    VAR1: 50
+    VAR0: 23    VAR1: 6
+    VAR0: 23    VAR1: 7
+    VAR0: 23    VAR1: 8
+    VAR0: 23    VAR1: 9
+    VAR0: 24    VAR1: 1
+    VAR0: 24    VAR1: 10
+    VAR0: 24    VAR1: 11
+    VAR0: 24    VAR1: 12
+    VAR0: 24    VAR1: 13
+    VAR0: 24    VAR1: 14
+    VAR0: 24    VAR1: 15
+    VAR0: 24    VAR1: 16
+    VAR0: 24    VAR1: 17
+    VAR0: 24    VAR1: 18
+    VAR0: 24    VAR1: 19
+    VAR0: 24    VAR1: 2
+    VAR0: 24    VAR1: 20
+    VAR0: 24    VAR1: 21
+    VAR0: 24    VAR1: 22
+    VAR0: 24    VAR1: 23
+    VAR0: 24    VAR1: 24
+    VAR0: 24    VAR1: 25
+    VAR0: 24    VAR1: 26
+    VAR0: 24    VAR1: 27
+    VAR0: 24    VAR1: 28
+    VAR0: 24    VAR1: 29
+    VAR0: 24    VAR1: 3
+    VAR0: 24    VAR1: 30
+    VAR0: 24    VAR1: 31
+    VAR0: 24    VAR1: 32
+    VAR0: 24    VAR1: 33
+    VAR0: 24    VAR1: 34
+    VAR0: 24    VAR1: 35
+    VAR0: 24    VAR1: 36
+    VAR0: 24    VAR1: 37
+    VAR0: 24    VAR1: 38
+    VAR0: 24    VAR1: 39
+    VAR0: 24    VAR1: 4
+    VAR0: 24    VAR1: 40
+    VAR0: 24    VAR1: 41
+    VAR0: 24    VAR1: 42
+    VAR0: 24    VAR1: 43
+    VAR0: 24    VAR1: 44
+    VAR0: 24    VAR1: 45
+    VAR0: 24    VAR1: 46
+    VAR0: 24    VAR1: 47
+    VAR0: 24    VAR1: 48
+    VAR0: 24    VAR1: 49
+    VAR0: 24    VAR1: 5
+    VAR0: 24    VAR1: 50
+    VAR0: 24    VAR1: 6
+    VAR0: 24    VAR1: 7
+    VAR0: 24    VAR1: 8
+    VAR0: 24    VAR1: 9
+    VAR0: 25    VAR1: 1
+    VAR0: 25    VAR1: 10
+    VAR0: 25    VAR1: 11
+    VAR0: 25    VAR1: 12
+    VAR0: 25    VAR1: 13
+    VAR0: 25    VAR1: 14
+    VAR0: 25    VAR1: 15
+    VAR0: 25    VAR1: 16
+    VAR0: 25    VAR1: 17
+    VAR0: 25    VAR1: 18
+    VAR0: 25    VAR1: 19
+    VAR0: 25    VAR1: 2
+    VAR0: 25    VAR1: 20
+    VAR0: 25    VAR1: 21
+    VAR0: 25    VAR1: 22
+    VAR0: 25    VAR1: 23
+    VAR0: 25    VAR1: 24
+    VAR0: 25    VAR1: 25
+    VAR0: 25    VAR1: 26
+    VAR0: 25    VAR1: 27
+    VAR0: 25    VAR1: 28
+    VAR0: 25    VAR1: 29
+    VAR0: 25    VAR1: 3
+    VAR0: 25    VAR1: 30
+    VAR0: 25    VAR1: 31
+    VAR0: 25    VAR1: 32
+    VAR0: 25    VAR1: 33
+    VAR0: 25    VAR1: 34
+    VAR0: 25    VAR1: 35
+    VAR0: 25    VAR1: 36
+    VAR0: 25    VAR1: 37
+    VAR0: 25    VAR1: 38
+    VAR0: 25    VAR1: 39
+    VAR0: 25    VAR1: 4
+    VAR0: 25    VAR1: 40
+    VAR0: 25    VAR1: 41
+    VAR0: 25    VAR1: 42
+    VAR0: 25    VAR1: 43
+    VAR0: 25    VAR1: 44
+    VAR0: 25    VAR1: 45
+    VAR0: 25    VAR1: 46
+    VAR0: 25    VAR1: 47
+    VAR0: 25    VAR1: 48
+    VAR0: 25    VAR1: 49
+    VAR0: 25    VAR1: 5
+    VAR0: 25    VAR1: 50
+    VAR0: 25    VAR1: 6
+    VAR0: 25    VAR1: 7
+    VAR0: 25    VAR1: 8
+    VAR0: 25    VAR1: 9
+    VAR0: 26    VAR1: 1
+    VAR0: 26    VAR1: 10
+    VAR0: 26    VAR1: 11
+    VAR0: 26    VAR1: 12
+    VAR0: 26    VAR1: 13
+    VAR0: 26    VAR1: 14
+    VAR0: 26    VAR1: 15
+    VAR0: 26    VAR1: 16
+    VAR0: 26    VAR1: 17
+    VAR0: 26    VAR1: 18
+    VAR0: 26    VAR1: 19
+    VAR0: 26    VAR1: 2
+    VAR0: 26    VAR1: 20
+    VAR0: 26    VAR1: 21
+    VAR0: 26    VAR1: 22
+    VAR0: 26    VAR1: 23
+    VAR0: 26    VAR1: 24
+    VAR0: 26    VAR1: 25
+    VAR0: 26    VAR1: 26
+    VAR0: 26    VAR1: 27
+    VAR0: 26    VAR1: 28
+    VAR0: 26    VAR1: 29
+    VAR0: 26    VAR1: 3
+    VAR0: 26    VAR1: 30
+    VAR0: 26    VAR1: 31
+    VAR0: 26    VAR1: 32
+    VAR0: 26    VAR1: 33
+    VAR0: 26    VAR1: 34
+    VAR0: 26    VAR1: 35
+    VAR0: 26    VAR1: 36
+    VAR0: 26    VAR1: 37
+    VAR0: 26    VAR1: 38
+    VAR0: 26    VAR1: 39
+    VAR0: 26    VAR1: 4
+    VAR0: 26    VAR1: 40
+    VAR0: 26    VAR1: 41
+    VAR0: 26    VAR1: 42
+    VAR0: 26    VAR1: 43
+    VAR0: 26    VAR1: 44
+    VAR0: 26    VAR1: 45
+    VAR0: 26    VAR1: 46
+    VAR0: 26    VAR1: 47
+    VAR0: 26    VAR1: 48
+    VAR0: 26    VAR1: 49
+    VAR0: 26    VAR1: 5
+    VAR0: 26    VAR1: 50
+    VAR0: 26    VAR1: 6
+    VAR0: 26    VAR1: 7
+    VAR0: 26    VAR1: 8
+    VAR0: 26    VAR1: 9
+    VAR0: 27    VAR1: 1
+    VAR0: 27    VAR1: 10
+    VAR0: 27    VAR1: 11
+    VAR0: 27    VAR1: 12
+    VAR0: 27    VAR1: 13
+    VAR0: 27    VAR1: 14
+    VAR0: 27    VAR1: 15
+    VAR0: 27    VAR1: 16
+    VAR0: 27    VAR1: 17
+    VAR0: 27    VAR1: 18
+    VAR0: 27    VAR1: 19
+    VAR0: 27    VAR1: 2
+    VAR0: 27    VAR1: 20
+    VAR0: 27    VAR1: 21
+    VAR0: 27    VAR1: 22
+    VAR0: 27    VAR1: 23
+    VAR0: 27    VAR1: 24
+    VAR0: 27    VAR1: 25
+    VAR0: 27    VAR1: 26
+    VAR0: 27    VAR1: 27
+    VAR0: 27    VAR1: 28
+    VAR0: 27    VAR1: 29
+    VAR0: 27    VAR1: 3
+    VAR0: 27    VAR1: 30
+    VAR0: 27    VAR1: 31
+    VAR0: 27    VAR1: 32
+    VAR0: 27    VAR1: 33
+    VAR0: 27    VAR1: 34
+    VAR0: 27    VAR1: 35
+    VAR0: 27    VAR1: 36
+    VAR0: 27    VAR1: 37
+    VAR0: 27    VAR1: 38
+    VAR0: 27    VAR1: 39
+    VAR0: 27    VAR1: 4
+    VAR0: 27    VAR1: 40
+    VAR0: 27    VAR1: 41
+    VAR0: 27    VAR1: 42
+    VAR0: 27    VAR1: 43
+    VAR0: 27    VAR1: 44
+    VAR0: 27    VAR1: 45
+    VAR0: 27    VAR1: 46
+    VAR0: 27    VAR1: 47
+    VAR0: 27    VAR1: 48
+    VAR0: 27    VAR1: 49
+    VAR0: 27    VAR1: 5
+    VAR0: 27    VAR1: 50
+    VAR0: 27    VAR1: 6
+    VAR0: 27    VAR1: 7
+    VAR0: 27    VAR1: 8
+    VAR0: 27    VAR1: 9
+    VAR0: 28    VAR1: 1
+    VAR0: 28    VAR1: 10
+    VAR0: 28    VAR1: 11
+    VAR0: 28    VAR1: 12
+    VAR0: 28    VAR1: 13
+    VAR0: 28    VAR1: 14
+    VAR0: 28    VAR1: 15
+    VAR0: 28    VAR1: 16
+    VAR0: 28    VAR1: 17
+    VAR0: 28    VAR1: 18
+    VAR0: 28    VAR1: 19
+    VAR0: 28    VAR1: 2
+    VAR0: 28    VAR1: 20
+    VAR0: 28    VAR1: 21
+    VAR0: 28    VAR1: 22
+    VAR0: 28    VAR1: 23
+    VAR0: 28    VAR1: 24
+    VAR0: 28    VAR1: 25
+    VAR0: 28    VAR1: 26
+    VAR0: 28    VAR1: 27
+    VAR0: 28    VAR1: 28
+    VAR0: 28    VAR1: 29
+    VAR0: 28    VAR1: 3
+    VAR0: 28    VAR1: 30
+    VAR0: 28    VAR1: 31
+    VAR0: 28    VAR1: 32
+    VAR0: 28    VAR1: 33
+    VAR0: 28    VAR1: 34
+    VAR0: 28    VAR1: 35
+    VAR0: 28    VAR1: 36
+    VAR0: 28    VAR1: 37
+    VAR0: 28    VAR1: 38
+    VAR0: 28    VAR1: 39
+    VAR0: 28    VAR1: 4
+    VAR0: 28    VAR1: 40
+    VAR0: 28    VAR1: 41
+    VAR0: 28    VAR1: 42
+    VAR0: 28    VAR1: 43
+    VAR0: 28    VAR1: 44
+    VAR0: 28    VAR1: 45
+    VAR0: 28    VAR1: 46
+    VAR0: 28    VAR1: 47
+    VAR0: 28    VAR1: 48
+    VAR0: 28    VAR1: 49
+    VAR0: 28    VAR1: 5
+    VAR0: 28    VAR1: 50
+    VAR0: 28    VAR1: 6
+    VAR0: 28    VAR1: 7
+    VAR0: 28    VAR1: 8
+    VAR0: 28    VAR1: 9
+    VAR0: 29    VAR1: 1
+    VAR0: 29    VAR1: 10
+    VAR0: 29    VAR1: 11
+    VAR0: 29    VAR1: 12
+    VAR0: 29    VAR1: 13
+    VAR0: 29    VAR1: 14
+    VAR0: 29    VAR1: 15
+    VAR0: 29    VAR1: 16
+    VAR0: 29    VAR1: 17
+    VAR0: 29    VAR1: 18
+    VAR0: 29    VAR1: 19
+    VAR0: 29    VAR1: 2
+    VAR0: 29    VAR1: 20
+    VAR0: 29    VAR1: 21
+    VAR0: 29    VAR1: 22
+    VAR0: 29    VAR1: 23
+    VAR0: 29    VAR1: 24
+    VAR0: 29    VAR1: 25
+    VAR0: 29    VAR1: 26
+    VAR0: 29    VAR1: 27
+    VAR0: 29    VAR1: 28
+    VAR0: 29    VAR1: 29
+    VAR0: 29    VAR1: 3
+    VAR0: 29    VAR1: 30
+    VAR0: 29    VAR1: 31
+    VAR0: 29    VAR1: 32
+    VAR0: 29    VAR1: 33
+    VAR0: 29    VAR1: 34
+    VAR0: 29    VAR1: 35
+    VAR0: 29    VAR1: 36
+    VAR0: 29    VAR1: 37
+    VAR0: 29    VAR1: 38
+    VAR0: 29    VAR1: 39
+    VAR0: 29    VAR1: 4
+    VAR0: 29    VAR1: 40
+    VAR0: 29    VAR1: 41
+    VAR0: 29    VAR1: 42
+    VAR0: 29    VAR1: 43
+    VAR0: 29    VAR1: 44
+    VAR0: 29    VAR1: 45
+    VAR0: 29    VAR1: 46
+    VAR0: 29    VAR1: 47
+    VAR0: 29    VAR1: 48
+    VAR0: 29    VAR1: 49
+    VAR0: 29    VAR1: 5
+    VAR0: 29    VAR1: 50
+    VAR0: 29    VAR1: 6
+    VAR0: 29    VAR1: 7
+    VAR0: 29    VAR1: 8
+    VAR0: 29    VAR1: 9
+    VAR0: 3    VAR1: 1
+    VAR0: 3    VAR1: 10
+    VAR0: 3    VAR1: 11
+    VAR0: 3    VAR1: 12
+    VAR0: 3    VAR1: 13
+    VAR0: 3    VAR1: 14
+    VAR0: 3    VAR1: 15
+    VAR0: 3    VAR1: 16
+    VAR0: 3    VAR1: 17
+    VAR0: 3    VAR1: 18
+    VAR0: 3    VAR1: 19
+    VAR0: 3    VAR1: 2
+    VAR0: 3    VAR1: 20
+    VAR0: 3    VAR1: 21
+    VAR0: 3    VAR1: 22
+    VAR0: 3    VAR1: 23
+    VAR0: 3    VAR1: 24
+    VAR0: 3    VAR1: 25
+    VAR0: 3    VAR1: 26
+    VAR0: 3    VAR1: 27
+    VAR0: 3    VAR1: 28
+    VAR0: 3    VAR1: 29
+    VAR0: 3    VAR1: 3
+    VAR0: 3    VAR1: 30
+    VAR0: 3    VAR1: 31
+    VAR0: 3    VAR1: 32
+    VAR0: 3    VAR1: 33
+    VAR0: 3    VAR1: 34
+    VAR0: 3    VAR1: 35
+    VAR0: 3    VAR1: 36
+    VAR0: 3    VAR1: 37
+    VAR0: 3    VAR1: 38
+    VAR0: 3    VAR1: 39
+    VAR0: 3    VAR1: 4
+    VAR0: 3    VAR1: 40
+    VAR0: 3    VAR1: 41
+    VAR0: 3    VAR1: 42
+    VAR0: 3    VAR1: 43
+    VAR0: 3    VAR1: 44
+    VAR0: 3    VAR1: 45
+    VAR0: 3    VAR1: 46
+    VAR0: 3    VAR1: 47
+    VAR0: 3    VAR1: 48
+    VAR0: 3    VAR1: 49
+    VAR0: 3    VAR1: 5
+    VAR0: 3    VAR1: 50
+    VAR0: 3    VAR1: 6
+    VAR0: 3    VAR1: 7
+    VAR0: 3    VAR1: 8
+    VAR0: 3    VAR1: 9
+    VAR0: 30    VAR1: 1
+    VAR0: 30    VAR1: 10
+    VAR0: 30    VAR1: 11
+    VAR0: 30    VAR1: 12
+    VAR0: 30    VAR1: 13
+    VAR0: 30    VAR1: 14
+    VAR0: 30    VAR1: 15
+    VAR0: 30    VAR1: 16
+    VAR0: 30    VAR1: 17
+    VAR0: 30    VAR1: 18
+    VAR0: 30    VAR1: 19
+    VAR0: 30    VAR1: 2
+    VAR0: 30    VAR1: 20
+    VAR0: 30    VAR1: 21
+    VAR0: 30    VAR1: 22
+    VAR0: 30    VAR1: 23
+    VAR0: 30    VAR1: 24
+    VAR0: 30    VAR1: 25
+    VAR0: 30    VAR1: 26
+    VAR0: 30    VAR1: 27
+    VAR0: 30    VAR1: 28
+    VAR0: 30    VAR1: 29
+    VAR0: 30    VAR1: 3
+    VAR0: 30    VAR1: 30
+    VAR0: 30    VAR1: 31
+    VAR0: 30    VAR1: 32
+    VAR0: 30    VAR1: 33
+    VAR0: 30    VAR1: 34
+    VAR0: 30    VAR1: 35
+    VAR0: 30    VAR1: 36
+    VAR0: 30    VAR1: 37
+    VAR0: 30    VAR1: 38
+    VAR0: 30    VAR1: 39
+    VAR0: 30    VAR1: 4
+    VAR0: 30    VAR1: 40
+    VAR0: 30    VAR1: 41
+    VAR0: 30    VAR1: 42
+    VAR0: 30    VAR1: 43
+    VAR0: 30    VAR1: 44
+    VAR0: 30    VAR1: 45
+    VAR0: 30    VAR1: 46
+    VAR0: 30    VAR1: 47
+    VAR0: 30    VAR1: 48
+    VAR0: 30    VAR1: 49
+    VAR0: 30    VAR1: 5
+    VAR0: 30    VAR1: 50
+    VAR0: 30    VAR1: 6
+    VAR0: 30    VAR1: 7
+    VAR0: 30    VAR1: 8
+    VAR0: 30    VAR1: 9
+    VAR0: 31    VAR1: 1
+    VAR0: 31    VAR1: 10
+    VAR0: 31    VAR1: 11
+    VAR0: 31    VAR1: 12
+    VAR0: 31    VAR1: 13
+    VAR0: 31    VAR1: 14
+    VAR0: 31    VAR1: 15
+    VAR0: 31    VAR1: 16
+    VAR0: 31    VAR1: 17
+    VAR0: 31    VAR1: 18
+    VAR0: 31    VAR1: 19
+    VAR0: 31    VAR1: 2
+    VAR0: 31    VAR1: 20
+    VAR0: 31    VAR1: 21
+    VAR0: 31    VAR1: 22
+    VAR0: 31    VAR1: 23
+    VAR0: 31    VAR1: 24
+    VAR0: 31    VAR1: 25
+    VAR0: 31    VAR1: 26
+    VAR0: 31    VAR1: 27
+    VAR0: 31    VAR1: 28
+    VAR0: 31    VAR1: 29
+    VAR0: 31    VAR1: 3
+    VAR0: 31    VAR1: 30
+    VAR0: 31    VAR1: 31
+    VAR0: 31    VAR1: 32
+    VAR0: 31    VAR1: 33
+    VAR0: 31    VAR1: 34
+    VAR0: 31    VAR1: 35
+    VAR0: 31    VAR1: 36
+    VAR0: 31    VAR1: 37
+    VAR0: 31    VAR1: 38
+    VAR0: 31    VAR1: 39
+    VAR0: 31    VAR1: 4
+    VAR0: 31    VAR1: 40
+    VAR0: 31    VAR1: 41
+    VAR0: 31    VAR1: 42
+    VAR0: 31    VAR1: 43
+    VAR0: 31    VAR1: 44
+    VAR0: 31    VAR1: 45
+    VAR0: 31    VAR1: 46
+    VAR0: 31    VAR1: 47
+    VAR0: 31    VAR1: 48
+    VAR0: 31    VAR1: 49
+    VAR0: 31    VAR1: 5
+    VAR0: 31    VAR1: 50
+    VAR0: 31    VAR1: 6
+    VAR0: 31    VAR1: 7
+    VAR0: 31    VAR1: 8
+    VAR0: 31    VAR1: 9
+    VAR0: 32    VAR1: 1
+    VAR0: 32    VAR1: 10
+    VAR0: 32    VAR1: 11
+    VAR0: 32    VAR1: 12
+    VAR0: 32    VAR1: 13
+    VAR0: 32    VAR1: 14
+    VAR0: 32    VAR1: 15
+    VAR0: 32    VAR1: 16
+    VAR0: 32    VAR1: 17
+    VAR0: 32    VAR1: 18
+    VAR0: 32    VAR1: 19
+    VAR0: 32    VAR1: 2
+    VAR0: 32    VAR1: 20
+    VAR0: 32    VAR1: 21
+    VAR0: 32    VAR1: 22
+    VAR0: 32    VAR1: 23
+    VAR0: 32    VAR1: 24
+    VAR0: 32    VAR1: 25
+    VAR0: 32    VAR1: 26
+    VAR0: 32    VAR1: 27
+    VAR0: 32    VAR1: 28
+    VAR0: 32    VAR1: 29
+    VAR0: 32    VAR1: 3
+    VAR0: 32    VAR1: 30
+    VAR0: 32    VAR1: 31
+    VAR0: 32    VAR1: 32
+    VAR0: 32    VAR1: 33
+    VAR0: 32    VAR1: 34
+    VAR0: 32    VAR1: 35
+    VAR0: 32    VAR1: 36
+    VAR0: 32    VAR1: 37
+    VAR0: 32    VAR1: 38
+    VAR0: 32    VAR1: 39
+    VAR0: 32    VAR1: 4
+    VAR0: 32    VAR1: 40
+    VAR0: 32    VAR1: 41
+    VAR0: 32    VAR1: 42
+    VAR0: 32    VAR1: 43
+    VAR0: 32    VAR1: 44
+    VAR0: 32    VAR1: 45
+    VAR0: 32    VAR1: 46
+    VAR0: 32    VAR1: 47
+    VAR0: 32    VAR1: 48
+    VAR0: 32    VAR1: 49
+    VAR0: 32    VAR1: 5
+    VAR0: 32    VAR1: 50
+    VAR0: 32    VAR1: 6
+    VAR0: 32    VAR1: 7
+    VAR0: 32    VAR1: 8
+    VAR0: 32    VAR1: 9
+    VAR0: 33    VAR1: 1
+    VAR0: 33    VAR1: 10
+    VAR0: 33    VAR1: 11
+    VAR0: 33    VAR1: 12
+    VAR0: 33    VAR1: 13
+    VAR0: 33    VAR1: 14
+    VAR0: 33    VAR1: 15
+    VAR0: 33    VAR1: 16
+    VAR0: 33    VAR1: 17
+    VAR0: 33    VAR1: 18
+    VAR0: 33    VAR1: 19
+    VAR0: 33    VAR1: 2
+    VAR0: 33    VAR1: 20
+    VAR0: 33    VAR1: 21
+    VAR0: 33    VAR1: 22
+    VAR0: 33    VAR1: 23
+    VAR0: 33    VAR1: 24
+    VAR0: 33    VAR1: 25
+    VAR0: 33    VAR1: 26
+    VAR0: 33    VAR1: 27
+    VAR0: 33    VAR1: 28
+    VAR0: 33    VAR1: 29
+    VAR0: 33    VAR1: 3
+    VAR0: 33    VAR1: 30
+    VAR0: 33    VAR1: 31
+    VAR0: 33    VAR1: 32
+    VAR0: 33    VAR1: 33
+    VAR0: 33    VAR1: 34
+    VAR0: 33    VAR1: 35
+    VAR0: 33    VAR1: 36
+    VAR0: 33    VAR1: 37
+    VAR0: 33    VAR1: 38
+    VAR0: 33    VAR1: 39
+    VAR0: 33    VAR1: 4
+    VAR0: 33    VAR1: 40
+    VAR0: 33    VAR1: 41
+    VAR0: 33    VAR1: 42
+    VAR0: 33    VAR1: 43
+    VAR0: 33    VAR1: 44
+    VAR0: 33    VAR1: 45
+    VAR0: 33    VAR1: 46
+    VAR0: 33    VAR1: 47
+    VAR0: 33    VAR1: 48
+    VAR0: 33    VAR1: 49
+    VAR0: 33    VAR1: 5
+    VAR0: 33    VAR1: 50
+    VAR0: 33    VAR1: 6
+    VAR0: 33    VAR1: 7
+    VAR0: 33    VAR1: 8
+    VAR0: 33    VAR1: 9
+    VAR0: 34    VAR1: 1
+    VAR0: 34    VAR1: 10
+    VAR0: 34    VAR1: 11
+    VAR0: 34    VAR1: 12
+    VAR0: 34    VAR1: 13
+    VAR0: 34    VAR1: 14
+    VAR0: 34    VAR1: 15
+    VAR0: 34    VAR1: 16
+    VAR0: 34    VAR1: 17
+    VAR0: 34    VAR1: 18
+    VAR0: 34    VAR1: 19
+    VAR0: 34    VAR1: 2
+    VAR0: 34    VAR1: 20
+    VAR0: 34    VAR1: 21
+    VAR0: 34    VAR1: 22
+    VAR0: 34    VAR1: 23
+    VAR0: 34    VAR1: 24
+    VAR0: 34    VAR1: 25
+    VAR0: 34    VAR1: 26
+    VAR0: 34    VAR1: 27
+    VAR0: 34    VAR1: 28
+    VAR0: 34    VAR1: 29
+    VAR0: 34    VAR1: 3
+    VAR0: 34    VAR1: 30
+    VAR0: 34    VAR1: 31
+    VAR0: 34    VAR1: 32
+    VAR0: 34    VAR1: 33
+    VAR0: 34    VAR1: 34
+    VAR0: 34    VAR1: 35
+    VAR0: 34    VAR1: 36
+    VAR0: 34    VAR1: 37
+    VAR0: 34    VAR1: 38
+    VAR0: 34    VAR1: 39
+    VAR0: 34    VAR1: 4
+    VAR0: 34    VAR1: 40
+    VAR0: 34    VAR1: 41
+    VAR0: 34    VAR1: 42
+    VAR0: 34    VAR1: 43
+    VAR0: 34    VAR1: 44
+    VAR0: 34    VAR1: 45
+    VAR0: 34    VAR1: 46
+    VAR0: 34    VAR1: 47
+    VAR0: 34    VAR1: 48
+    VAR0: 34    VAR1: 49
+    VAR0: 34    VAR1: 5
+    VAR0: 34    VAR1: 50
+    VAR0: 34    VAR1: 6
+    VAR0: 34    VAR1: 7
+    VAR0: 34    VAR1: 8
+    VAR0: 34    VAR1: 9
+    VAR0: 35    VAR1: 1
+    VAR0: 35    VAR1: 10
+    VAR0: 35    VAR1: 11
+    VAR0: 35    VAR1: 12
+    VAR0: 35    VAR1: 13
+    VAR0: 35    VAR1: 14
+    VAR0: 35    VAR1: 15
+    VAR0: 35    VAR1: 16
+    VAR0: 35    VAR1: 17
+    VAR0: 35    VAR1: 18
+    VAR0: 35    VAR1: 19
+    VAR0: 35    VAR1: 2
+    VAR0: 35    VAR1: 20
+    VAR0: 35    VAR1: 21
+    VAR0: 35    VAR1: 22
+    VAR0: 35    VAR1: 23
+    VAR0: 35    VAR1: 24
+    VAR0: 35    VAR1: 25
+    VAR0: 35    VAR1: 26
+    VAR0: 35    VAR1: 27
+    VAR0: 35    VAR1: 28
+    VAR0: 35    VAR1: 29
+    VAR0: 35    VAR1: 3
+    VAR0: 35    VAR1: 30
+    VAR0: 35    VAR1: 31
+    VAR0: 35    VAR1: 32
+    VAR0: 35    VAR1: 33
+    VAR0: 35    VAR1: 34
+    VAR0: 35    VAR1: 35
+    VAR0: 35    VAR1: 36
+    VAR0: 35    VAR1: 37
+    VAR0: 35    VAR1: 38
+    VAR0: 35    VAR1: 39
+    VAR0: 35    VAR1: 4
+    VAR0: 35    VAR1: 40
+    VAR0: 35    VAR1: 41
+    VAR0: 35    VAR1: 42
+    VAR0: 35    VAR1: 43
+    VAR0: 35    VAR1: 44
+    VAR0: 35    VAR1: 45
+    VAR0: 35    VAR1: 46
+    VAR0: 35    VAR1: 47
+    VAR0: 35    VAR1: 48
+    VAR0: 35    VAR1: 49
+    VAR0: 35    VAR1: 5
+    VAR0: 35    VAR1: 50
+    VAR0: 35    VAR1: 6
+    VAR0: 35    VAR1: 7
+    VAR0: 35    VAR1: 8
+    VAR0: 35    VAR1: 9
+    VAR0: 36    VAR1: 1
+    VAR0: 36    VAR1: 10
+    VAR0: 36    VAR1: 11
+    VAR0: 36    VAR1: 12
+    VAR0: 36    VAR1: 13
+    VAR0: 36    VAR1: 14
+    VAR0: 36    VAR1: 15
+    VAR0: 36    VAR1: 16
+    VAR0: 36    VAR1: 17
+    VAR0: 36    VAR1: 18
+    VAR0: 36    VAR1: 19
+    VAR0: 36    VAR1: 2
+    VAR0: 36    VAR1: 20
+    VAR0: 36    VAR1: 21
+    VAR0: 36    VAR1: 22
+    VAR0: 36    VAR1: 23
+    VAR0: 36    VAR1: 24
+    VAR0: 36    VAR1: 25
+    VAR0: 36    VAR1: 26
+    VAR0: 36    VAR1: 27
+    VAR0: 36    VAR1: 28
+    VAR0: 36    VAR1: 29
+    VAR0: 36    VAR1: 3
+    VAR0: 36    VAR1: 30
+    VAR0: 36    VAR1: 31
+    VAR0: 36    VAR1: 32
+    VAR0: 36    VAR1: 33
+    VAR0: 36    VAR1: 34
+    VAR0: 36    VAR1: 35
+    VAR0: 36    VAR1: 36
+    VAR0: 36    VAR1: 37
+    VAR0: 36    VAR1: 38
+    VAR0: 36    VAR1: 39
+    VAR0: 36    VAR1: 4
+    VAR0: 36    VAR1: 40
+    VAR0: 36    VAR1: 41
+    VAR0: 36    VAR1: 42
+    VAR0: 36    VAR1: 43
+    VAR0: 36    VAR1: 44
+    VAR0: 36    VAR1: 45
+    VAR0: 36    VAR1: 46
+    VAR0: 36    VAR1: 47
+    VAR0: 36    VAR1: 48
+    VAR0: 36    VAR1: 49
+    VAR0: 36    VAR1: 5
+    VAR0: 36    VAR1: 50
+    VAR0: 36    VAR1: 6
+    VAR0: 36    VAR1: 7
+    VAR0: 36    VAR1: 8
+    VAR0: 36    VAR1: 9
+    VAR0: 37    VAR1: 1
+    VAR0: 37    VAR1: 10
+    VAR0: 37    VAR1: 11
+    VAR0: 37    VAR1: 12
+    VAR0: 37    VAR1: 13
+    VAR0: 37    VAR1: 14
+    VAR0: 37    VAR1: 15
+    VAR0: 37    VAR1: 16
+    VAR0: 37    VAR1: 17
+    VAR0: 37    VAR1: 18
+    VAR0: 37    VAR1: 19
+    VAR0: 37    VAR1: 2
+    VAR0: 37    VAR1: 20
+    VAR0: 37    VAR1: 21
+    VAR0: 37    VAR1: 22
+    VAR0: 37    VAR1: 23
+    VAR0: 37    VAR1: 24
+    VAR0: 37    VAR1: 25
+    VAR0: 37    VAR1: 26
+    VAR0: 37    VAR1: 27
+    VAR0: 37    VAR1: 28
+    VAR0: 37    VAR1: 29
+    VAR0: 37    VAR1: 3
+    VAR0: 37    VAR1: 30
+    VAR0: 37    VAR1: 31
+    VAR0: 37    VAR1: 32
+    VAR0: 37    VAR1: 33
+    VAR0: 37    VAR1: 34
+    VAR0: 37    VAR1: 35
+    VAR0: 37    VAR1: 36
+    VAR0: 37    VAR1: 37
+    VAR0: 37    VAR1: 38
+    VAR0: 37    VAR1: 39
+    VAR0: 37    VAR1: 4
+    VAR0: 37    VAR1: 40
+    VAR0: 37    VAR1: 41
+    VAR0: 37    VAR1: 42
+    VAR0: 37    VAR1: 43
+    VAR0: 37    VAR1: 44
+    VAR0: 37    VAR1: 45
+    VAR0: 37    VAR1: 46
+    VAR0: 37    VAR1: 47
+    VAR0: 37    VAR1: 48
+    VAR0: 37    VAR1: 49
+    VAR0: 37    VAR1: 5
+    VAR0: 37    VAR1: 50
+    VAR0: 37    VAR1: 6
+    VAR0: 37    VAR1: 7
+    VAR0: 37    VAR1: 8
+    VAR0: 37    VAR1: 9
+    VAR0: 38    VAR1: 1
+    VAR0: 38    VAR1: 10
+    VAR0: 38    VAR1: 11
+    VAR0: 38    VAR1: 12
+    VAR0: 38    VAR1: 13
+    VAR0: 38    VAR1: 14
+    VAR0: 38    VAR1: 15
+    VAR0: 38    VAR1: 16
+    VAR0: 38    VAR1: 17
+    VAR0: 38    VAR1: 18
+    VAR0: 38    VAR1: 19
+    VAR0: 38    VAR1: 2
+    VAR0: 38    VAR1: 20
+    VAR0: 38    VAR1: 21
+    VAR0: 38    VAR1: 22
+    VAR0: 38    VAR1: 23
+    VAR0: 38    VAR1: 24
+    VAR0: 38    VAR1: 25
+    VAR0: 38    VAR1: 26
+    VAR0: 38    VAR1: 27
+    VAR0: 38    VAR1: 28
+    VAR0: 38    VAR1: 29
+    VAR0: 38    VAR1: 3
+    VAR0: 38    VAR1: 30
+    VAR0: 38    VAR1: 31
+    VAR0: 38    VAR1: 32
+    VAR0: 38    VAR1: 33
+    VAR0: 38    VAR1: 34
+    VAR0: 38    VAR1: 35
+    VAR0: 38    VAR1: 36
+    VAR0: 38    VAR1: 37
+    VAR0: 38    VAR1: 38
+    VAR0: 38    VAR1: 39
+    VAR0: 38    VAR1: 4
+    VAR0: 38    VAR1: 40
+    VAR0: 38    VAR1: 41
+    VAR0: 38    VAR1: 42
+    VAR0: 38    VAR1: 43
+    VAR0: 38    VAR1: 44
+    VAR0: 38    VAR1: 45
+    VAR0: 38    VAR1: 46
+    VAR0: 38    VAR1: 47
+    VAR0: 38    VAR1: 48
+    VAR0: 38    VAR1: 49
+    VAR0: 38    VAR1: 5
+    VAR0: 38    VAR1: 50
+    VAR0: 38    VAR1: 6
+    VAR0: 38    VAR1: 7
+    VAR0: 38    VAR1: 8
+    VAR0: 38    VAR1: 9
+    VAR0: 39    VAR1: 1
+    VAR0: 39    VAR1: 10
+    VAR0: 39    VAR1: 11
+    VAR0: 39    VAR1: 12
+    VAR0: 39    VAR1: 13
+    VAR0: 39    VAR1: 14
+    VAR0: 39    VAR1: 15
+    VAR0: 39    VAR1: 16
+    VAR0: 39    VAR1: 17
+    VAR0: 39    VAR1: 18
+    VAR0: 39    VAR1: 19
+    VAR0: 39    VAR1: 2
+    VAR0: 39    VAR1: 20
+    VAR0: 39    VAR1: 21
+    VAR0: 39    VAR1: 22
+    VAR0: 39    VAR1: 23
+    VAR0: 39    VAR1: 24
+    VAR0: 39    VAR1: 25
+    VAR0: 39    VAR1: 26
+    VAR0: 39    VAR1: 27
+    VAR0: 39    VAR1: 28
+    VAR0: 39    VAR1: 29
+    VAR0: 39    VAR1: 3
+    VAR0: 39    VAR1: 30
+    VAR0: 39    VAR1: 31
+    VAR0: 39    VAR1: 32
+    VAR0: 39    VAR1: 33
+    VAR0: 39    VAR1: 34
+    VAR0: 39    VAR1: 35
+    VAR0: 39    VAR1: 36
+    VAR0: 39    VAR1: 37
+    VAR0: 39    VAR1: 38
+    VAR0: 39    VAR1: 39
+    VAR0: 39    VAR1: 4
+    VAR0: 39    VAR1: 40
+    VAR0: 39    VAR1: 41
+    VAR0: 39    VAR1: 42
+    VAR0: 39    VAR1: 43
+    VAR0: 39    VAR1: 44
+    VAR0: 39    VAR1: 45
+    VAR0: 39    VAR1: 46
+    VAR0: 39    VAR1: 47
+    VAR0: 39    VAR1: 48
+    VAR0: 39    VAR1: 49
+    VAR0: 39    VAR1: 5
+    VAR0: 39    VAR1: 50
+    VAR0: 39    VAR1: 6
+    VAR0: 39    VAR1: 7
+    VAR0: 39    VAR1: 8
+    VAR0: 39    VAR1: 9
+    VAR0: 4    VAR1: 1
+    VAR0: 4    VAR1: 10
+    VAR0: 4    VAR1: 11
+    VAR0: 4    VAR1: 12
+    VAR0: 4    VAR1: 13
+    VAR0: 4    VAR1: 14
+    VAR0: 4    VAR1: 15
+    VAR0: 4    VAR1: 16
+    VAR0: 4    VAR1: 17
+    VAR0: 4    VAR1: 18
+    VAR0: 4    VAR1: 19
+    VAR0: 4    VAR1: 2
+    VAR0: 4    VAR1: 20
+    VAR0: 4    VAR1: 21
+    VAR0: 4    VAR1: 22
+    VAR0: 4    VAR1: 23
+    VAR0: 4    VAR1: 24
+    VAR0: 4    VAR1: 25
+    VAR0: 4    VAR1: 26
+    VAR0: 4    VAR1: 27
+    VAR0: 4    VAR1: 28
+    VAR0: 4    VAR1: 29
+    VAR0: 4    VAR1: 3
+    VAR0: 4    VAR1: 30
+    VAR0: 4    VAR1: 31
+    VAR0: 4    VAR1: 32
+    VAR0: 4    VAR1: 33
+    VAR0: 4    VAR1: 34
+    VAR0: 4    VAR1: 35
+    VAR0: 4    VAR1: 36
+    VAR0: 4    VAR1: 37
+    VAR0: 4    VAR1: 38
+    VAR0: 4    VAR1: 39
+    VAR0: 4    VAR1: 4
+    VAR0: 4    VAR1: 40
+    VAR0: 4    VAR1: 41
+    VAR0: 4    VAR1: 42
+    VAR0: 4    VAR1: 43
+    VAR0: 4    VAR1: 44
+    VAR0: 4    VAR1: 45
+    VAR0: 4    VAR1: 46
+    VAR0: 4    VAR1: 47
+    VAR0: 4    VAR1: 48
+    VAR0: 4    VAR1: 49
+    VAR0: 4    VAR1: 5
+    VAR0: 4    VAR1: 50
+    VAR0: 4    VAR1: 6
+    VAR0: 4    VAR1: 7
+    VAR0: 4    VAR1: 8
+    VAR0: 4    VAR1: 9
+    VAR0: 40    VAR1: 1
+    VAR0: 40    VAR1: 10
+    VAR0: 40    VAR1: 11
+    VAR0: 40    VAR1: 12
+    VAR0: 40    VAR1: 13
+    VAR0: 40    VAR1: 14
+    VAR0: 40    VAR1: 15
+    VAR0: 40    VAR1: 16
+    VAR0: 40    VAR1: 17
+    VAR0: 40    VAR1: 18
+    VAR0: 40    VAR1: 19
+    VAR0: 40    VAR1: 2
+    VAR0: 40    VAR1: 20
+    VAR0: 40    VAR1: 21
+    VAR0: 40    VAR1: 22
+    VAR0: 40    VAR1: 23
+    VAR0: 40    VAR1: 24
+    VAR0: 40    VAR1: 25
+    VAR0: 40    VAR1: 26
+    VAR0: 40    VAR1: 27
+    VAR0: 40    VAR1: 28
+    VAR0: 40    VAR1: 29
+    VAR0: 40    VAR1: 3
+    VAR0: 40    VAR1: 30
+    VAR0: 40    VAR1: 31
+    VAR0: 40    VAR1: 32
+    VAR0: 40    VAR1: 33
+    VAR0: 40    VAR1: 34
+    VAR0: 40    VAR1: 35
+    VAR0: 40    VAR1: 36
+    VAR0: 40    VAR1: 37
+    VAR0: 40    VAR1: 38
+    VAR0: 40    VAR1: 39
+    VAR0: 40    VAR1: 4
+    VAR0: 40    VAR1: 40
+    VAR0: 40    VAR1: 41
+    VAR0: 40    VAR1: 42
+    VAR0: 40    VAR1: 43
+    VAR0: 40    VAR1: 44
+    VAR0: 40    VAR1: 45
+    VAR0: 40    VAR1: 46
+    VAR0: 40    VAR1: 47
+    VAR0: 40    VAR1: 48
+    VAR0: 40    VAR1: 49
+    VAR0: 40    VAR1: 5
+    VAR0: 40    VAR1: 50
+    VAR0: 40    VAR1: 6
+    VAR0: 40    VAR1: 7
+    VAR0: 40    VAR1: 8
+    VAR0: 40    VAR1: 9
+    VAR0: 41    VAR1: 1
+    VAR0: 41    VAR1: 10
+    VAR0: 41    VAR1: 11
+    VAR0: 41    VAR1: 12
+    VAR0: 41    VAR1: 13
+    VAR0: 41    VAR1: 14
+    VAR0: 41    VAR1: 15
+    VAR0: 41    VAR1: 16
+    VAR0: 41    VAR1: 17
+    VAR0: 41    VAR1: 18
+    VAR0: 41    VAR1: 19
+    VAR0: 41    VAR1: 2
+    VAR0: 41    VAR1: 20
+    VAR0: 41    VAR1: 21
+    VAR0: 41    VAR1: 22
+    VAR0: 41    VAR1: 23
+    VAR0: 41    VAR1: 24
+    VAR0: 41    VAR1: 25
+    VAR0: 41    VAR1: 26
+    VAR0: 41    VAR1: 27
+    VAR0: 41    VAR1: 28
+    VAR0: 41    VAR1: 29
+    VAR0: 41    VAR1: 3
+    VAR0: 41    VAR1: 30
+    VAR0: 41    VAR1: 31
+    VAR0: 41    VAR1: 32
+    VAR0: 41    VAR1: 33
+    VAR0: 41    VAR1: 34
+    VAR0: 41    VAR1: 35
+    VAR0: 41    VAR1: 36
+    VAR0: 41    VAR1: 37
+    VAR0: 41    VAR1: 38
+    VAR0: 41    VAR1: 39
+    VAR0: 41    VAR1: 4
+    VAR0: 41    VAR1: 40
+    VAR0: 41    VAR1: 41
+    VAR0: 41    VAR1: 42
+    VAR0: 41    VAR1: 43
+    VAR0: 41    VAR1: 44
+    VAR0: 41    VAR1: 45
+    VAR0: 41    VAR1: 46
+    VAR0: 41    VAR1: 47
+    VAR0: 41    VAR1: 48
+    VAR0: 41    VAR1: 49
+    VAR0: 41    VAR1: 5
+    VAR0: 41    VAR1: 50
+    VAR0: 41    VAR1: 6
+    VAR0: 41    VAR1: 7
+    VAR0: 41    VAR1: 8
+    VAR0: 41    VAR1: 9
+    VAR0: 42    VAR1: 1
+    VAR0: 42    VAR1: 10
+    VAR0: 42    VAR1: 11
+    VAR0: 42    VAR1: 12
+    VAR0: 42    VAR1: 13
+    VAR0: 42    VAR1: 14
+    VAR0: 42    VAR1: 15
+    VAR0: 42    VAR1: 16
+    VAR0: 42    VAR1: 17
+    VAR0: 42    VAR1: 18
+    VAR0: 42    VAR1: 19
+    VAR0: 42    VAR1: 2
+    VAR0: 42    VAR1: 20
+    VAR0: 42    VAR1: 21
+    VAR0: 42    VAR1: 22
+    VAR0: 42    VAR1: 23
+    VAR0: 42    VAR1: 24
+    VAR0: 42    VAR1: 25
+    VAR0: 42    VAR1: 26
+    VAR0: 42    VAR1: 27
+    VAR0: 42    VAR1: 28
+    VAR0: 42    VAR1: 29
+    VAR0: 42    VAR1: 3
+    VAR0: 42    VAR1: 30
+    VAR0: 42    VAR1: 31
+    VAR0: 42    VAR1: 32
+    VAR0: 42    VAR1: 33
+    VAR0: 42    VAR1: 34
+    VAR0: 42    VAR1: 35
+    VAR0: 42    VAR1: 36
+    VAR0: 42    VAR1: 37
+    VAR0: 42    VAR1: 38
+    VAR0: 42    VAR1: 39
+    VAR0: 42    VAR1: 4
+    VAR0: 42    VAR1: 40
+    VAR0: 42    VAR1: 41
+    VAR0: 42    VAR1: 42
+    VAR0: 42    VAR1: 43
+    VAR0: 42    VAR1: 44
+    VAR0: 42    VAR1: 45
+    VAR0: 42    VAR1: 46
+    VAR0: 42    VAR1: 47
+    VAR0: 42    VAR1: 48
+    VAR0: 42    VAR1: 49
+    VAR0: 42    VAR1: 5
+    VAR0: 42    VAR1: 50
+    VAR0: 42    VAR1: 6
+    VAR0: 42    VAR1: 7
+    VAR0: 42    VAR1: 8
+    VAR0: 42    VAR1: 9
+    VAR0: 43    VAR1: 1
+    VAR0: 43    VAR1: 10
+    VAR0: 43    VAR1: 11
+    VAR0: 43    VAR1: 12
+    VAR0: 43    VAR1: 13
+    VAR0: 43    VAR1: 14
+    VAR0: 43    VAR1: 15
+    VAR0: 43    VAR1: 16
+    VAR0: 43    VAR1: 17
+    VAR0: 43    VAR1: 18
+    VAR0: 43    VAR1: 19
+    VAR0: 43    VAR1: 2
+    VAR0: 43    VAR1: 20
+    VAR0: 43    VAR1: 21
+    VAR0: 43    VAR1: 22
+    VAR0: 43    VAR1: 23
+    VAR0: 43    VAR1: 24
+    VAR0: 43    VAR1: 25
+    VAR0: 43    VAR1: 26
+    VAR0: 43    VAR1: 27
+    VAR0: 43    VAR1: 28
+    VAR0: 43    VAR1: 29
+    VAR0: 43    VAR1: 3
+    VAR0: 43    VAR1: 30
+    VAR0: 43    VAR1: 31
+    VAR0: 43    VAR1: 32
+    VAR0: 43    VAR1: 33
+    VAR0: 43    VAR1: 34
+    VAR0: 43    VAR1: 35
+    VAR0: 43    VAR1: 36
+    VAR0: 43    VAR1: 37
+    VAR0: 43    VAR1: 38
+    VAR0: 43    VAR1: 39
+    VAR0: 43    VAR1: 4
+    VAR0: 43    VAR1: 40
+    VAR0: 43    VAR1: 41
+    VAR0: 43    VAR1: 42
+    VAR0: 43    VAR1: 43
+    VAR0: 43    VAR1: 44
+    VAR0: 43    VAR1: 45
+    VAR0: 43    VAR1: 46
+    VAR0: 43    VAR1: 47
+    VAR0: 43    VAR1: 48
+    VAR0: 43    VAR1: 49
+    VAR0: 43    VAR1: 5
+    VAR0: 43    VAR1: 50
+    VAR0: 43    VAR1: 6
+    VAR0: 43    VAR1: 7
+    VAR0: 43    VAR1: 8
+    VAR0: 43    VAR1: 9
+    VAR0: 44    VAR1: 1
+    VAR0: 44    VAR1: 10
+    VAR0: 44    VAR1: 11
+    VAR0: 44    VAR1: 12
+    VAR0: 44    VAR1: 13
+    VAR0: 44    VAR1: 14
+    VAR0: 44    VAR1: 15
+    VAR0: 44    VAR1: 16
+    VAR0: 44    VAR1: 17
+    VAR0: 44    VAR1: 18
+    VAR0: 44    VAR1: 19
+    VAR0: 44    VAR1: 2
+    VAR0: 44    VAR1: 20
+    VAR0: 44    VAR1: 21
+    VAR0: 44    VAR1: 22
+    VAR0: 44    VAR1: 23
+    VAR0: 44    VAR1: 24
+    VAR0: 44    VAR1: 25
+    VAR0: 44    VAR1: 26
+    VAR0: 44    VAR1: 27
+    VAR0: 44    VAR1: 28
+    VAR0: 44    VAR1: 29
+    VAR0: 44    VAR1: 3
+    VAR0: 44    VAR1: 30
+    VAR0: 44    VAR1: 31
+    VAR0: 44    VAR1: 32
+    VAR0: 44    VAR1: 33
+    VAR0: 44    VAR1: 34
+    VAR0: 44    VAR1: 35
+    VAR0: 44    VAR1: 36
+    VAR0: 44    VAR1: 37
+    VAR0: 44    VAR1: 38
+    VAR0: 44    VAR1: 39
+    VAR0: 44    VAR1: 4
+    VAR0: 44    VAR1: 40
+    VAR0: 44    VAR1: 41
+    VAR0: 44    VAR1: 42
+    VAR0: 44    VAR1: 43
+    VAR0: 44    VAR1: 44
+    VAR0: 44    VAR1: 45
+    VAR0: 44    VAR1: 46
+    VAR0: 44    VAR1: 47
+    VAR0: 44    VAR1: 48
+    VAR0: 44    VAR1: 49
+    VAR0: 44    VAR1: 5
+    VAR0: 44    VAR1: 50
+    VAR0: 44    VAR1: 6
+    VAR0: 44    VAR1: 7
+    VAR0: 44    VAR1: 8
+    VAR0: 44    VAR1: 9
+    VAR0: 45    VAR1: 1
+    VAR0: 45    VAR1: 10
+    VAR0: 45    VAR1: 11
+    VAR0: 45    VAR1: 12
+    VAR0: 45    VAR1: 13
+    VAR0: 45    VAR1: 14
+    VAR0: 45    VAR1: 15
+    VAR0: 45    VAR1: 16
+    VAR0: 45    VAR1: 17
+    VAR0: 45    VAR1: 18
+    VAR0: 45    VAR1: 19
+    VAR0: 45    VAR1: 2
+    VAR0: 45    VAR1: 20
+    VAR0: 45    VAR1: 21
+    VAR0: 45    VAR1: 22
+    VAR0: 45    VAR1: 23
+    VAR0: 45    VAR1: 24
+    VAR0: 45    VAR1: 25
+    VAR0: 45    VAR1: 26
+    VAR0: 45    VAR1: 27
+    VAR0: 45    VAR1: 28
+    VAR0: 45    VAR1: 29
+    VAR0: 45    VAR1: 3
+    VAR0: 45    VAR1: 30
+    VAR0: 45    VAR1: 31
+    VAR0: 45    VAR1: 32
+    VAR0: 45    VAR1: 33
+    VAR0: 45    VAR1: 34
+    VAR0: 45    VAR1: 35
+    VAR0: 45    VAR1: 36
+    VAR0: 45    VAR1: 37
+    VAR0: 45    VAR1: 38
+    VAR0: 45    VAR1: 39
+    VAR0: 45    VAR1: 4
+    VAR0: 45    VAR1: 40
+    VAR0: 45    VAR1: 41
+    VAR0: 45    VAR1: 42
+    VAR0: 45    VAR1: 43
+    VAR0: 45    VAR1: 44
+    VAR0: 45    VAR1: 45
+    VAR0: 45    VAR1: 46
+    VAR0: 45    VAR1: 47
+    VAR0: 45    VAR1: 48
+    VAR0: 45    VAR1: 49
+    VAR0: 45    VAR1: 5
+    VAR0: 45    VAR1: 50
+    VAR0: 45    VAR1: 6
+    VAR0: 45    VAR1: 7
+    VAR0: 45    VAR1: 8
+    VAR0: 45    VAR1: 9
+    VAR0: 46    VAR1: 1
+    VAR0: 46    VAR1: 10
+    VAR0: 46    VAR1: 11
+    VAR0: 46    VAR1: 12
+    VAR0: 46    VAR1: 13
+    VAR0: 46    VAR1: 14
+    VAR0: 46    VAR1: 15
+    VAR0: 46    VAR1: 16
+    VAR0: 46    VAR1: 17
+    VAR0: 46    VAR1: 18
+    VAR0: 46    VAR1: 19
+    VAR0: 46    VAR1: 2
+    VAR0: 46    VAR1: 20
+    VAR0: 46    VAR1: 21
+    VAR0: 46    VAR1: 22
+    VAR0: 46    VAR1: 23
+    VAR0: 46    VAR1: 24
+    VAR0: 46    VAR1: 25
+    VAR0: 46    VAR1: 26
+    VAR0: 46    VAR1: 27
+    VAR0: 46    VAR1: 28
+    VAR0: 46    VAR1: 29
+    VAR0: 46    VAR1: 3
+    VAR0: 46    VAR1: 30
+    VAR0: 46    VAR1: 31
+    VAR0: 46    VAR1: 32
+    VAR0: 46    VAR1: 33
+    VAR0: 46    VAR1: 34
+    VAR0: 46    VAR1: 35
+    VAR0: 46    VAR1: 36
+    VAR0: 46    VAR1: 37
+    VAR0: 46    VAR1: 38
+    VAR0: 46    VAR1: 39
+    VAR0: 46    VAR1: 4
+    VAR0: 46    VAR1: 40
+    VAR0: 46    VAR1: 41
+    VAR0: 46    VAR1: 42
+    VAR0: 46    VAR1: 43
+    VAR0: 46    VAR1: 44
+    VAR0: 46    VAR1: 45
+    VAR0: 46    VAR1: 46
+    VAR0: 46    VAR1: 47
+    VAR0: 46    VAR1: 48
+    VAR0: 46    VAR1: 49
+    VAR0: 46    VAR1: 5
+    VAR0: 46    VAR1: 50
+    VAR0: 46    VAR1: 6
+    VAR0: 46    VAR1: 7
+    VAR0: 46    VAR1: 8
+    VAR0: 46    VAR1: 9
+    VAR0: 47    VAR1: 1
+    VAR0: 47    VAR1: 10
+    VAR0: 47    VAR1: 11
+    VAR0: 47    VAR1: 12
+    VAR0: 47    VAR1: 13
+    VAR0: 47    VAR1: 14
+    VAR0: 47    VAR1: 15
+    VAR0: 47    VAR1: 16
+    VAR0: 47    VAR1: 17
+    VAR0: 47    VAR1: 18
+    VAR0: 47    VAR1: 19
+    VAR0: 47    VAR1: 2
+    VAR0: 47    VAR1: 20
+    VAR0: 47    VAR1: 21
+    VAR0: 47    VAR1: 22
+    VAR0: 47    VAR1: 23
+    VAR0: 47    VAR1: 24
+    VAR0: 47    VAR1: 25
+    VAR0: 47    VAR1: 26
+    VAR0: 47    VAR1: 27
+    VAR0: 47    VAR1: 28
+    VAR0: 47    VAR1: 29
+    VAR0: 47    VAR1: 3
+    VAR0: 47    VAR1: 30
+    VAR0: 47    VAR1: 31
+    VAR0: 47    VAR1: 32
+    VAR0: 47    VAR1: 33
+    VAR0: 47    VAR1: 34
+    VAR0: 47    VAR1: 35
+    VAR0: 47    VAR1: 36
+    VAR0: 47    VAR1: 37
+    VAR0: 47    VAR1: 38
+    VAR0: 47    VAR1: 39
+    VAR0: 47    VAR1: 4
+    VAR0: 47    VAR1: 40
+    VAR0: 47    VAR1: 41
+    VAR0: 47    VAR1: 42
+    VAR0: 47    VAR1: 43
+    VAR0: 47    VAR1: 44
+    VAR0: 47    VAR1: 45
+    VAR0: 47    VAR1: 46
+    VAR0: 47    VAR1: 47
+    VAR0: 47    VAR1: 48
+    VAR0: 47    VAR1: 49
+    VAR0: 47    VAR1: 5
+    VAR0: 47    VAR1: 50
+    VAR0: 47    VAR1: 6
+    VAR0: 47    VAR1: 7
+    VAR0: 47    VAR1: 8
+    VAR0: 47    VAR1: 9
+    VAR0: 48    VAR1: 1
+    VAR0: 48    VAR1: 10
+    VAR0: 48    VAR1: 11
+    VAR0: 48    VAR1: 12
+    VAR0: 48    VAR1: 13
+    VAR0: 48    VAR1: 14
+    VAR0: 48    VAR1: 15
+    VAR0: 48    VAR1: 16
+    VAR0: 48    VAR1: 17
+    VAR0: 48    VAR1: 18
+    VAR0: 48    VAR1: 19
+    VAR0: 48    VAR1: 2
+    VAR0: 48    VAR1: 20
+    VAR0: 48    VAR1: 21
+    VAR0: 48    VAR1: 22
+    VAR0: 48    VAR1: 23
+    VAR0: 48    VAR1: 24
+    VAR0: 48    VAR1: 25
+    VAR0: 48    VAR1: 26
+    VAR0: 48    VAR1: 27
+    VAR0: 48    VAR1: 28
+    VAR0: 48    VAR1: 29
+    VAR0: 48    VAR1: 3
+    VAR0: 48    VAR1: 30
+    VAR0: 48    VAR1: 31
+    VAR0: 48    VAR1: 32
+    VAR0: 48    VAR1: 33
+    VAR0: 48    VAR1: 34
+    VAR0: 48    VAR1: 35
+    VAR0: 48    VAR1: 36
+    VAR0: 48    VAR1: 37
+    VAR0: 48    VAR1: 38
+    VAR0: 48    VAR1: 39
+    VAR0: 48    VAR1: 4
+    VAR0: 48    VAR1: 40
+    VAR0: 48    VAR1: 41
+    VAR0: 48    VAR1: 42
+    VAR0: 48    VAR1: 43
+    VAR0: 48    VAR1: 44
+    VAR0: 48    VAR1: 45
+    VAR0: 48    VAR1: 46
+    VAR0: 48    VAR1: 47
+    VAR0: 48    VAR1: 48
+    VAR0: 48    VAR1: 49
+    VAR0: 48    VAR1: 5
+    VAR0: 48    VAR1: 50
+    VAR0: 48    VAR1: 6
+    VAR0: 48    VAR1: 7
+    VAR0: 48    VAR1: 8
+    VAR0: 48    VAR1: 9
+    VAR0: 49    VAR1: 1
+    VAR0: 49    VAR1: 10
+    VAR0: 49    VAR1: 11
+    VAR0: 49    VAR1: 12
+    VAR0: 49    VAR1: 13
+    VAR0: 49    VAR1: 14
+    VAR0: 49    VAR1: 15
+    VAR0: 49    VAR1: 16
+    VAR0: 49    VAR1: 17
+    VAR0: 49    VAR1: 18
+    VAR0: 49    VAR1: 19
+    VAR0: 49    VAR1: 2
+    VAR0: 49    VAR1: 20
+    VAR0: 49    VAR1: 21
+    VAR0: 49    VAR1: 22
+    VAR0: 49    VAR1: 23
+    VAR0: 49    VAR1: 24
+    VAR0: 49    VAR1: 25
+    VAR0: 49    VAR1: 26
+    VAR0: 49    VAR1: 27
+    VAR0: 49    VAR1: 28
+    VAR0: 49    VAR1: 29
+    VAR0: 49    VAR1: 3
+    VAR0: 49    VAR1: 30
+    VAR0: 49    VAR1: 31
+    VAR0: 49    VAR1: 32
+    VAR0: 49    VAR1: 33
+    VAR0: 49    VAR1: 34
+    VAR0: 49    VAR1: 35
+    VAR0: 49    VAR1: 36
+    VAR0: 49    VAR1: 37
+    VAR0: 49    VAR1: 38
+    VAR0: 49    VAR1: 39
+    VAR0: 49    VAR1: 4
+    VAR0: 49    VAR1: 40
+    VAR0: 49    VAR1: 41
+    VAR0: 49    VAR1: 42
+    VAR0: 49    VAR1: 43
+    VAR0: 49    VAR1: 44
+    VAR0: 49    VAR1: 45
+    VAR0: 49    VAR1: 46
+    VAR0: 49    VAR1: 47
+    VAR0: 49    VAR1: 48
+    VAR0: 49    VAR1: 49
+    VAR0: 49    VAR1: 5
+    VAR0: 49    VAR1: 50
+    VAR0: 49    VAR1: 6
+    VAR0: 49    VAR1: 7
+    VAR0: 49    VAR1: 8
+    VAR0: 49    VAR1: 9
+    VAR0: 5    VAR1: 1
+    VAR0: 5    VAR1: 10
+    VAR0: 5    VAR1: 11
+    VAR0: 5    VAR1: 12
+    VAR0: 5    VAR1: 13
+    VAR0: 5    VAR1: 14
+    VAR0: 5    VAR1: 15
+    VAR0: 5    VAR1: 16
+    VAR0: 5    VAR1: 17
+    VAR0: 5    VAR1: 18
+    VAR0: 5    VAR1: 19
+    VAR0: 5    VAR1: 2
+    VAR0: 5    VAR1: 20
+    VAR0: 5    VAR1: 21
+    VAR0: 5    VAR1: 22
+    VAR0: 5    VAR1: 23
+    VAR0: 5    VAR1: 24
+    VAR0: 5    VAR1: 25
+    VAR0: 5    VAR1: 26
+    VAR0: 5    VAR1: 27
+    VAR0: 5    VAR1: 28
+    VAR0: 5    VAR1: 29
+    VAR0: 5    VAR1: 3
+    VAR0: 5    VAR1: 30
+    VAR0: 5    VAR1: 31
+    VAR0: 5    VAR1: 32
+    VAR0: 5    VAR1: 33
+    VAR0: 5    VAR1: 34
+    VAR0: 5    VAR1: 35
+    VAR0: 5    VAR1: 36
+    VAR0: 5    VAR1: 37
+    VAR0: 5    VAR1: 38
+    VAR0: 5    VAR1: 39
+    VAR0: 5    VAR1: 4
+    VAR0: 5    VAR1: 40
+    VAR0: 5    VAR1: 41
+    VAR0: 5    VAR1: 42
+    VAR0: 5    VAR1: 43
+    VAR0: 5    VAR1: 44
+    VAR0: 5    VAR1: 45
+    VAR0: 5    VAR1: 46
+    VAR0: 5    VAR1: 47
+    VAR0: 5    VAR1: 48
+    VAR0: 5    VAR1: 49
+    VAR0: 5    VAR1: 5
+    VAR0: 5    VAR1: 50
+    VAR0: 5    VAR1: 6
+    VAR0: 5    VAR1: 7
+    VAR0: 5    VAR1: 8
+    VAR0: 5    VAR1: 9
+    VAR0: 50    VAR1: 1
+    VAR0: 50    VAR1: 10
+    VAR0: 50    VAR1: 11
+    VAR0: 50    VAR1: 12
+    VAR0: 50    VAR1: 13
+    VAR0: 50    VAR1: 14
+    VAR0: 50    VAR1: 15
+    VAR0: 50    VAR1: 16
+    VAR0: 50    VAR1: 17
+    VAR0: 50    VAR1: 18
+    VAR0: 50    VAR1: 19
+    VAR0: 50    VAR1: 2
+    VAR0: 50    VAR1: 20
+    VAR0: 50    VAR1: 21
+    VAR0: 50    VAR1: 22
+    VAR0: 50    VAR1: 23
+    VAR0: 50    VAR1: 24
+    VAR0: 50    VAR1: 25
+    VAR0: 50    VAR1: 26
+    VAR0: 50    VAR1: 27
+    VAR0: 50    VAR1: 28
+    VAR0: 50    VAR1: 29
+    VAR0: 50    VAR1: 3
+    VAR0: 50    VAR1: 30
+    VAR0: 50    VAR1: 31
+    VAR0: 50    VAR1: 32
+    VAR0: 50    VAR1: 33
+    VAR0: 50    VAR1: 34
+    VAR0: 50    VAR1: 35
+    VAR0: 50    VAR1: 36
+    VAR0: 50    VAR1: 37
+    VAR0: 50    VAR1: 38
+    VAR0: 50    VAR1: 39
+    VAR0: 50    VAR1: 4
+    VAR0: 50    VAR1: 40
+    VAR0: 50    VAR1: 41
+    VAR0: 50    VAR1: 42
+    VAR0: 50    VAR1: 43
+    VAR0: 50    VAR1: 44
+    VAR0: 50    VAR1: 45
+    VAR0: 50    VAR1: 46
+    VAR0: 50    VAR1: 47
+    VAR0: 50    VAR1: 48
+    VAR0: 50    VAR1: 49
+    VAR0: 50    VAR1: 5
+    VAR0: 50    VAR1: 50
+    VAR0: 50    VAR1: 6
+    VAR0: 50    VAR1: 7
+    VAR0: 50    VAR1: 8
+    VAR0: 50    VAR1: 9
+    VAR0: 6    VAR1: 1
+    VAR0: 6    VAR1: 10
+    VAR0: 6    VAR1: 11
+    VAR0: 6    VAR1: 12
+    VAR0: 6    VAR1: 13
+    VAR0: 6    VAR1: 14
+    VAR0: 6    VAR1: 15
+    VAR0: 6    VAR1: 16
+    VAR0: 6    VAR1: 17
+    VAR0: 6    VAR1: 18
+    VAR0: 6    VAR1: 19
+    VAR0: 6    VAR1: 2
+    VAR0: 6    VAR1: 20
+    VAR0: 6    VAR1: 21
+    VAR0: 6    VAR1: 22
+    VAR0: 6    VAR1: 23
+    VAR0: 6    VAR1: 24
+    VAR0: 6    VAR1: 25
+    VAR0: 6    VAR1: 26
+    VAR0: 6    VAR1: 27
+    VAR0: 6    VAR1: 28
+    VAR0: 6    VAR1: 29
+    VAR0: 6    VAR1: 3
+    VAR0: 6    VAR1: 30
+    VAR0: 6    VAR1: 31
+    VAR0: 6    VAR1: 32
+    VAR0: 6    VAR1: 33
+    VAR0: 6    VAR1: 34
+    VAR0: 6    VAR1: 35
+    VAR0: 6    VAR1: 36
+    VAR0: 6    VAR1: 37
+    VAR0: 6    VAR1: 38
+    VAR0: 6    VAR1: 39
+    VAR0: 6    VAR1: 4
+    VAR0: 6    VAR1: 40
+    VAR0: 6    VAR1: 41
+    VAR0: 6    VAR1: 42
+    VAR0: 6    VAR1: 43
+    VAR0: 6    VAR1: 44
+    VAR0: 6    VAR1: 45
+    VAR0: 6    VAR1: 46
+    VAR0: 6    VAR1: 47
+    VAR0: 6    VAR1: 48
+    VAR0: 6    VAR1: 49
+    VAR0: 6    VAR1: 5
+    VAR0: 6    VAR1: 50
+    VAR0: 6    VAR1: 6
+    VAR0: 6    VAR1: 7
+    VAR0: 6    VAR1: 8
+    VAR0: 6    VAR1: 9
+    VAR0: 7    VAR1: 1
+    VAR0: 7    VAR1: 10
+    VAR0: 7    VAR1: 11
+    VAR0: 7    VAR1: 12
+    VAR0: 7    VAR1: 13
+    VAR0: 7    VAR1: 14
+    VAR0: 7    VAR1: 15
+    VAR0: 7    VAR1: 16
+    VAR0: 7    VAR1: 17
+    VAR0: 7    VAR1: 18
+    VAR0: 7    VAR1: 19
+    VAR0: 7    VAR1: 2
+    VAR0: 7    VAR1: 20
+    VAR0: 7    VAR1: 21
+    VAR0: 7    VAR1: 22
+    VAR0: 7    VAR1: 23
+    VAR0: 7    VAR1: 24
+    VAR0: 7    VAR1: 25
+    VAR0: 7    VAR1: 26
+    VAR0: 7    VAR1: 27
+    VAR0: 7    VAR1: 28
+    VAR0: 7    VAR1: 29
+    VAR0: 7    VAR1: 3
+    VAR0: 7    VAR1: 30
+    VAR0: 7    VAR1: 31
+    VAR0: 7    VAR1: 32
+    VAR0: 7    VAR1: 33
+    VAR0: 7    VAR1: 34
+    VAR0: 7    VAR1: 35
+    VAR0: 7    VAR1: 36
+    VAR0: 7    VAR1: 37
+    VAR0: 7    VAR1: 38
+    VAR0: 7    VAR1: 39
+    VAR0: 7    VAR1: 4
+    VAR0: 7    VAR1: 40
+    VAR0: 7    VAR1: 41
+    VAR0: 7    VAR1: 42
+    VAR0: 7    VAR1: 43
+    VAR0: 7    VAR1: 44
+    VAR0: 7    VAR1: 45
+    VAR0: 7    VAR1: 46
+    VAR0: 7    VAR1: 47
+    VAR0: 7    VAR1: 48
+    VAR0: 7    VAR1: 49
+    VAR0: 7    VAR1: 5
+    VAR0: 7    VAR1: 50
+    VAR0: 7    VAR1: 6
+    VAR0: 7    VAR1: 7
+    VAR0: 7    VAR1: 8
+    VAR0: 7    VAR1: 9
+    VAR0: 8    VAR1: 1
+    VAR0: 8    VAR1: 10
+    VAR0: 8    VAR1: 11
+    VAR0: 8    VAR1: 12
+    VAR0: 8    VAR1: 13
+    VAR0: 8    VAR1: 14
+    VAR0: 8    VAR1: 15
+    VAR0: 8    VAR1: 16
+    VAR0: 8    VAR1: 17
+    VAR0: 8    VAR1: 18
+    VAR0: 8    VAR1: 19
+    VAR0: 8    VAR1: 2
+    VAR0: 8    VAR1: 20
+    VAR0: 8    VAR1: 21
+    VAR0: 8    VAR1: 22
+    VAR0: 8    VAR1: 23
+    VAR0: 8    VAR1: 24
+    VAR0: 8    VAR1: 25
+    VAR0: 8    VAR1: 26
+    VAR0: 8    VAR1: 27
+    VAR0: 8    VAR1: 28
+    VAR0: 8    VAR1: 29
+    VAR0: 8    VAR1: 3
+    VAR0: 8    VAR1: 30
+    VAR0: 8    VAR1: 31
+    VAR0: 8    VAR1: 32
+    VAR0: 8    VAR1: 33
+    VAR0: 8    VAR1: 34
+    VAR0: 8    VAR1: 35
+    VAR0: 8    VAR1: 36
+    VAR0: 8    VAR1: 37
+    VAR0: 8    VAR1: 38
+    VAR0: 8    VAR1: 39
+    VAR0: 8    VAR1: 4
+    VAR0: 8    VAR1: 40
+    VAR0: 8    VAR1: 41
+    VAR0: 8    VAR1: 42
+    VAR0: 8    VAR1: 43
+    VAR0: 8    VAR1: 44
+    VAR0: 8    VAR1: 45
+    VAR0: 8    VAR1: 46
+    VAR0: 8    VAR1: 47
+    VAR0: 8    VAR1: 48
+    VAR0: 8    VAR1: 49
+    VAR0: 8    VAR1: 5
+    VAR0: 8    VAR1: 50
+    VAR0: 8    VAR1: 6
+    VAR0: 8    VAR1: 7
+    VAR0: 8    VAR1: 8
+    VAR0: 8    VAR1: 9
+    VAR0: 9    VAR1: 1
+    VAR0: 9    VAR1: 10
+    VAR0: 9    VAR1: 11
+    VAR0: 9    VAR1: 12
+    VAR0: 9    VAR1: 13
+    VAR0: 9    VAR1: 14
+    VAR0: 9    VAR1: 15
+    VAR0: 9    VAR1: 16
+    VAR0: 9    VAR1: 17
+    VAR0: 9    VAR1: 18
+    VAR0: 9    VAR1: 19
+    VAR0: 9    VAR1: 2
+    VAR0: 9    VAR1: 20
+    VAR0: 9    VAR1: 21
+    VAR0: 9    VAR1: 22
+    VAR0: 9    VAR1: 23
+    VAR0: 9    VAR1: 24
+    VAR0: 9    VAR1: 25
+    VAR0: 9    VAR1: 26
+    VAR0: 9    VAR1: 27
+    VAR0: 9    VAR1: 28
+    VAR0: 9    VAR1: 29
+    VAR0: 9    VAR1: 3
+    VAR0: 9    VAR1: 30
+    VAR0: 9    VAR1: 31
+    VAR0: 9    VAR1: 32
+    VAR0: 9    VAR1: 33
+    VAR0: 9    VAR1: 34
+    VAR0: 9    VAR1: 35
+    VAR0: 9    VAR1: 36
+    VAR0: 9    VAR1: 37
+    VAR0: 9    VAR1: 38
+    VAR0: 9    VAR1: 39
+    VAR0: 9    VAR1: 4
+    VAR0: 9    VAR1: 40
+    VAR0: 9    VAR1: 41
+    VAR0: 9    VAR1: 42
+    VAR0: 9    VAR1: 43
+    VAR0: 9    VAR1: 44
+    VAR0: 9    VAR1: 45
+    VAR0: 9    VAR1: 46
+    VAR0: 9    VAR1: 47
+    VAR0: 9    VAR1: 48
+    VAR0: 9    VAR1: 49
+    VAR0: 9    VAR1: 5
+    VAR0: 9    VAR1: 50
+    VAR0: 9    VAR1: 6
+    VAR0: 9    VAR1: 7
+    VAR0: 9    VAR1: 8
+    VAR0: 9    VAR1: 9
+    VAR0: ANSVAR0    VAR1: ANSVAR0
