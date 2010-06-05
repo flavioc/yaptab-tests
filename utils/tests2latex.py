@@ -13,16 +13,17 @@ def get_speedup(sub, var):
   else:
     return "%.3f" % (float(var) / float(sub))
 
+def get_xsb_time(time):
+  if time == "CRASHED":
+    return "\\scriptsize{crashed}"
+  else:
+    return time
+
 dir = sys.argv[1]
 xsb_variant = dir + "/xsb_variant.csv"
 xsb_subsumptive = dir + "/xsb_subsumptive.csv"
 yap_variant = dir + "/yap_variant.csv"
 yap_subsumptive = dir + "/yap_subsumptive.csv"
-
-print xsb_variant
-print xsb_subsumptive
-print yap_variant
-print yap_subsumptive
 
 xsbv = open(xsb_variant)
 xsbs = open(xsb_subsumptive)
@@ -87,24 +88,29 @@ def calculate_data_elems(size):
   return total
 
 for test, data in tests.iteritems():
-  full_test_size = calculate_test_elems(data)
-  print_first = True
-  print "\multirow{" + str(full_test_size) + "}{*}{" + test + "} & ",
+  print """\\begin{table}[ht]
+\\footnotesize{
+  \\begin{tabular}{cc|ccc|ccc}
+   \hline
+    \hline
+    \multicolumn{2}{c|}{\multirow{2}{*}{\small{\\textbf{Data}}}} & \multicolumn{3}{c|}{\small{\\textbf{SLG-WAM}}} & \multicolumn{3}{c}{\small{\\textbf{YapTab}}} \\\\
+     \multicolumn{2}{c|}{} & \\textbf{\\textit{Variant}} & \\textbf{\\textit{Subsumptive}} & \\textbf{\\textit{Speedup}} & \\textbf{\\textit{Variant}} & \\textbf{\\textit{Subsumptive}} & \\textbf{\\textit{Speedup}} \\\\
+   \hline
+   \hline
+"""
 
+  count = 0
+  yap_total = 0.0
+  xsb_total = 0.0
   for data_name, size in data.iteritems():
     total_data = calculate_data_elems(size)
-    if print_first is False:
-      print "& ",
-      print_first = True
-    print "\multirow{" + str(total_data) + "}{*}{" + data_name + "} & ",
+    print "\multirow{" + str(total_data) + "}{*}{\\textbf{" + data_name + "}} & ",
     print_second = True
 
     for item in sortedDictValues(size):
       size_name = item[0]
       final = item[1]
 
-      if print_first is False:
-        print "& ",
       if print_second is False:
         print "& ",
       print str(size_name) + " & ",
@@ -124,19 +130,44 @@ for test, data in tests.iteritems():
         xsbs_time = "CRASHED"
       yapv_time = int(float(yapv_time))
       yaps_time = int(float(yaps_time))
+      if yapv_time == 0:
+        yapv_time = 1.0
+      if yaps_time == 0:
+        yaps_time = 1.0
+      if xsbs_time == 0:
+        xsbs_time = 1.0
+      if xsbv_time == 0:
+        xsbv_time = 1.0
 
-      print str(xsbv_time) + " & " + str(xsbs_time) + " & ",
+      print str(get_xsb_time(xsbv_time)) + " & " + str(get_xsb_time(xsbs_time)) + " & ",
       if xsbv_time == "CRASHED" or xsbs_time == "CRASHED":
-        print "-",
+        print "---",
+        xsb_speedup = 1.0
       else:
-        print get_speedup(xsbs_time, xsbv_time),
-      
+        xsb_speedup_s = get_speedup(xsbs_time, xsbv_time)
+        xsb_speedup = float(xsb_speedup_s)
+        print xsb_speedup_s,
+
       print " & " + str(yapv_time) + " & "+ str(yaps_time) + " & ",
-      print get_speedup(yaps_time, yapv_time),
+      yap_speedup_s = get_speedup(yaps_time, yapv_time)
+      yap_speedup = float(yap_speedup_s)
+      print yap_speedup_s,
       print "\\\\"
 
-      print_first = False
       print_second = False
-    print "\\cline{2-9}"
+      count = count + 1
+      yap_total = yap_total + yap_speedup
+      xsb_total = xsb_total + xsb_speedup
+    print "\\hline"
   print "\\hline"
+  yap_average_speedup = yap_total / count
+  xsb_average_speedup = xsb_total / count
+  print "\multicolumn{2}{c|}{\\textit{Average}} & \multicolumn{2}{}{} & " + ("%.3f" % yap_average_speedup) + " & \multicolumn{2}{}{} & " + ("%.3f" % xsb_average_speedup) + " \\\\ "
 
+  print """\\hline
+\hline
+\end{tabular}
+}"""
+  print "\caption{Results for program \\texttt{" + test + "}.}"
+  print "\end{table}"
+  print ""
