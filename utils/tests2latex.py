@@ -2,6 +2,26 @@
 
 import sys
 
+## model checking
+# HAS_SIZE = False
+# DATA_POS = 1
+
+# tst
+HAS_SIZE = True
+DATA_POS = 2
+
+def table_configuration():
+  if HAS_SIZE:
+    return "cc|ccc|ccc"
+  else:
+    return "c|ccc|ccc"
+
+def data_columns():
+  if HAS_SIZE:
+    return str(2)
+  else:
+    return str(1)
+
 def sortedDictValues(adict):
   items = adict.items()
   items.sort()
@@ -51,9 +71,15 @@ while True:
 
   test_vector = xsbv_v[0].split('_')
   test_len = len(test_vector)
-  test_size = int(test_vector[test_len-1])
-  test_data = test_vector[test_len-2]
-  test_name = "_".join(test_vector[1:test_len-2]).replace('_', '\\_')
+  test_data = test_vector[test_len-DATA_POS].strip('\n ')
+
+  if HAS_SIZE:
+    test_size = int(test_vector[test_len-1])
+    shift_name = test_len - 2
+  else:
+    shift_name = test_len - 3
+    test_size = 1
+  test_name = "_".join(test_vector[1:shift_name]).replace('_', '\\_')
 
   test_obj = False
   try:
@@ -90,11 +116,11 @@ def calculate_data_elems(size):
 for test, data in tests.iteritems():
   print """\\begin{table}[ht]
 \\footnotesize{
-  \\begin{tabular}{cc|ccc|ccc}
+  \\begin{tabular}{""" + table_configuration() + """}
    \hline
     \hline
-    \multicolumn{2}{c|}{\multirow{2}{*}{\small{\\textbf{Data}}}} & \multicolumn{3}{c|}{\small{\\textbf{SLG-WAM}}} & \multicolumn{3}{c}{\small{\\textbf{YapTab}}} \\\\
-     \multicolumn{2}{c|}{} & \\textbf{\\textit{Variant}} & \\textbf{\\textit{Subsumptive}} & \\textbf{\\textit{Speedup}} & \\textbf{\\textit{Variant}} & \\textbf{\\textit{Subsumptive}} & \\textbf{\\textit{Speedup}} \\\\
+    \multicolumn{""" + data_columns() + """}{c|}{\multirow{2}{*}{\small{\\textbf{Data}}}} & \multicolumn{3}{c|}{\small{\\textbf{SLG-WAM}}} & \multicolumn{3}{c}{\small{\\textbf{YapTab}}} \\\\
+     \multicolumn{""" + data_columns() + """}{c|}{} & \\textbf{\\textit{Variant}} & \\textbf{\\textit{Subsumptive}} & \\textbf{\\textit{Speedup}} & \\textbf{\\textit{Variant}} & \\textbf{\\textit{Subsumptive}} & \\textbf{\\textit{Speedup}} \\\\
    \hline
    \hline
 """
@@ -111,9 +137,10 @@ for test, data in tests.iteritems():
       size_name = item[0]
       final = item[1]
 
-      if print_second is False:
-        print "& ",
-      print str(size_name) + " & ",
+      if HAS_SIZE:
+        if print_second is False:
+          print "& ",
+        print str(size_name) + " & ",
 
       xsbv_time = final[0].replace(',', '.')
       xsbs_time = final[1].replace(',', '.')
@@ -131,13 +158,13 @@ for test, data in tests.iteritems():
       yapv_time = int(float(yapv_time))
       yaps_time = int(float(yaps_time))
       if yapv_time == 0:
-        yapv_time = 1.0
+        yapv_time = 1
       if yaps_time == 0:
-        yaps_time = 1.0
+        yaps_time = 1
       if xsbs_time == 0:
-        xsbs_time = 1.0
+        xsbs_time = 1
       if xsbv_time == 0:
-        xsbv_time = 1.0
+        xsbv_time = 1
 
       print str(get_xsb_time(xsbv_time)) + " & " + str(get_xsb_time(xsbs_time)) + " & ",
       if xsbv_time == "CRASHED" or xsbs_time == "CRASHED":
@@ -162,7 +189,7 @@ for test, data in tests.iteritems():
   print "\\hline"
   yap_average_speedup = yap_total / count
   xsb_average_speedup = xsb_total / count
-  print "\multicolumn{2}{c|}{\\textit{Average}} & \multicolumn{2}{}{} & " + ("%.3f" % yap_average_speedup) + " & \multicolumn{2}{}{} & " + ("%.3f" % xsb_average_speedup) + " \\\\ "
+  print "\multicolumn{" + data_columns() + "}{c|}{\\textit{Average}} & \multicolumn{2}{}{} & " + ("%.3f" % xsb_average_speedup) + " & \multicolumn{2}{}{} & " + ("%.3f" % yap_average_speedup) + " \\\\ "
 
   print """\\hline
 \hline
