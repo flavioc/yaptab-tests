@@ -3,12 +3,12 @@
 import sys
 
 ## model checking
-# HAS_SIZE = False
-# DATA_POS = 1
+HAS_SIZE = False
+DATA_POS = 1
 
 # tst
-HAS_SIZE = True
-DATA_POS = 2
+#HAS_SIZE = True
+#DATA_POS = 2
 
 def table_configuration():
   if HAS_SIZE:
@@ -39,7 +39,11 @@ def get_xsb_time(time):
   else:
     return time
 
+def no_slashes(str):
+  return str.replace('\\', '')
+
 dir = sys.argv[1]
+prefix = sys.argv[2]
 xsb_variant = dir + "/xsb_variant.csv"
 xsb_subsumptive = dir + "/xsb_subsumptive.csv"
 yap_variant = dir + "/yap_variant.csv"
@@ -113,8 +117,12 @@ def calculate_data_elems(size):
     total = total + 1
   return total
 
-for test, data in tests.iteritems():
+for test_item in sortedDictValues(tests):
+  test = test_item[0]
+  data = test_item[1]
+
   print """\\begin{table}[ht]
+\\centering
 \\footnotesize{
   \\begin{tabular}{""" + table_configuration() + """}
    \hline
@@ -195,6 +203,7 @@ for test, data in tests.iteritems():
 \hline
 \end{tabular}
 }"""
-  print "\caption{Results for program \\texttt{" + test + "}.}"
+  print "\caption{Results for the program \\texttt{" + test + "}.}"
+  print "\label{tbl:" + prefix + "_" + no_slashes(test) + "}"
   print "\end{table}"
   print ""
