@@ -1,6 +1,4 @@
 
-:- ['data/pyramid_512', 'path_left_last'].
+:- ['path_left_last', 'data/pyramid_512'].
 
-time_query :- path(X, 1), fail.
-
-debug_query :- path(X, 1), write(X), nl, fail.
+time_query :- path(_, 1), fail.
