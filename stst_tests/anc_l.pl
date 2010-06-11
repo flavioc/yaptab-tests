@@ -1,5 +1,5 @@
 
 :- table anc_l/2.
 
-anc_l(X, Y) :- edge(X, Y).
-anc_l(X, Y) :- anc_l(X, Z), edge(Z, Y).
+anc_l(f(X), f(Y)) :- edge(f(X), f(Y)).
+anc_l(f(X), f(Y)) :- anc_l(f(X), f(Z)), edge(Z, f(Y)).

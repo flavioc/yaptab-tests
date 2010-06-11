@@ -1,4 +1,4 @@
 :- table anc_d/2.
 
-anc_d(X, Y) :- edge(X, Y).
-anc_d(X, Y) :- anc_d(X, Z), anc_d(Z, Y).
+anc_d(f(X), f(Y)) :- edge(f(X), f(Y)).
+anc_d(f(X), f(Y)) :- anc_d(f(X), f(Z)), anc_d(f(Z), f(Y)).

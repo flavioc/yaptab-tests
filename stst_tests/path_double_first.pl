@@ -1,5 +1,5 @@
 
 :- table path/2.
 
-path(X, Y) :- path(X, Z), path(Z, Y).
-path(X, Y) :- edge(X, Y).
+path(f(X), f(Y)) :- path(f(X), f(Z)), path(f(Z), f(Y)).
+path(f(X), f(Y)) :- edge(f(X), f(Y)).
